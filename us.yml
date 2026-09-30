@@ -1,0 +1,51 @@
+name: US 52주 신고가
+
+on:
+  schedule:
+    - cron: "37 21 * * 1-5"    # 06:37 KST 화~토 (미국 장 마감 뒤, 서머타임 무관)
+  workflow_dispatch:
+  push:
+    paths:
+      - "pipeline/us.py"
+      - "pipeline/common.py"
+      - ".github/workflows/us.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: us
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TZ: Asia/Seoul
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: run
+        id: run
+        continue-on-error: true
+        run: |
+          mkdir -p data/logs
+          python pipeline/us.py 2>&1 | tee data/logs/us_last.txt
+          exit ${PIPESTATUS[0]}
+      - name: commit
+        run: |
+          git config user.name "stock-desk bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          git commit -m "us $(date +%F\ %H:%M) ${{ steps.run.outcome }}" || echo "nothing to commit"
+          for i in 1 2 3; do git pull --rebase && git push && break || sleep 15; done
+      - name: result
+        run: |
+          cat data/status_us.json
+          test "${{ steps.run.outcome }}" = "success"
