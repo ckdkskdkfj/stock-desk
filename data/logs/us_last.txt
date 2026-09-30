@@ -1,1 +1,20 @@
-미국 장중(ET 1023) — 수동/푸시 실행은 건너뜀
+06:48:24 universe 2731
+06:48:34 yf 200 / 2731 hist 200
+06:48:47 yf 400 / 2731 hist 400
+06:48:59 yf 600 / 2731 hist 600
+06:49:12 yf 800 / 2731 hist 800
+06:49:24 yf 1000 / 2731 hist 1000
+06:49:37 yf 1200 / 2731 hist 1200
+06:49:50 yf 1400 / 2731 hist 1400
+06:50:03 yf 1600 / 2731 hist 1600
+06:50:17 yf 1800 / 2731 hist 1800
+06:50:30 yf 2000 / 2731 hist 2000
+06:50:42 yf 2200 / 2731 hist 2200
+06:50:55 yf 2400 / 2731 hist 2400
+06:51:08 yf 2600 / 2731 hist 2600
+06:51:16 yf 2731 / 2731 hist 2731
+06:51:18 yf 2 / 2 hist 2
+06:51:19 wrote data/us/2026-09-30.json 122252 bytes
+06:51:19 wrote data/us/latest.json 122252 bytes
+06:51:19 wrote data/us/universe.json 652215 bytes
+06:51:19 wrote data/status_us.json 166 bytes
