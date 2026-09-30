@@ -1,0 +1,90 @@
+name: stock-desk
+
+on:
+  schedule:
+    - cron: "7 7 * * 1-5"
+    - cron: "37 21 * * 1-5"
+  workflow_dispatch:
+  push:
+    paths:
+      - "pipeline/**"
+      - "requirements.txt"
+      - ".github/workflows/desk.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: desk
+  cancel-in-progress: false
+
+jobs:
+  kr:
+    if: github.event_name != 'schedule' || github.event.schedule == '7 7 * * 1-5'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TZ: Asia/Seoul
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: run
+        id: run
+        continue-on-error: true
+        run: |
+          mkdir -p data/logs
+          H=$(TZ=Asia/Seoul date +%H%M); W=$(TZ=Asia/Seoul date +%u)
+          if [ "$GITHUB_EVENT_NAME" != "schedule" ] && [ "$W" -le 5 ] && [ "$H" -ge 0900 ] && [ "$H" -lt 1540 ]; then
+            echo "국내 장중($H) — 수동/푸시 실행은 건너뜀" | tee data/logs/kr_last.txt; exit 0; fi
+          python pipeline/kr.py 2>&1 | tee data/logs/kr_last.txt
+          exit ${PIPESTATUS[0]}
+      - name: commit
+        run: |
+          git config user.name "stock-desk bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          git commit -m "kr $(date +%F\ %H:%M) ${{ steps.run.outcome }}" || echo "nothing to commit"
+          for i in 1 2 3; do git pull --rebase && git push && break || sleep 15; done
+      - name: result
+        run: |
+          cat data/status_kr.json || true
+          test "${{ steps.run.outcome }}" = "success"
+
+  us:
+    if: github.event_name != 'schedule' || github.event.schedule == '37 21 * * 1-5'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TZ: Asia/Seoul
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: run
+        id: run
+        continue-on-error: true
+        run: |
+          mkdir -p data/logs
+          H=$(TZ=America/New_York date +%H%M); W=$(TZ=America/New_York date +%u)
+          if [ "$GITHUB_EVENT_NAME" != "schedule" ] && [ "$W" -le 5 ] && [ "$H" -ge 0900 ] && [ "$H" -lt 1620 ]; then
+            echo "미국 장중(ET $H) — 수동/푸시 실행은 건너뜀" | tee data/logs/us_last.txt; exit 0; fi
+          python pipeline/us.py 2>&1 | tee data/logs/us_last.txt
+          exit ${PIPESTATUS[0]}
+      - name: commit
+        run: |
+          git config user.name "stock-desk bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          git commit -m "us $(date +%F\ %H:%M) ${{ steps.run.outcome }}" || echo "nothing to commit"
+          for i in 1 2 3; do git pull --rebase && git push && break || sleep 15; done
+      - name: result
+        run: |
+          cat data/status_us.json || true
+          test "${{ steps.run.outcome }}" = "success"
