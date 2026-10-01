@@ -1,25 +1,25 @@
-16:03:02 universe 2409
-16:03:10 yf 200 / 2409 hist 200
-16:03:20 yf 400 / 2409 hist 400
-16:03:30 yf 600 / 2409 hist 600
-16:03:40 yf 800 / 2409 hist 800
-16:03:50 yf 1000 / 2409 hist 1000
-16:04:00 yf 1200 / 2409 hist 1200
-16:04:10 yf 1400 / 2409 hist 1400
-16:04:19 yf 1600 / 2409 hist 1600
-16:04:29 yf 1800 / 2409 hist 1800
-16:04:39 yf 2000 / 2409 hist 2000
-16:04:49 yf 2200 / 2409 hist 2200
-16:04:58 yf 2400 / 2409 hist 2400
-16:05:00 yf 2409 / 2409 hist 2409
-16:05:02 yf 2 / 2 hist 2
-16:05:04 wrote data/us/2026-09-30.json 108958 bytes
-16:05:04 wrote data/us/latest.json 108958 bytes
-16:05:04 wrote data/us/universe.json 567749 bytes
-16:05:04 wrote data/us/signals.json 834101 bytes
-16:05:04 wrote data/us/breadth.json 205 bytes
-16:05:04 wrote data/us/sector_rs.json 24992 bytes
-16:05:04 sector_rs 115 업종
-16:05:39 wrote data/us/earnings.json 6817 bytes
-16:05:39 signals 2406
-16:05:39 wrote data/status_us.json 166 bytes
+16:18:01 universe 2409
+16:18:10 yf 200 / 2409 hist 200
+16:18:19 yf 400 / 2409 hist 400
+16:18:29 yf 600 / 2409 hist 600
+16:18:39 yf 800 / 2409 hist 800
+16:18:49 yf 1000 / 2409 hist 1000
+16:18:59 yf 1200 / 2409 hist 1200
+16:19:08 yf 1400 / 2409 hist 1400
+16:19:18 yf 1600 / 2409 hist 1600
+16:19:27 yf 1800 / 2409 hist 1800
+16:19:37 yf 2000 / 2409 hist 2000
+16:19:47 yf 2200 / 2409 hist 2200
+16:19:57 yf 2400 / 2409 hist 2400
+16:19:59 yf 2409 / 2409 hist 2409
+16:20:01 yf 2 / 2 hist 2
+16:20:02 wrote data/us/2026-09-30.json 108958 bytes
+16:20:02 wrote data/us/latest.json 108958 bytes
+16:20:02 wrote data/us/universe.json 567749 bytes
+16:20:03 wrote data/us/signals.json 834101 bytes
+16:20:03 wrote data/us/breadth.json 205 bytes
+16:20:03 wrote data/us/sector_rs.json 24992 bytes
+16:20:03 sector_rs 115 업종
+16:20:41 wrote data/us/earnings.json 6817 bytes
+16:20:41 signals 2406
+16:20:41 wrote data/status_us.json 166 bytes
