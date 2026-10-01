@@ -379,11 +379,45 @@ def load_sectors_kr():
         log("KRX-DESC 업종", len(by), "건뿐 → 캐시")
     except Exception as e:
         log("KRX-DESC 실패 → 캐시", repr(e)[:80])
+    # 예비: 네이버 업종 분류 (sise_group → 업종별 구성 종목)
+    try:
+        by = load_sectors_naver()
+        if len(by) > 500:
+            write_json(cache, {"at": now_kst().strftime("%Y-%m-%d"), "by": by, "src": "naver"})
+            return by
+        log("naver 업종", len(by), "건뿐 → 캐시")
+    except Exception as e:
+        log("naver 업종 실패 → 캐시", repr(e)[:80])
     try:
         import json as _j
         return _j.load(open(cache, encoding="utf-8")).get("by", {})
     except Exception:
         return {}
+
+
+def load_sectors_naver():
+    """네이버 금융 업종(WICS 세부) 페이지에서 code→업종명. 약 80페이지."""
+    H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+         "Referer": "https://finance.naver.com/sise/"}
+    r = requests.get("https://finance.naver.com/sise/sise_group.naver?type=upjong", headers=H, timeout=30)
+    r.encoding = "euc-kr"
+    groups = re.findall(r'sise_group_detail\.naver\?type=upjong&(?:amp;)?no=(\d+)"[^>]*>([^<]+)<', r.text)
+    seen, by = set(), {}
+    for no, name in groups:
+        if no in seen:
+            continue
+        seen.add(no)
+        name = re.sub(r"\s+", " ", name).strip()
+        try:
+            d = requests.get(f"https://finance.naver.com/sise/sise_group_detail.naver?type=upjong&no={no}", headers=H, timeout=30)
+            d.encoding = "euc-kr"
+            for code in set(re.findall(r'/item/main\.naver\?code=(\d{6})', d.text)):
+                by.setdefault(code, name)
+        except Exception as e:
+            log("naver 업종 페이지 실패", no, repr(e)[:60])
+        time.sleep(0.15)
+    log("naver 업종", len(seen), "개 ·", len(by), "종목")
+    return by
 
 
 def extras(D, uni, hist):
