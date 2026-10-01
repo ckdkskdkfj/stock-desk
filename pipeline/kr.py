@@ -16,7 +16,7 @@ import pandas as pd
 import requests
 
 from common import (KST, log, isnum, won_str, rsr_rank, ohlc_str, verdict, ma_regime,
-                    write_json, write_status, now_kst)
+                    write_json, write_status, now_kst, tech, breadth, append_series, sector_rs)
 
 MIN_MCAP = 1e12          # 시총 1조
 MIN_VAL = 5e9            # 거래대금 50억
@@ -199,7 +199,7 @@ def build_from_fdr(D):
             continue
     if len(rows) < 100:
         raise RuntimeError(f"fdr 목록 {len(rows)}종목뿐")
-    start = (dt.datetime.strptime(D, "%Y%m%d") - dt.timedelta(days=150)).strftime("%Y%m%d")
+    start = (dt.datetime.strptime(D, "%Y%m%d") - dt.timedelta(days=330)).strftime("%Y%m%d")
     hist = fill_hist_naver(D, rows, start)
     return rows, hist, naver_index_closes(D), "naver"
 
@@ -272,7 +272,7 @@ def build_from_naver(D):
         rows.append(dict(code=code, name=name, mk=s["_mk"], mcap=mcap, o=None, h=None, l=None, c=num(s.get("closePrice")), v=None, val=None, chg=num(s.get("fluctuationsRatio"))))
     if len(rows) < 100:
         raise RuntimeError(f"네이버 시총 1조 이상 {len(rows)}종목뿐 (단위 오판 가능)")
-    start = (dt.datetime.strptime(D, "%Y%m%d") - dt.timedelta(days=150)).strftime("%Y%m%d")
+    start = (dt.datetime.strptime(D, "%Y%m%d") - dt.timedelta(days=330)).strftime("%Y%m%d")
     hist = fill_hist_naver(D, rows, start)
     # 당일 시가·고가·저가·종가·거래량·거래대금·등락률은 이력 마지막 행으로 채움
     out = []
@@ -358,6 +358,63 @@ def judge(D, rows, hist, closes, src):
     return out, uni
 
 
+# ── 부가 산출물: 관심 종목 신호 · 시장 폭 · 업종 RS ──────────────
+def load_sectors_kr():
+    """code→업종(한국거래소 업종 분류). FinanceDataReader KRX-DESC → 실패하면 캐시."""
+    cache = "data/kr/sectors.json"
+    by = {}
+    try:
+        import FinanceDataReader as fdr
+        lst = fdr.StockListing("KRX-DESC")
+        cols = {c.lower(): c for c in lst.columns}
+        cc = cols.get("code") or cols.get("symbol"); cs = cols.get("sector") or cols.get("industry")
+        if cc and cs:
+            for _, r in lst.iterrows():
+                code, sec = str(r[cc]).zfill(6), str(r[cs]).strip()
+                if sec and sec != "nan":
+                    by[code] = sec
+        if len(by) > 500:
+            write_json(cache, {"at": now_kst().strftime("%Y-%m-%d"), "by": by})
+            return by
+        log("KRX-DESC 업종", len(by), "건뿐 → 캐시")
+    except Exception as e:
+        log("KRX-DESC 실패 → 캐시", repr(e)[:80])
+    try:
+        import json as _j
+        return _j.load(open(cache, encoding="utf-8")).get("by", {})
+    except Exception:
+        return {}
+
+
+def extras(D, uni, hist):
+    date = f"{D[:4]}-{D[4:6]}-{D[6:]}"
+    techs = {}
+    for u in uni:
+        t = tech(hist.get(u["code"], []), D, drop_pct=-8.0)
+        if t:
+            techs[u["code"]] = t
+    sig_rows = []
+    for u in uni:
+        t = techs.get(u["code"])
+        if not t:
+            continue
+        r = {"code": u["code"], "name": u["name"], "mk": u["mk"], "mcapWon": u["mcapWon"]}
+        if u.get("rsr") is not None:
+            r["rsr"] = u["rsr"]
+        r.update(t)
+        sig_rows.append(r)
+    write_json("data/kr/signals.json", {"market": "KR", "date": date, "n": len(sig_rows), "rows": sig_rows})
+    b = breadth(techs)
+    if b:
+        append_series("data/kr/breadth.json", date, b)
+    secs = load_sectors_kr()
+    if secs:
+        sr = sector_rs(uni, techs, secs)
+        append_series("data/kr/sector_rs.json", date, {"sectors": sr}, keep=70)
+        log("sector_rs", len(sr), "업종")
+    return len(sig_rows)
+
+
 def main():
     D = sys.argv[1] if len(sys.argv) > 1 else today_str()
     deadline = time.time() + 40 * 60
@@ -373,6 +430,10 @@ def main():
                 write_json(f"data/kr/{out['date']}.json", out)
                 write_json("data/kr/latest.json", out)
                 write_json("data/kr/universe.json", {"date": out["date"], "rows": uni})
+                try:
+                    log("signals", extras(D, uni, hist))
+                except Exception as e:
+                    log("extras FAIL", repr(e)[:200]); traceback.print_exc()
                 write_status("KR", True, f"{out['date']} {src} 풀 {out['highs']['raw']} → 통과 {out['highs']['pass']}",
                              {"date": out["date"], "src": src, "pass": out["highs"]["pass"]})
                 log("done", out["highs"])

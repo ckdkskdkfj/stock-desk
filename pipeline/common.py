@@ -137,3 +137,121 @@ def write_status(market, ok, msg, extra=None):
     if extra:
         st.update(extra)
     write_json(f"data/status_{market.lower()}.json", st)
+
+
+# ── 기술적 신호 · 시장 폭 · 업종 RS ─────────────────────────────
+def _ma(vals, n):
+    return sum(vals[-n:]) / n if len(vals) >= n else None
+
+
+def tech(h, D, drop_pct=-7.0):
+    """h: [(d,o,h,l,c,v)] 오래된 순, 마지막이 D. → 이동평균·고점 대비·신호 (대시보드 관심 종목용)"""
+    rows = [r for r in h if r[0] <= D]
+    if len(rows) < 25 or rows[-1][0] != D:
+        return None
+    c = [r[4] for r in rows]
+    hi = [r[2] for r in rows]
+    lo = [r[3] for r in rows]
+    cur, prev = c[-1], c[-2]
+    out = {"price": round(cur, 2), "chg": round((cur / prev - 1) * 100, 2) if prev else None}
+    ma20, ma60, ma200 = _ma(c, 20), _ma(c, 60), _ma(c, 200)
+    pma20 = _ma(c[:-1], 20)
+    pma60 = _ma(c[:-1], 60)
+    sig = []
+    if ma20:
+        out["ma20"] = round(ma20, 2); out["pMa20"] = round((cur / ma20 - 1) * 100, 1)
+        if pma20 and prev >= pma20 and cur < ma20: sig.append("MA20_DN")
+        if pma20 and prev < pma20 and cur >= ma20: sig.append("MA20_UP")
+    if ma60:
+        out["ma60"] = round(ma60, 2); out["pMa60"] = round((cur / ma60 - 1) * 100, 1)
+        if pma60 and prev >= pma60 and cur < ma60: sig.append("MA60_DN")
+    if ma200:
+        out["ma200"] = round(ma200, 2); out["pMa200"] = round((cur / ma200 - 1) * 100, 1)
+    if len(rows) >= 21:
+        h60 = max(hi[-61:-1]) if len(rows) >= 61 else max(hi[:-1])
+        out["hi60"] = round(h60, 2); out["dHi60"] = round((cur / h60 - 1) * 100, 1)
+        if cur > h60: sig.append("NH60")
+        l20 = min(lo[-21:-1])
+        if cur < l20: sig.append("NL20")
+        out["ret20"] = round((cur / c[-21] - 1) * 100, 1)
+    if len(rows) >= 61:
+        out["ret60"] = round((cur / c[-61] - 1) * 100, 1)
+    if len(rows) >= 200:
+        h52 = max(hi[-251:-1]); out["hi52"] = round(h52, 2); out["dHi52"] = round((cur / h52 - 1) * 100, 1)
+        if cur > h52: sig.append("NH52")
+        if cur < min(lo[-251:-1]): sig.append("NL52")
+    if out["chg"] is not None and out["chg"] <= drop_pct:
+        sig.append("DROP")
+    # 최근 10거래일 중 고점 경신 일수(추세 지속성)
+    if len(rows) >= 40:
+        k = 0
+        for i in range(len(rows) - 10, len(rows)):
+            if hi[i] > max(hi[max(0, i - 30):i]): k += 1
+        out["nh10"] = k
+    out["sig"] = sig
+    return out
+
+
+def breadth(techs):
+    """techs: {code: tech()} → 시장 폭 한 줄"""
+    t = [x for x in techs.values() if x]
+    n = len(t)
+    if not n:
+        return None
+    def share(key):
+        v = [x for x in t if x.get(key) is not None]
+        return round(100 * sum(1 for x in v if x[key] > 0) / len(v), 1) if v else None
+    row = {"n": n, "a20": share("pMa20"), "a60": share("pMa60"), "a200": share("pMa200"),
+           "nh60": sum(1 for x in t if "NH60" in x["sig"]), "nl20": sum(1 for x in t if "NL20" in x["sig"]),
+           "nh52": sum(1 for x in t if "NH52" in x["sig"]), "nl52": sum(1 for x in t if "NL52" in x["sig"]),
+           "drop": sum(1 for x in t if "DROP" in x["sig"])}
+    r20 = sorted(x["ret20"] for x in t if x.get("ret20") is not None)
+    if r20:
+        row["medR20"] = round(r20[len(r20) // 2], 1)
+    return row
+
+
+def append_series(path, date, row, keep=260):
+    """날짜별 한 줄씩 쌓는 파일(breadth, sector_rs). 같은 날짜는 덮어씀."""
+    rows = []
+    if os.path.exists(path):
+        try:
+            rows = json.load(open(path, encoding="utf-8")).get("rows", [])
+        except Exception:
+            rows = []
+    rows = [r for r in rows if r.get("date") != date]
+    row = dict(row); row["date"] = date
+    rows.append(row)
+    rows.sort(key=lambda r: r["date"])
+    rows = rows[-keep:]
+    write_json(path, {"rows": rows})
+    return rows
+
+
+def sector_rs(rows, techs, sector_of, min_n=3):
+    """rows: 유니버스(code·name·rsr…), sector_of: code→업종. 업종별 중앙값·평균 RS."""
+    by = {}
+    for x in rows:
+        s = sector_of.get(x["code"])
+        t = techs.get(x["code"])
+        if not s or not t:
+            continue
+        by.setdefault(s, []).append((x, t))
+    out = []
+    for s, lst in by.items():
+        if len(lst) < min_n:
+            continue
+        r60 = sorted(t.get("ret60") for x, t in lst if t.get("ret60") is not None)
+        r20 = sorted(t.get("ret20") for x, t in lst if t.get("ret20") is not None)
+        rsr = [x.get("rsr") for x, t in lst if x.get("rsr") is not None]
+        a20 = [t for x, t in lst if t.get("pMa20") is not None]
+        top = sorted(lst, key=lambda p: -(p[0].get("rsr") or 0))[:3]
+        out.append({"sector": s, "n": len(lst),
+                    "r60": round(r60[len(r60) // 2], 1) if r60 else None,
+                    "r20": round(r20[len(r20) // 2], 1) if r20 else None,
+                    "rsr": round(sum(rsr) / len(rsr), 1) if rsr else None,
+                    "a20": round(100 * sum(1 for t in a20 if t["pMa20"] > 0) / len(a20)) if a20 else None,
+                    "nh60": sum(1 for x, t in lst if "NH60" in t["sig"]),
+                    "top": [x["code"] for x, t in top]})
+    out.sort(key=lambda r: -(r["rsr"] or 0))
+    return out

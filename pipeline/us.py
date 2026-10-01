@@ -14,7 +14,7 @@ import traceback
 import pandas as pd
 import requests
 
-from common import log, isnum, usd_tag, rsr_rank, ohlc_str, verdict, ma_regime, write_json, write_status, now_kst
+from common import log, isnum, usd_tag, rsr_rank, ohlc_str, verdict, ma_regime, write_json, write_status, now_kst, tech, breadth, append_series, sector_rs
 
 MIN_MCAP = 1e9
 BATCH = 200
@@ -52,6 +52,8 @@ def universe_nasdaq():
         name = (x.get("name") or "").strip()
         if re.search(r"\b(Acquisition|SPAC)\b", name, re.I) and re.search(r"Corp|Co\b|Ltd|Inc", name):
             continue
+        if re.search(r"(Preferred|Depositary|Depository|Debenture|\bNotes?\b|\bTrust Preferred|\d+(\.\d+)?%|Series [A-Z]\b|Warrant|\bUnits?\b|\bRights?\b)", name, re.I):
+            continue   # 우선주·예탁증서·채권형·워런트·유닛
         out.append(dict(code=sym, name=re.sub(r"\s+(Common Stock|Class [A-C] Common Stock|Ordinary Shares|American Depositary Shares|Common Shares).*$", "", name).strip(),
                         mcap=mc, sector=x.get("sector") or "", industry=x.get("industry") or "", country=x.get("country") or "",
                         chgS=num(x.get("pctchange")), lastS=num(x.get("lastsale"))))
@@ -89,6 +91,63 @@ def yf_hist(tickers, period="1y"):
         log("yf", min(i + BATCH, len(tickers)), "/", len(tickers), "hist", len(hist))
         time.sleep(1.5)
     return hist
+
+
+# ── 부가 산출물: 관심 종목 신호 · 시장 폭 · 업종 RS · 실적 발표일 ──
+def earnings_nasdaq(days=21):
+    """나스닥 실적 캘린더 — 앞으로 days일. {SYM: 'YYYY-MM-DD'}"""
+    by = {}
+    today = dt.date.today()
+    for i in range(days):
+        d = today + dt.timedelta(days=i)
+        if d.weekday() >= 5:
+            continue
+        try:
+            r = requests.get(f"https://api.nasdaq.com/api/calendar/earnings?date={d.isoformat()}", headers=UA, timeout=30)
+            rows = ((r.json().get("data") or {}).get("rows")) or []
+            for x in rows:
+                sym = (x.get("symbol") or "").strip()
+                if sym and sym not in by:
+                    by[sym] = d.isoformat()
+        except Exception as e:
+            log("earnings cal fail", d, repr(e)[:60])
+        time.sleep(0.4)
+    return by
+
+
+def extras(D, uni, hist, byc):
+    date = f"{D[:4]}-{D[4:6]}-{D[6:]}"
+    techs = {}
+    for t_, h in hist.items():
+        t = tech(h, D, drop_pct=-7.0)
+        if t:
+            techs[t_] = t
+    rows = []
+    for u in uni:
+        t = techs.get(u["code"])
+        if not t:
+            continue
+        r = {"code": u["code"], "name": u["name"], "mcapUsd": u["mcapUsd"], "industryEn": u.get("industryEn", "")}
+        if u.get("rsr") is not None:
+            r["rsr"] = u["rsr"]
+        r.update(t)
+        for k in ("ma20", "ma60", "ma200", "hi60", "hi52"):   # 파일 크기 절약 — % 거리만 남김
+            r.pop(k, None)
+        rows.append(r)
+    write_json("data/us/signals.json", {"market": "US", "date": date, "n": len(rows), "rows": rows})
+    b = breadth(techs)
+    if b:
+        append_series("data/us/breadth.json", date, b)
+    ind = {c: (x.get("industry") or "").strip() for c, x in byc.items() if x.get("industry")}
+    sr = sector_rs(uni, techs, ind, min_n=4)
+    append_series("data/us/sector_rs.json", date, {"sectors": sr}, keep=70)
+    log("sector_rs", len(sr), "업종")
+    try:
+        er = earnings_nasdaq()
+        write_json("data/us/earnings.json", {"asOf": date, "n": len(er), "by": er})
+    except Exception as e:
+        log("earnings FAIL", repr(e)[:100])
+    return len(rows)
 
 
 def main():
@@ -174,6 +233,10 @@ def main():
         write_json(f"data/us/{date}.json", out)
         write_json("data/us/latest.json", out)
         write_json("data/us/universe.json", {"date": date, "rows": uni_out})
+        try:
+            log("signals", extras(D, uni_out, hist, byc))
+        except Exception as e:
+            log("extras FAIL", repr(e)[:200]); traceback.print_exc()
         write_status("US", True, f"{date} 52주 신고가 {len(cands)} / 기준 집단 {len(ret60)}", {"date": date, "pass": len(cands)})
         return 0
     except Exception as e:
