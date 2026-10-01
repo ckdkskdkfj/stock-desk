@@ -1,10 +1,10 @@
-23:23:18 try pykrx 20260930
+16:03:08 try pykrx 20261001
 KRX 로그인 실패: KRX_ID 또는 KRX_PW 환경 변수가 설정되지 않았습니다.
 Error occurred in get_market_ohlcv_by_ticker: Expecting value: line 1 column 1 (char 0)
-23:23:19 pykrx ohlcv fail 20260930 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
-23:23:19 FAIL pykrx: RuntimeError('pykrx: 20260930 스냅샷 없음(당일 미게시 또는 접속 차단)')
+16:03:10 pykrx ohlcv fail 20261001 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
+16:03:10 FAIL pykrx: RuntimeError('pykrx: 20261001 스냅샷 없음(당일 미게시 또는 접속 차단)')
 Traceback (most recent call last):
-  File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 369, in main
+  File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 426, in main
     rows, hist, closes, src = fn(D)
                               ^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 148, in build_from_pykrx
@@ -12,17 +12,21 @@ Traceback (most recent call last):
                                               ^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 115, in load_pykrx
     raise RuntimeError(f"pykrx: {d} 스냅샷 없음(당일 미게시 또는 접속 차단)")
-RuntimeError: pykrx: 20260930 스냅샷 없음(당일 미게시 또는 접속 차단)
-23:23:19 try fdr 20260930
-23:23:22 naver hist 0 / 317
-23:23:50 naver hist 50 / 317
-23:24:18 naver hist 100 / 317
-23:24:45 naver hist 150 / 317
-23:25:13 naver hist 200 / 317
-23:25:40 naver hist 250 / 317
-23:26:07 naver hist 300 / 317
-23:26:17 wrote data/kr/2026-09-30.json 20486 bytes
-23:26:17 wrote data/kr/latest.json 20486 bytes
-23:26:17 wrote data/kr/universe.json 59485 bytes
-23:26:17 wrote data/status_kr.json 168 bytes
-23:26:17 done {'raw': 32, 'pass': 6, 'basDt': '2026-09-30', 'src': 'naver'}
+RuntimeError: pykrx: 20261001 스냅샷 없음(당일 미게시 또는 접속 차단)
+16:03:10 try fdr 20261001
+16:03:12 naver hist 0 / 321
+16:03:48 naver hist 50 / 321
+16:04:22 naver hist 100 / 321
+16:04:57 naver hist 150 / 321
+16:05:28 naver hist 200 / 321
+16:05:58 naver hist 250 / 321
+16:06:27 naver hist 300 / 321
+16:06:40 wrote data/kr/2026-10-01.json 43467 bytes
+16:06:40 wrote data/kr/latest.json 43467 bytes
+16:06:40 wrote data/kr/universe.json 60156 bytes
+16:06:40 wrote data/kr/signals.json 128115 bytes
+16:06:40 wrote data/kr/breadth.json 202 bytes
+16:06:40 KRX-DESC 실패 → 캐시 <HTTPError 404: 'Not Found'>
+16:06:40 signals 304
+16:06:40 wrote data/status_kr.json 170 bytes
+16:06:40 done {'raw': 61, 'pass': 13, 'basDt': '2026-10-01', 'src': 'naver'}
