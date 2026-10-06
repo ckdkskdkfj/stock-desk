@@ -150,6 +150,142 @@ def extras(D, uni, hist, byc):
     return len(rows)
 
 
+def _pct(a, b):
+    try:
+        a, b = float(a), float(b)
+        if b == 0 or math.isnan(a) or math.isnan(b):
+            return None
+        return round((a / b - 1) * 100 * (1 if b > 0 else -1), 1)
+    except Exception:
+        return None
+
+
+def _f(v):
+    try:
+        v = float(v)
+        return None if math.isnan(v) else v
+    except Exception:
+        return None
+
+
+def _col(df, *names):
+    """yfinance 버전마다 열 이름 대소문자가 달라 이름을 느슨하게 찾는다."""
+    low = {str(c).lower(): c for c in df.columns}
+    for n in names:
+        if n.lower() in low:
+            return low[n.lower()]
+    return None
+
+
+ACT = {"up": "up", "down": "down", "main": "main", "init": "init", "reit": "reit"}
+
+
+def analyst_one(t, since):
+    """한 종목의 EPS 추정치 변화 · 상향/하향 수 · 최근 의견·목표가 변경(야후)."""
+    import yfinance as yf
+    tk = yf.Ticker(t)
+    an = {}
+    # 1) EPS 추정치 추이 — 올해(0y)·내년(+1y)
+    try:
+        et = tk.eps_trend
+        if et is not None and len(et):
+            cur, d7, d30, d90 = (_col(et, "current"), _col(et, "7daysAgo"), _col(et, "30daysAgo"), _col(et, "90daysAgo"))
+            eps = []
+            for p, lab in (("0y", "올해"), ("+1y", "내년")):
+                if p in et.index and cur is not None:
+                    r = et.loc[p]
+                    now = _f(r[cur])
+                    if now is None:
+                        continue
+                    e = {"p": lab, "now": round(now, 2)}
+                    for k, c in (("d7", d7), ("d30", d30), ("d90", d90)):
+                        if c is not None:
+                            v = _pct(now, r[c])
+                            if v is not None:
+                                e[k] = v
+                    eps.append(e)
+            if eps:
+                an["eps"] = eps
+    except Exception as e:
+        an["_e1"] = repr(e)[:60]
+    # 2) 추정치 상향·하향 애널리스트 수 — 올해 기준
+    try:
+        er = tk.eps_revisions
+        if er is not None and len(er):
+            p = "0y" if "0y" in er.index else er.index[0]
+            r = er.loc[p]
+            for k, names in (("up7", ("upLast7days",)), ("up30", ("upLast30days",)),
+                             ("dn7", ("downLast7Days", "downLast7days")), ("dn30", ("downLast30days", "downLast30Days"))):
+                c = _col(er, *names)
+                if c is not None and _f(r[c]) is not None:
+                    an[k] = int(_f(r[c]))
+    except Exception as e:
+        an["_e2"] = repr(e)[:60]
+    # 3) 최근 30일 의견·목표가 변경 — 최신 5건
+    try:
+        ud = tk.upgrades_downgrades
+        if ud is not None and len(ud):
+            ud = ud.copy()
+            idx = pd.to_datetime(ud.index, errors="coerce")
+            try:
+                idx = idx.tz_localize(None)
+            except Exception:
+                pass
+            ud.index = idx
+            ud = ud[ud.index >= pd.Timestamp(since)].sort_index(ascending=False)
+            cf, cg1, cg0, ca = _col(ud, "Firm"), _col(ud, "ToGrade"), _col(ud, "FromGrade"), _col(ud, "Action")
+            cp1, cp0 = _col(ud, "currentPriceTarget"), _col(ud, "priorPriceTarget")
+            acts = []
+            for d, r in ud.head(5).iterrows():
+                a = {"d": d.strftime("%Y-%m-%d")}
+                if cf is not None: a["f"] = str(r[cf])
+                if ca is not None: a["a"] = ACT.get(str(r[ca]).lower(), str(r[ca]))
+                if cg0 is not None and str(r[cg0]).strip() not in ("", "nan"): a["g0"] = str(r[cg0])
+                if cg1 is not None and str(r[cg1]).strip() not in ("", "nan"): a["g1"] = str(r[cg1])
+                if cp0 is not None and _f(r[cp0]): a["pt0"] = round(_f(r[cp0]), 2)
+                if cp1 is not None and _f(r[cp1]): a["pt1"] = round(_f(r[cp1]), 2)
+                acts.append(a)
+            if acts:
+                an["acts"] = acts
+            an["n30"] = int(len(ud))
+    except Exception as e:
+        an["_e3"] = repr(e)[:60]
+    # 4) 목표가 컨센서스
+    try:
+        pt = tk.analyst_price_targets
+        if isinstance(pt, dict) and _f(pt.get("mean")):
+            an["tgt"] = round(_f(pt["mean"]), 2)
+    except Exception:
+        pass
+    return an
+
+
+def analyst_all(cands, date, cap=90):
+    """신고가 종목(RS 등급 높은 순 cap개)의 애널리스트 데이터. 실패해도 본 산출물에는 영향 없음."""
+    since = (pd.Timestamp(date) - pd.Timedelta(days=30)).strftime("%Y-%m-%d")
+    pick = sorted(cands, key=lambda c: -(c.get("rsr") or 0))[:cap]
+    by, ok, errs = {}, 0, 0
+    for i, c in enumerate(pick):
+        try:
+            an = analyst_one(c["code"], since)
+            bad = [k for k in an if k.startswith("_e")]
+            if i < 2 or (bad and errs < 3):
+                log("analyst", c["code"], {k: an[k] for k in an if k.startswith("_e")} or sorted(an.keys()))
+            if bad:
+                errs += 1
+            for k in bad:
+                an.pop(k)
+            if an:
+                by[c["code"]] = an; ok += 1
+        except Exception as e:
+            errs += 1
+            if errs <= 3:
+                log("analyst fail", c["code"], repr(e)[:80])
+        time.sleep(0.4)
+    log("analyst", ok, "/", len(pick), "종목 · 오류", errs)
+    return by
+
+
 def main():
     # 기준일: 미국 마지막 거래일 = 실행 시각(한국 아침) 기준 전날(미국 날짜)
     want = sys.argv[1] if len(sys.argv) > 1 else None
@@ -225,6 +361,14 @@ def main():
             if x["code"] in rsr:
                 u["rsr"] = rsr[x["code"]]
             uni_out.append(u)
+        try:
+            anby = analyst_all(cands, date)
+            for c in cands:
+                if c["code"] in anby:
+                    c["an"] = anby[c["code"]]
+            write_json("data/us/analyst.json", {"date": date, "n": len(anby), "by": anby})
+        except Exception as e:
+            log("analyst FAIL", repr(e)[:200])
         out = {"market": "US", "date": date, "src": "nasdaq+yahoo", "generatedAt": now_kst().isoformat(timespec="seconds"),
                "regime": reg, "spy60": round(spy60, 2) if spy60 is not None else None,
                "universe": {"n": len(uni), "minMcap": MIN_MCAP, "rsN": len(ret60)},
