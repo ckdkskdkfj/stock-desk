@@ -1,25 +1,31 @@
-06:30:01 universe 2411
-06:30:21 yf 200 / 2411 hist 200
-06:30:43 yf 400 / 2411 hist 400
-06:31:03 yf 600 / 2411 hist 600
-06:31:24 yf 800 / 2411 hist 800
-06:31:45 yf 1000 / 2411 hist 1000
-06:32:06 yf 1200 / 2411 hist 1200
-06:32:26 yf 1400 / 2411 hist 1400
-06:32:48 yf 1600 / 2411 hist 1600
-06:33:08 yf 1800 / 2411 hist 1800
-06:33:29 yf 2000 / 2411 hist 2000
-06:33:50 yf 2200 / 2411 hist 2200
-06:34:11 yf 2400 / 2411 hist 2400
-06:34:13 yf 2411 / 2411 hist 2411
-06:34:15 yf 2 / 2 hist 2
-06:34:17 wrote data/us/2026-10-06.json 217308 bytes
-06:34:17 wrote data/us/latest.json 217308 bytes
-06:34:17 wrote data/us/universe.json 567036 bytes
-06:34:17 wrote data/us/signals.json 828132 bytes
-06:34:17 wrote data/us/breadth.json 966 bytes
-06:34:17 wrote data/us/sector_rs.json 126213 bytes
-06:34:17 sector_rs 117 업종
-06:34:54 wrote data/us/earnings.json 16034 bytes
-06:34:54 signals 2403
-06:34:54 wrote data/status_us.json 166 bytes
+07:12:05 universe 2411
+07:12:23 yf 200 / 2411 hist 200
+07:12:45 yf 400 / 2411 hist 400
+07:13:05 yf 600 / 2411 hist 600
+07:13:25 yf 800 / 2411 hist 800
+07:13:45 yf 1000 / 2411 hist 1000
+07:14:05 yf 1200 / 2411 hist 1200
+07:14:24 yf 1400 / 2411 hist 1400
+07:14:44 yf 1600 / 2411 hist 1600
+07:15:03 yf 1800 / 2411 hist 1800
+07:15:22 yf 2000 / 2411 hist 2000
+07:15:42 yf 2200 / 2411 hist 2200
+07:16:01 yf 2400 / 2411 hist 2400
+07:16:04 yf 2411 / 2411 hist 2411
+07:16:05 yf 2 / 2 hist 2
+07:16:07 analyst MRNA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+07:16:08 analyst P ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GIC"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BTX"}}}
+07:16:53 analyst 62 / 63 종목 · 오류 0
+07:16:53 wrote data/us/analyst.json 41648 bytes
+07:16:53 wrote data/us/2026-10-06.json 261594 bytes
+07:16:53 wrote data/us/latest.json 261594 bytes
+07:16:53 wrote data/us/universe.json 567036 bytes
+07:16:53 wrote data/us/signals.json 828132 bytes
+07:16:53 wrote data/us/breadth.json 966 bytes
+07:16:53 wrote data/us/sector_rs.json 126213 bytes
+07:16:53 sector_rs 117 업종
+07:17:33 wrote data/us/earnings.json 16034 bytes
+07:17:33 signals 2403
+07:17:33 wrote data/status_us.json 166 bytes
