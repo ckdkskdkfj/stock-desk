@@ -7,6 +7,7 @@
 결과: data/kr/<날짜>.json, data/kr/latest.json, data/kr/universe.json, data/status_kr.json
 """
 import datetime as dt
+import json
 import re
 import sys
 import time
@@ -359,60 +360,92 @@ def judge(D, rows, hist, closes, src):
 
 
 # ── 부가 산출물: 관심 종목 신호 · 시장 폭 · 업종 RS ──────────────
-def load_sectors_kr():
-    """code→업종(한국거래소 업종 분류). FinanceDataReader KRX-DESC → 실패하면 캐시."""
+def find_industry(obj):
+    """네이버 종목 basic 응답에서 업종명 찾기 — 키 이름이 바뀌어도 'industry'가 들어간 키를 뒤진다."""
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            lk = str(k).lower()
+            if "industry" in lk or "upjong" in lk or lk in ("sectorname", "wicsname"):
+                if isinstance(v, str) and v.strip():
+                    return v.strip()
+                if isinstance(v, dict):
+                    for kk in ("name", "industryName", "text", "value"):
+                        if isinstance(v.get(kk), str) and v[kk].strip():
+                            return v[kk].strip()
+        for v in obj.values():
+            r = find_industry(v)
+            if r:
+                return r
+    elif isinstance(obj, list):
+        for v in obj:
+            r = find_industry(v)
+            if r:
+                return r
+    return None
+
+
+def load_sectors_kr(codes):
+    """code→업종. 캐시(data/kr/sectors.json)에 없는 종목만 네이버 모바일 종목 API로 조회. 실패 시 업종 페이지 긁기."""
     cache = "data/kr/sectors.json"
     by = {}
     try:
-        import FinanceDataReader as fdr
-        lst = fdr.StockListing("KRX-DESC")
-        cols = {c.lower(): c for c in lst.columns}
-        cc = cols.get("code") or cols.get("symbol"); cs = cols.get("sector") or cols.get("industry")
-        if cc and cs:
-            for _, r in lst.iterrows():
-                code, sec = str(r[cc]).zfill(6), str(r[cs]).strip()
-                if sec and sec != "nan":
-                    by[code] = sec
-        if len(by) > 500:
-            write_json(cache, {"at": now_kst().strftime("%Y-%m-%d"), "by": by})
-            return by
-        log("KRX-DESC 업종", len(by), "건뿐 → 캐시")
-    except Exception as e:
-        log("KRX-DESC 실패 → 캐시", repr(e)[:80])
-    # 예비: 네이버 업종 분류 (sise_group → 업종별 구성 종목)
-    try:
-        by = load_sectors_naver()
-        if len(by) > 500:
-            write_json(cache, {"at": now_kst().strftime("%Y-%m-%d"), "by": by, "src": "naver"})
-            return by
-        log("naver 업종", len(by), "건뿐 → 캐시")
-    except Exception as e:
-        log("naver 업종 실패 → 캐시", repr(e)[:80])
-    try:
-        import json as _j
-        return _j.load(open(cache, encoding="utf-8")).get("by", {})
+        by = json.load(open(cache, encoding="utf-8")).get("by", {}) or {}
     except Exception:
-        return {}
+        by = {}
+    need = [c for c in codes if c not in by]
+    log("업종 캐시", len(by), "· 조회 필요", len(need))
+    ok = fail = 0
+    for i, code in enumerate(need):
+        try:
+            r = requests.get(f"https://m.stock.naver.com/api/stock/{code}/basic", headers=UA, timeout=20)
+            j = r.json()
+            if i == 0:
+                log("naver basic keys", sorted(j.keys())[:40] if isinstance(j, dict) else type(j))
+            name = find_industry(j)
+            if name:
+                by[code] = name; ok += 1
+            else:
+                fail += 1
+        except Exception as e:
+            fail += 1
+            if fail <= 3:
+                log("naver basic fail", code, repr(e)[:80])
+        time.sleep(0.12)
+    log("naver basic 업종", ok, "건 ·", fail, "실패")
+    if ok == 0 and need:
+        # 예비: 업종 페이지 긁기
+        try:
+            alt = load_sectors_naver()
+            for c in need:
+                if c in alt:
+                    by[c] = alt[c]
+        except Exception as e:
+            log("naver 업종 페이지 실패", repr(e)[:80])
+    if by:
+        write_json(cache, {"at": now_kst().strftime("%Y-%m-%d"), "by": by})
+    return by
 
 
 def load_sectors_naver():
-    """네이버 금융 업종(WICS 세부) 페이지에서 code→업종명. 약 80페이지."""
+    """네이버 금융 업종 페이지(sise_group)에서 code→업종명. 진단 로그 포함."""
     H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-         "Referer": "https://finance.naver.com/sise/"}
+         "Referer": "https://finance.naver.com/sise/", "Accept-Language": "ko-KR,ko;q=0.9"}
     r = requests.get("https://finance.naver.com/sise/sise_group.naver?type=upjong", headers=H, timeout=30)
     r.encoding = "euc-kr"
-    groups = re.findall(r'sise_group_detail\.naver\?type=upjong&(?:amp;)?no=(\d+)"[^>]*>([^<]+)<', r.text)
+    log("sise_group", r.status_code, len(r.text), "upjong 등장", r.text.count("upjong"), "·", re.sub(r"\s+", " ", r.text[:160]))
+    groups = []
+    for m in re.finditer(r'no=(\d+)[^>]*>\s*([^<]{1,40}?)\s*<', r.text):
+        groups.append((m.group(1), m.group(2)))
     seen, by = set(), {}
     for no, name in groups:
-        if no in seen:
+        if no in seen or not name.strip():
             continue
         seen.add(no)
-        name = re.sub(r"\s+", " ", name).strip()
         try:
             d = requests.get(f"https://finance.naver.com/sise/sise_group_detail.naver?type=upjong&no={no}", headers=H, timeout=30)
             d.encoding = "euc-kr"
-            for code in set(re.findall(r'/item/main\.naver\?code=(\d{6})', d.text)):
-                by.setdefault(code, name)
+            for code in set(re.findall(r'code=(\d{6})', d.text)):
+                by.setdefault(code, name.strip())
         except Exception as e:
             log("naver 업종 페이지 실패", no, repr(e)[:60])
         time.sleep(0.15)
@@ -441,7 +474,7 @@ def extras(D, uni, hist):
     b = breadth(techs)
     if b:
         append_series("data/kr/breadth.json", date, b)
-    secs = load_sectors_kr()
+    secs = load_sectors_kr([u["code"] for u in uni])
     if secs:
         sr = sector_rs(uni, techs, secs)
         append_series("data/kr/sector_rs.json", date, {"sectors": sr}, keep=70)
