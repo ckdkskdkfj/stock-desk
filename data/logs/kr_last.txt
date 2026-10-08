@@ -1,8 +1,8 @@
-16:21:54 try pykrx 20261007
+16:21:56 try pykrx 20261008
 KRX 로그인 실패: KRX_ID 또는 KRX_PW 환경 변수가 설정되지 않았습니다.
 Error occurred in get_market_ohlcv_by_ticker: Expecting value: line 1 column 1 (char 0)
-16:21:57 pykrx ohlcv fail 20261007 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
-16:21:57 FAIL pykrx: RuntimeError('pykrx: 20261007 스냅샷 없음(당일 미게시 또는 접속 차단)')
+16:21:57 pykrx ohlcv fail 20261008 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
+16:21:57 FAIL pykrx: RuntimeError('pykrx: 20261008 스냅샷 없음(당일 미게시 또는 접속 차단)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 493, in main
     rows, hist, closes, src = fn(D)
@@ -12,25 +12,25 @@ Traceback (most recent call last):
                                               ^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 116, in load_pykrx
     raise RuntimeError(f"pykrx: {d} 스냅샷 없음(당일 미게시 또는 접속 차단)")
-RuntimeError: pykrx: 20261007 스냅샷 없음(당일 미게시 또는 접속 차단)
-16:21:57 try fdr 20261007
-16:22:00 naver hist 0 / 326
-16:22:51 naver hist 50 / 326
-16:23:39 naver hist 100 / 326
-16:24:23 naver hist 150 / 326
-16:25:03 naver hist 200 / 326
-16:25:43 naver hist 250 / 326
-16:26:23 naver hist 300 / 326
-16:26:46 wrote data/kr/2026-10-07.json 10319 bytes
-16:26:46 wrote data/kr/latest.json 10319 bytes
-16:26:46 wrote data/kr/universe.json 61236 bytes
-16:26:46 wrote data/kr/signals.json 130414 bytes
-16:26:46 wrote data/kr/breadth.json 754 bytes
-16:26:46 업종 캐시 0 · 조회 필요 309
-16:26:47 naver basic keys ['chartIqEndUrl', 'closePrice', 'compareToPreviousClosePrice', 'compareToPreviousPrice', 'delayTime', 'delayTimeName', 'endUrl', 'fluctuationsRatio', 'imageChartUrlInfo', 'imageCharts', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketSessionType', 'marketStatus', 'marketStatusDetailType', 'nationName', 'nationType', 'newPcUrl', 'newlyListed', 'overMarketPriceInfo', 'reutersCode', 'scriptChartTypes', 'sosok', 'stockEndType', 'stockExchangeName', 'stockExchangeType', 'stockName', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
-16:30:55 naver basic 업종 0 건 · 309 실패
-16:30:58 sise_group 200 133085 upjong 등장 0 · <!DOCTYPE html><html lang="ko" class="" data-theme="light"><head><meta charSet="utf-8"/><meta name="viewport" content="width=1366, initial-scale=1.0, user-scala
-16:30:58 naver 업종 0 개 · 0 종목
-16:30:58 signals 309
-16:30:58 wrote data/status_kr.json 168 bytes
-16:30:58 done {'raw': 20, 'pass': 3, 'basDt': '2026-10-07', 'src': 'naver'}
+RuntimeError: pykrx: 20261008 스냅샷 없음(당일 미게시 또는 접속 차단)
+16:21:57 try fdr 20261008
+16:21:59 naver hist 0 / 323
+16:22:34 naver hist 50 / 323
+16:23:07 naver hist 100 / 323
+16:23:38 naver hist 150 / 323
+16:24:10 naver hist 200 / 323
+16:24:40 naver hist 250 / 323
+16:25:08 naver hist 300 / 323
+16:25:21 wrote data/kr/2026-10-08.json 10876 bytes
+16:25:21 wrote data/kr/latest.json 10876 bytes
+16:25:21 wrote data/kr/universe.json 60296 bytes
+16:25:21 wrote data/kr/signals.json 129198 bytes
+16:25:21 wrote data/kr/breadth.json 940 bytes
+16:25:21 업종 캐시 0 · 조회 필요 304
+16:25:22 naver basic keys ['chartIqEndUrl', 'closePrice', 'compareToPreviousClosePrice', 'compareToPreviousPrice', 'delayTime', 'delayTimeName', 'endUrl', 'fluctuationsRatio', 'imageChartUrlInfo', 'imageCharts', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketSessionType', 'marketStatus', 'marketStatusDetailType', 'nationName', 'nationType', 'newPcUrl', 'newlyListed', 'overMarketPriceInfo', 'reutersCode', 'scriptChartTypes', 'sosok', 'stockEndType', 'stockExchangeName', 'stockExchangeType', 'stockName', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
+16:28:15 naver basic 업종 0 건 · 304 실패
+16:28:17 sise_group 200 133085 upjong 등장 0 · <!DOCTYPE html><html lang="ko" class="" data-theme="light"><head><meta charSet="utf-8"/><meta name="viewport" content="width=1366, initial-scale=1.0, user-scala
+16:28:17 naver 업종 0 개 · 0 종목
+16:28:17 signals 304
+16:28:17 wrote data/status_kr.json 168 bytes
+16:28:17 done {'raw': 13, 'pass': 3, 'basDt': '2026-10-08', 'src': 'naver'}
