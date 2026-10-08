@@ -1,29 +1,28 @@
-06:49:15 universe 2405
-06:49:34 yf 200 / 2405 hist 200
-06:49:54 yf 400 / 2405 hist 400
-06:50:14 yf 600 / 2405 hist 600
-06:50:33 yf 800 / 2405 hist 800
-06:50:54 yf 1000 / 2405 hist 1000
-06:51:13 yf 1200 / 2405 hist 1200
-06:51:33 yf 1400 / 2405 hist 1400
-06:51:53 yf 1600 / 2405 hist 1600
-06:52:12 yf 1800 / 2405 hist 1800
-06:52:32 yf 2000 / 2405 hist 2000
-06:52:52 yf 2200 / 2405 hist 2200
-06:53:11 yf 2400 / 2405 hist 2400
-06:53:14 yf 2405 / 2405 hist 2405
-06:53:16 yf 2 / 2 hist 2
-06:53:18 analyst P ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-06:53:19 analyst XP ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-06:53:34 analyst 22 / 22 종목 · 오류 0
-06:53:34 wrote data/us/analyst.json 13726 bytes
-06:53:34 wrote data/us/2026-10-07.json 88840 bytes
-06:53:34 wrote data/us/latest.json 88840 bytes
-06:53:34 wrote data/us/universe.json 566625 bytes
-06:53:34 wrote data/us/signals.json 832768 bytes
-06:53:34 wrote data/us/breadth.json 1156 bytes
-06:53:34 wrote data/us/sector_rs.json 151626 bytes
-06:53:34 sector_rs 117 업종
-06:54:18 wrote data/us/earnings.json 19400 bytes
-06:54:18 signals 2400
-06:54:18 wrote data/status_us.json 166 bytes
+06:50:02 universe 2395
+06:50:16 yf 200 / 2395 hist 200
+06:50:29 yf 400 / 2395 hist 400
+06:50:41 yf 600 / 2395 hist 600
+06:50:54 yf 800 / 2395 hist 800
+06:51:06 yf 1000 / 2395 hist 1000
+06:51:18 yf 1200 / 2395 hist 1200
+06:51:30 yf 1400 / 2395 hist 1400
+06:51:42 yf 1600 / 2395 hist 1600
+06:51:54 yf 1800 / 2395 hist 1800
+06:52:07 yf 2000 / 2395 hist 2000
+06:52:19 yf 2200 / 2395 hist 2200
+06:52:30 yf 2395 / 2395 hist 2395
+06:52:32 yf 2 / 2 hist 2
+06:52:34 analyst P ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+06:52:35 analyst TEAM ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+06:52:55 analyst 36 / 36 종목 · 오류 0
+06:52:55 wrote data/us/analyst.json 20621 bytes
+06:52:55 wrote data/us/2026-10-08.json 142963 bytes
+06:52:55 wrote data/us/latest.json 142963 bytes
+06:52:55 wrote data/us/universe.json 563217 bytes
+06:52:55 wrote data/us/signals.json 824734 bytes
+06:52:55 wrote data/us/breadth.json 1347 bytes
+06:52:55 wrote data/us/sector_rs.json 177007 bytes
+06:52:55 sector_rs 117 업종
+06:53:35 wrote data/us/earnings.json 27045 bytes
+06:53:35 signals 2388
+06:53:35 wrote data/status_us.json 166 bytes
