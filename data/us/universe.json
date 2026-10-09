@@ -688,7 +688,11 @@
    "name": "Comcast Holdings ZONES",
    "mcapUsd": 223209240442,
    "sectorEn": "Telecommunications",
-   "industryEn": "Cable & Other Pay Television Services"
+   "industryEn": "Cable & Other Pay Television Services",
+   "price": 62.9,
+   "chg": 0.0,
+   "ret60": -5.4,
+   "rsr": 47
   },
   {
    "code": "LIN",
@@ -1095,7 +1099,7 @@
    "price": 187.75,
    "chg": -0.3,
    "ret60": -13.9,
-   "rsr": 25
+   "rsr": 24
   },
   {
    "code": "BBVA",
@@ -1403,7 +1407,7 @@
    "price": 55.43,
    "chg": 2.84,
    "ret60": -5.6,
-   "rsr": 47
+   "rsr": 46
   },
   {
    "code": "MO",
@@ -1535,7 +1539,7 @@
    "price": 276.97,
    "chg": 0.57,
    "ret60": -12.5,
-   "rsr": 28
+   "rsr": 27
   },
   {
    "code": "SPOT",
@@ -1920,7 +1924,7 @@
    "price": 116.84,
    "chg": 1.16,
    "ret60": -6.0,
-   "rsr": 46
+   "rsr": 45
   },
   {
    "code": "HWM",
@@ -2778,7 +2782,7 @@
    "price": 134.96,
    "chg": 0.95,
    "ret60": 24.4,
-   "rsr": 91
+   "rsr": 90
   },
   {
    "code": "TDG",
@@ -3240,7 +3244,7 @@
    "price": 233.6,
    "chg": -0.62,
    "ret60": 11.8,
-   "rsr": 82
+   "rsr": 81
   },
   {
    "code": "BDX",
@@ -3854,7 +3858,7 @@
    "price": 118.73,
    "chg": 1.38,
    "ret60": -7.8,
-   "rsr": 41
+   "rsr": 40
   },
   {
    "code": "IBKR",
@@ -4459,7 +4463,7 @@
    "price": 70.66,
    "chg": 1.77,
    "ret60": -4.7,
-   "rsr": 49
+   "rsr": 48
   },
   {
    "code": "CBOE",
@@ -6384,7 +6388,7 @@
    "price": 487.33,
    "chg": -2.14,
    "ret60": 0.1,
-   "rsr": 61
+   "rsr": 62
   },
   {
    "code": "WCC",
@@ -6516,7 +6520,7 @@
    "price": 268.58,
    "chg": 0.2,
    "ret60": -8.3,
-   "rsr": 40
+   "rsr": 39
   },
   {
    "code": "IEX",
@@ -6901,7 +6905,7 @@
    "price": 26.48,
    "chg": 2.4,
    "ret60": -11.2,
-   "rsr": 32
+   "rsr": 31
   },
   {
    "code": "INIO",
@@ -6923,7 +6927,7 @@
    "price": 35.71,
    "chg": -7.7,
    "ret60": -6.7,
-   "rsr": 44
+   "rsr": 43
   },
   {
    "code": "HST",
@@ -7297,7 +7301,7 @@
    "price": 105.13,
    "chg": 0.63,
    "ret60": 14.7,
-   "rsr": 85
+   "rsr": 84
   },
   {
    "code": "WPC",
@@ -8199,7 +8203,7 @@
    "price": 332.12,
    "chg": -0.74,
    "ret60": 1.4,
-   "rsr": 64
+   "rsr": 65
   },
   {
    "code": "CHTR",
@@ -8771,7 +8775,7 @@
    "price": 82.56,
    "chg": 2.71,
    "ret60": -22.5,
-   "rsr": 12
+   "rsr": 11
   },
   {
    "code": "AR",
@@ -9167,7 +9171,7 @@
    "price": 195.76,
    "chg": 0.48,
    "ret60": -16.1,
-   "rsr": 21
+   "rsr": 20
   },
   {
    "code": "OSCR",
@@ -9904,7 +9908,7 @@
    "price": 36.71,
    "chg": -1.24,
    "ret60": -6.0,
-   "rsr": 46
+   "rsr": 45
   },
   {
    "code": "LTH",
@@ -10080,7 +10084,7 @@
    "price": 60.74,
    "chg": -1.2,
    "ret60": -15.4,
-   "rsr": 22
+   "rsr": 21
   },
   {
    "code": "GTLB",
@@ -10410,7 +10414,7 @@
    "price": 111.03,
    "chg": 0.46,
    "ret60": -9.6,
-   "rsr": 36
+   "rsr": 35
   },
   {
    "code": "MHK",
@@ -11180,7 +11184,7 @@
    "price": 63.1,
    "chg": -0.24,
    "ret60": -6.4,
-   "rsr": 45
+   "rsr": 44
   },
   {
    "code": "FSS",
@@ -11565,7 +11569,7 @@
    "price": 307.68,
    "chg": -3.15,
    "ret60": -6.4,
-   "rsr": 45
+   "rsr": 44
   },
   {
    "code": "SARO",
@@ -11892,9 +11896,9 @@
    "mcapUsd": 6340955921,
    "sectorEn": "Technology",
    "industryEn": "EDP Services",
-   "price": 60.24,
-   "chg": 2.56,
-   "ret60": 16.8,
+   "price": 60.25,
+   "chg": 2.57,
+   "ret60": 16.9,
    "rsr": 87
   },
   {
@@ -12159,7 +12163,7 @@
    "price": 66.01,
    "chg": 1.15,
    "ret60": -9.9,
-   "rsr": 35
+   "rsr": 34
   },
   {
    "code": "KNSA",
@@ -12379,7 +12383,7 @@
    "price": 13.77,
    "chg": -4.31,
    "ret60": -8.6,
-   "rsr": 39
+   "rsr": 38
   },
   {
    "code": "LGND",
@@ -12511,7 +12515,7 @@
    "price": 53.0,
    "chg": 1.34,
    "ret60": -11.8,
-   "rsr": 30
+   "rsr": 29
   },
   {
    "code": "CVI",
@@ -13215,7 +13219,7 @@
    "price": 50.37,
    "chg": -0.65,
    "ret60": -23.1,
-   "rsr": 11
+   "rsr": 10
   },
   {
    "code": "CAKE",
@@ -13598,7 +13602,7 @@
    "price": 17.83,
    "chg": -0.39,
    "ret60": -1.8,
-   "rsr": 57
+   "rsr": 56
   },
   {
    "code": "RLI",
@@ -14577,7 +14581,7 @@
    "price": 27.72,
    "chg": 0.69,
    "ret60": -11.5,
-   "rsr": 31
+   "rsr": 30
   },
   {
    "code": "CHEF",
@@ -14742,7 +14746,7 @@
    "price": 13.01,
    "chg": -3.41,
    "ret60": 27.9,
-   "rsr": 92
+   "rsr": 91
   },
   {
    "code": "GNTX",
@@ -15094,7 +15098,7 @@
    "price": 35.45,
    "chg": -1.88,
    "ret60": -13.4,
-   "rsr": 26
+   "rsr": 25
   },
   {
    "code": "GFF",
@@ -15160,7 +15164,7 @@
    "price": 68.4,
    "chg": 0.43,
    "ret60": -9.5,
-   "rsr": 36
+   "rsr": 35
   },
   {
    "code": "CGAU",
@@ -15413,7 +15417,7 @@
    "price": 62.35,
    "chg": -1.59,
    "ret60": -21.1,
-   "rsr": 14
+   "rsr": 13
   },
   {
    "code": "MIR",
@@ -15424,7 +15428,7 @@
    "price": 16.22,
    "chg": -1.4,
    "ret60": -0.7,
-   "rsr": 60
+   "rsr": 59
   },
   {
    "code": "CAAP",
@@ -15732,7 +15736,7 @@
    "price": 17.41,
    "chg": -3.01,
    "ret60": -10.8,
-   "rsr": 33
+   "rsr": 32
   },
   {
    "code": "VVV",
@@ -15886,7 +15890,7 @@
    "price": 72.93,
    "chg": 3.4,
    "ret60": -2.9,
-   "rsr": 54
+   "rsr": 53
   },
   {
    "code": "ERO",
@@ -16203,7 +16207,7 @@
    "price": 22.72,
    "chg": -1.39,
    "ret60": -14.9,
-   "rsr": 23
+   "rsr": 22
   },
   {
    "code": "OTTR",
@@ -16498,7 +16502,7 @@
    "price": 106.9,
    "chg": 0.84,
    "ret60": -8.9,
-   "rsr": 38
+   "rsr": 37
   },
   {
    "code": "IPAR",
@@ -16740,7 +16744,7 @@
    "price": 34.1,
    "chg": 0.44,
    "ret60": -7.1,
-   "rsr": 43
+   "rsr": 42
   },
   {
    "code": "VCYT",
@@ -18069,7 +18073,7 @@
    "price": 9.57,
    "chg": -0.31,
    "ret60": -18.1,
-   "rsr": 18
+   "rsr": 17
   },
   {
    "code": "KYIV",
@@ -18641,7 +18645,7 @@
    "price": 19.63,
    "chg": 0.26,
    "ret60": -10.3,
-   "rsr": 34
+   "rsr": 33
   },
   {
    "code": "ACHC",
@@ -18804,8 +18808,8 @@
    "sectorEn": "Telecommunications",
    "industryEn": "Cable & Other Pay Television Services",
    "price": 24.11,
-   "chg": -0.88,
-   "ret60": -12.8,
+   "chg": -0.82,
+   "ret60": -12.9,
    "rsr": 27
   },
   {
@@ -18861,7 +18865,7 @@
    "price": 70.73,
    "chg": 0.48,
    "ret60": -12.1,
-   "rsr": 29
+   "rsr": 28
   },
   {
    "code": "BBAR",
@@ -19356,7 +19360,7 @@
    "price": 42.4,
    "chg": 2.91,
    "ret60": -18.6,
-   "rsr": 17
+   "rsr": 16
   },
   {
    "code": "PLUG",
@@ -19499,7 +19503,7 @@
    "price": 59.73,
    "chg": 1.37,
    "ret60": -7.3,
-   "rsr": 42
+   "rsr": 41
   },
   {
    "code": "NGVT",
@@ -19539,7 +19543,11 @@
    "name": "John Wiley & Sons Inc.",
    "mcapUsd": 2431575961,
    "sectorEn": "Consumer Discretionary",
-   "industryEn": "Books"
+   "industryEn": "Books",
+   "price": 47.9,
+   "chg": 0.0,
+   "ret60": -4.4,
+   "rsr": 49
   },
   {
    "code": "HTO",
@@ -19550,7 +19558,7 @@
    "price": 58.07,
    "chg": 0.16,
    "ret60": -7.3,
-   "rsr": 42
+   "rsr": 41
   },
   {
    "code": "PAYO",
@@ -19704,7 +19712,7 @@
    "price": 60.77,
    "chg": -0.67,
    "ret60": -20.1,
-   "rsr": 15
+   "rsr": 14
   },
   {
    "code": "EEFT",
@@ -19935,7 +19943,7 @@
    "price": 8.2,
    "chg": -0.24,
    "ret60": -14.3,
-   "rsr": 24
+   "rsr": 23
   },
   {
    "code": "ALVO",
@@ -19979,7 +19987,7 @@
    "price": 20.11,
    "chg": -0.05,
    "ret60": 17.6,
-   "rsr": 88
+   "rsr": 87
   },
   {
    "code": "ICHR",
@@ -21022,7 +21030,7 @@
    "price": 36.98,
    "chg": -9.14,
    "ret60": -7.1,
-   "rsr": 43
+   "rsr": 42
   },
   {
    "code": "PLPC",
@@ -21492,8 +21500,8 @@
    "mcapUsd": 1850866962,
    "sectorEn": "Health Care",
    "industryEn": "Biotechnology: Pharmaceutical Preparations",
-   "price": 17.67,
-   "chg": 1.99
+   "price": 17.68,
+   "chg": 2.02
   },
   {
    "code": "NVAX",
@@ -22131,7 +22139,7 @@
    "price": 19.15,
    "chg": 0.31,
    "ret60": -5.3,
-   "rsr": 48
+   "rsr": 47
   },
   {
    "code": "QUBT",
@@ -22238,9 +22246,9 @@
    "mcapUsd": 1704076092,
    "sectorEn": "Finance",
    "industryEn": "Major Banks",
-   "price": 13.45,
-   "chg": 0.86,
-   "ret60": -1.1,
+   "price": 13.46,
+   "chg": 0.9,
+   "ret60": -1.0,
    "rsr": 59
   },
   {
@@ -22382,7 +22390,7 @@
    "price": 11.27,
    "chg": 0.45,
    "ret60": -9.3,
-   "rsr": 37
+   "rsr": 36
   },
   {
    "code": "NEXA",
@@ -22877,7 +22885,7 @@
    "price": 36.0,
    "chg": 0.31,
    "ret60": 34.8,
-   "rsr": 94
+   "rsr": 93
   },
   {
    "code": "ETON",
@@ -23207,7 +23215,7 @@
    "price": 21.63,
    "chg": 1.55,
    "ret60": -12.9,
-   "rsr": 27
+   "rsr": 26
   },
   {
    "code": "HUN",
@@ -23489,7 +23497,7 @@
    "sectorEn": "Energy",
    "industryEn": "Industrial Machinery/Components",
    "price": 17.25,
-   "chg": -6.12,
+   "chg": -6.1,
    "ret60": -14.8,
    "rsr": 23
   },
@@ -23828,7 +23836,11 @@
    "name": "Mega Fortune Company Limited",
    "mcapUsd": 1402500000,
    "sectorEn": "Technology",
-   "industryEn": "EDP Services"
+   "industryEn": "EDP Services",
+   "price": 102.0,
+   "chg": 0.0,
+   "ret60": 36.0,
+   "rsr": 94
   },
   {
    "code": "TYRA",
@@ -24966,7 +24978,11 @@
    "name": "Seneca Foods Corp.",
    "mcapUsd": 1188626911,
    "sectorEn": "Consumer Staples",
-   "industryEn": "Packaged Foods"
+   "industryEn": "Packaged Foods",
+   "price": 175.58,
+   "chg": 0.0,
+   "ret60": -0.3,
+   "rsr": 61
   },
   {
    "code": "LZB",
@@ -24977,7 +24993,7 @@
    "price": 29.55,
    "chg": -0.3,
    "ret60": -26.0,
-   "rsr": 8
+   "rsr": 7
   },
   {
    "code": "VTOL",
@@ -25263,7 +25279,7 @@
    "price": 10.21,
    "chg": -0.97,
    "ret60": -16.8,
-   "rsr": 20
+   "rsr": 19
   },
   {
    "code": "UVSP",
@@ -25593,7 +25609,7 @@
    "price": 85.88,
    "chg": 0.48,
    "ret60": -8.3,
-   "rsr": 40
+   "rsr": 39
   },
   {
    "code": "SG",
@@ -25989,7 +26005,7 @@
    "price": 6.83,
    "chg": -3.26,
    "ret60": -8.6,
-   "rsr": 39
+   "rsr": 38
   },
   {
    "code": "OPK",
