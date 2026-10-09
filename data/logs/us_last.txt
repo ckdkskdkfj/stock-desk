@@ -1,28 +1,30 @@
-13:22:54 universe 2395
-13:23:05 yf 200 / 2395 hist 200
-13:23:17 yf 400 / 2395 hist 400
-13:23:30 yf 600 / 2395 hist 600
-13:23:42 yf 800 / 2395 hist 800
-13:23:54 yf 1000 / 2395 hist 1000
-13:24:07 yf 1200 / 2395 hist 1200
-13:24:19 yf 1400 / 2395 hist 1400
-13:24:31 yf 1600 / 2395 hist 1600
-13:24:43 yf 1800 / 2395 hist 1800
-13:24:55 yf 2000 / 2395 hist 2000
-13:25:08 yf 2200 / 2395 hist 2200
-13:25:20 yf 2395 / 2395 hist 2395
-13:25:22 yf 2 / 2 hist 2
-13:25:24 analyst P ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-13:25:24 analyst TEAM ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-13:25:45 analyst 36 / 36 종목 · 오류 0
-13:25:45 wrote data/us/analyst.json 20628 bytes
-13:25:45 wrote data/us/2026-10-08.json 142953 bytes
-13:25:45 wrote data/us/latest.json 142953 bytes
-13:25:45 wrote data/us/universe.json 563478 bytes
-13:25:45 wrote data/us/signals.json 826067 bytes
-13:25:45 wrote data/us/breadth.json 1347 bytes
-13:25:45 wrote data/us/sector_rs.json 177009 bytes
-13:25:45 sector_rs 117 업종
-13:26:23 wrote data/us/earnings.json 27045 bytes
-13:26:23 signals 2392
-13:26:23 wrote data/status_us.json 166 bytes
+06:49:21 universe 2395
+06:49:33 yf 200 / 2395 hist 200
+06:49:46 yf 400 / 2395 hist 400
+06:49:59 yf 600 / 2395 hist 600
+06:50:12 yf 800 / 2395 hist 800
+06:50:25 yf 1000 / 2395 hist 1000
+06:50:39 yf 1200 / 2395 hist 1200
+06:50:52 yf 1400 / 2395 hist 1400
+06:51:04 yf 1600 / 2395 hist 1600
+06:51:18 yf 1800 / 2395 hist 1800
+06:51:30 yf 2000 / 2395 hist 2000
+06:51:43 yf 2200 / 2395 hist 2200
+06:51:56 yf 2395 / 2395 hist 2395
+06:51:58 yf 2 / 2 hist 2
+06:52:00 analyst MRNA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+06:52:00 analyst TEAM ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BWLP"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RUSHB"}}}
+06:52:28 analyst 45 / 47 종목 · 오류 0
+06:52:28 wrote data/us/analyst.json 29615 bytes
+06:52:28 wrote data/us/2026-10-09.json 191960 bytes
+06:52:28 wrote data/us/latest.json 191960 bytes
+06:52:28 wrote data/us/universe.json 563478 bytes
+06:52:28 wrote data/us/signals.json 823138 bytes
+06:52:28 wrote data/us/breadth.json 1537 bytes
+06:52:29 wrote data/us/sector_rs.json 202604 bytes
+06:52:29 sector_rs 118 업종
+06:53:12 wrote data/us/earnings.json 28444 bytes
+06:53:12 signals 2388
+06:53:12 wrote data/status_us.json 166 bytes
