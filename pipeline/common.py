@@ -255,3 +255,119 @@ def sector_rs(rows, techs, sector_of, min_n=3):
                     "top": [x["code"] for x, t in top]})
     out.sort(key=lambda r: -(r["rsr"] or 0))
     return out
+
+
+# ── 업종 사이클 · 건강 신호 ──────────────────────────────────────
+def _ew_index(members, min_bars):
+    """members: [[(d,o,h,l,c,v)]…] → 동일가중 지수 [(date, value)] (각 종목을 공통 시작일 종가=1로 맞춘 평균)."""
+    series = []
+    for h in members:
+        m = {r[0]: r[4] for r in h if r[4] and r[4] > 0}
+        if len(m) >= min_bars:
+            series.append(m)
+    if len(series) < 3:
+        return None
+    dates = sorted(set.intersection(*[set(s.keys()) for s in series]))
+    if len(dates) < min_bars:
+        # 공통 날짜가 모자라면 날짜별로 있는 종목만 평균(상장 시점이 다른 경우)
+        dates = sorted(set.union(*[set(s.keys()) for s in series]))
+        dates = [d for d in dates if sum(1 for s in series if d in s) >= max(3, len(series) * 0.6)]
+        if len(dates) < min_bars:
+            return None
+    out = []
+    base = {}
+    for d in dates:
+        vals = []
+        for i, s in enumerate(series):
+            if d in s:
+                if i not in base:
+                    base[i] = s[d]
+                vals.append(s[d] / base[i])
+        out.append((d, sum(vals) / len(vals)))
+    return out
+
+
+def _swings(idx, up=15.0, dn=12.0):
+    """지그재그: 저점에서 up% 오르면 상승 구간, 고점에서 dn% 빠지면 하락 구간. [(kind, from, to, ret)]"""
+    if not idx or len(idx) < 20:
+        return []
+    segs = []
+    dir_ = None
+    piv_i, piv_v = 0, idx[0][1]
+    ext_i, ext_v = 0, idx[0][1]
+    for i in range(1, len(idx)):
+        v = idx[i][1]
+        if dir_ is None:
+            if v >= piv_v * (1 + up / 100): dir_ = 1; ext_i, ext_v = i, v
+            elif v <= piv_v * (1 - dn / 100): dir_ = -1; ext_i, ext_v = i, v
+            else:
+                if v > ext_v and v > piv_v: pass
+            if dir_ is None:
+                # 아직 방향 없음: 임시 극값 갱신
+                if v > ext_v: ext_i, ext_v = i, v
+                continue
+        if dir_ == 1:
+            if v > ext_v: ext_i, ext_v = i, v
+            elif v <= ext_v * (1 - dn / 100):
+                segs.append(("up", idx[piv_i][0], idx[ext_i][0], (ext_v / piv_v - 1) * 100))
+                piv_i, piv_v = ext_i, ext_v; dir_ = -1; ext_i, ext_v = i, v
+        else:
+            if v < ext_v: ext_i, ext_v = i, v
+            elif v >= ext_v * (1 + up / 100):
+                segs.append(("down", idx[piv_i][0], idx[ext_i][0], (ext_v / piv_v - 1) * 100))
+                piv_i, piv_v = ext_i, ext_v; dir_ = 1; ext_i, ext_v = i, v
+    # 진행 중인 마지막 구간
+    if dir_ is not None and ext_i > piv_i:
+        segs.append(("up" if dir_ == 1 else "down", idx[piv_i][0], idx[ext_i][0], (ext_v / piv_v - 1) * 100, True))
+    return segs
+
+
+def sector_cycles(members_of, hist, D, min_bars=150, prev_nh=None):
+    """members_of: {업종: [code…]}, hist: {code: rows}. 업종별 동일가중 지수의 상승·급락 구간과 현재 위치, 건강 신호.
+    prev_nh: {업종: 5거래일 전 신고가 종목 수} (있으면 비교)."""
+    out = {}
+    for sec, codes in members_of.items():
+        rows = [[r for r in hist.get(c, []) if r[0] <= D] for c in codes]
+        rows = [h for h in rows if h and h[-1][0] == D]
+        idx = _ew_index(rows, min_bars)
+        if not idx:
+            continue
+        segs = _swings(idx)
+        vals = [v for _, v in idx]
+        cur = vals[-1]
+        byd = {d: v for d, v in idx}
+        # 최근 고점·저점 = 마지막 구간의 양 끝(상승 중이면 시작=저점·끝=고점, 하락 중이면 그 반대). 구간이 없으면 전체 극값.
+        if segs:
+            s = segs[-1]
+            hi_d, lo_d = (s[2], s[1]) if s[0] == "up" else (s[1], s[2])
+        else:
+            hi_d = max(idx, key=lambda p: p[1])[0]; lo_d = min(idx, key=lambda p: p[1])[0]
+        hi_v, lo_v = byd[hi_d], byd[lo_d]
+        ma20 = sum(vals[-20:]) / 20 if len(vals) >= 20 else None
+        # 건강: 업종 거래대금 20일 평균 대비, 20일선 위 비중, 오늘 신고가 수
+        def dval(h, k):
+            return h[k][4] * h[k][5] if len(h) > abs(k) else 0
+        v_today = sum(dval(h, -1) for h in rows)
+        v_avg = sum(sum(dval(h, -k) for k in range(2, 22)) / 20 for h in rows if len(h) >= 22)
+        above = [1 if (len(h) >= 20 and h[-1][4] > sum(r[4] for r in h[-20:]) / 20) else 0 for h in rows]
+        def nh_count(k):
+            n = 0
+            for h in rows:
+                if len(h) < 61 + k: continue
+                sub = h[:len(h) - k] if k else h
+                if sub[-1][4] > max(r[2] for r in sub[-61:-1]): n += 1
+            return n
+        nh0, nh5 = nh_count(0), nh_count(5)
+        out[sec] = {
+            "n": len(rows),
+            "swings": [{"k": s[0], "from": s[1], "to": s[2], "ret": round(s[3], 1), "live": len(s) > 4} for s in segs[-6:]],
+            "now": {"offHi": round((cur / hi_v - 1) * 100, 1), "hiAt": hi_d,
+                    "offLo": round((cur / lo_v - 1) * 100, 1), "loAt": lo_d,
+                    "vsMa20": round((cur / ma20 - 1) * 100, 1) if ma20 else None,
+                    "r20": round((cur / vals[-21] - 1) * 100, 1) if len(vals) > 21 else None},
+            "health": {"valx": round(v_today / v_avg, 2) if v_avg else None,
+                       "a20": round(100 * sum(above) / len(above)) if above else None,
+                       "nh": nh0, "nh5ago": nh5},
+            "span": [idx[0][0], idx[-1][0]],
+        }
+    return out

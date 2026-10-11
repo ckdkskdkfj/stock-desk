@@ -18,7 +18,7 @@ import pandas as pd
 import requests
 
 from common import (KST, log, isnum, won_str, rsr_rank, ohlc_str, verdict, ma_regime,
-                    write_json, write_status, now_kst, tech, breadth, append_series, sector_rs)
+                    write_json, write_status, now_kst, tech, breadth, append_series, sector_rs, sector_cycles)
 
 MIN_MCAP = 1e12          # 시총 1조
 MIN_VAL = 5e9            # 거래대금 50억
@@ -506,6 +506,7 @@ def extras(D, uni, hist):
         t = tech(hist.get(u["code"], []), D, drop_pct=-8.0)
         if t:
             techs[u["code"]] = t
+    secs = load_sectors_kr([u["code"] for u in uni])
     sig_rows = []
     for u in uni:
         t = techs.get(u["code"])
@@ -514,18 +515,31 @@ def extras(D, uni, hist):
         r = {"code": u["code"], "name": u["name"], "mk": u["mk"], "mcapWon": u["mcapWon"]}
         if u.get("rsr") is not None:
             r["rsr"] = u["rsr"]
+        if secs and secs.get(u["code"]):
+            r["ind"] = secs[u["code"]]          # 업종(네이버/KIND) — 대시보드가 cycles.json 과 맞추는 열쇠
         r.update(t)
         sig_rows.append(r)
     write_json("data/kr/signals.json", {"market": "KR", "date": date, "n": len(sig_rows), "rows": sig_rows})
     b = breadth(techs)
     if b:
         append_series("data/kr/breadth.json", date, b)
-    secs = load_sectors_kr([u["code"] for u in uni])
     if secs:
         sr = sector_rs(uni, techs, secs)
         append_series("data/kr/sector_rs.json", date, {"sectors": sr}, keep=70)
         log("sector_rs", len(sr), "업종")
-    return len(sig_rows)
+        try:
+            mem = {}
+            for u in uni:
+                s = secs.get(u["code"])
+                if s:
+                    mem.setdefault(s, []).append(u["code"])
+            mem = {s: cs for s, cs in mem.items() if len(cs) >= 3}
+            cyc = sector_cycles(mem, hist, D, min_bars=120)
+            write_json("data/kr/cycles.json", {"market": "KR", "date": date, "n": len(cyc), "by": cyc})
+            log("cycles", len(cyc), "업종")
+        except Exception as e:
+            log("cycles FAIL", repr(e)[:160]); traceback.print_exc()
+    return secs or {}
 
 
 def main():
@@ -544,7 +558,15 @@ def main():
                 write_json("data/kr/latest.json", out)
                 write_json("data/kr/universe.json", {"date": out["date"], "rows": uni})
                 try:
-                    log("signals", extras(D, uni, hist))
+                    secs = extras(D, uni, hist)
+                    # 후보에 네이버 업종(ind)을 붙여 다시 저장 — 대시보드가 사이클 파일과 맞춰 본다
+                    if secs:
+                        for c in out["candidates"]:
+                            if c["code"] in secs:
+                                c["ind"] = secs[c["code"]]
+                        write_json(f"data/kr/{out['date']}.json", out)
+                        write_json("data/kr/latest.json", out)
+                    log("signals ok · 업종", len(secs or {}))
                 except Exception as e:
                     log("extras FAIL", repr(e)[:200]); traceback.print_exc()
                 write_status("KR", True, f"{out['date']} {src} 풀 {out['highs']['raw']} → 통과 {out['highs']['pass']}",

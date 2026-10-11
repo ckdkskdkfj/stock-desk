@@ -14,7 +14,7 @@ import traceback
 import pandas as pd
 import requests
 
-from common import log, isnum, usd_tag, rsr_rank, ohlc_str, verdict, ma_regime, write_json, write_status, now_kst, tech, breadth, append_series, sector_rs
+from common import log, isnum, usd_tag, rsr_rank, ohlc_str, verdict, ma_regime, write_json, write_status, now_kst, tech, breadth, append_series, sector_rs, sector_cycles
 
 MIN_MCAP = 1e9
 BATCH = 200
@@ -128,6 +128,8 @@ def extras(D, uni, hist, byc):
         if not t:
             continue
         r = {"code": u["code"], "name": u["name"], "mcapUsd": u["mcapUsd"], "industryEn": u.get("industryEn", "")}
+        if r["industryEn"]:
+            r["ind"] = r["industryEn"].strip()   # 대시보드가 cycles.json 과 맞추는 열쇠
         if u.get("rsr") is not None:
             r["rsr"] = u["rsr"]
         r.update(t)
@@ -142,6 +144,16 @@ def extras(D, uni, hist, byc):
     sr = sector_rs(uni, techs, ind, min_n=4)
     append_series("data/us/sector_rs.json", date, {"sectors": sr}, keep=70)
     log("sector_rs", len(sr), "업종")
+    try:
+        mem = {}
+        for c, s in ind.items():
+            mem.setdefault(s, []).append(c)
+        mem = {s: cs for s, cs in mem.items() if len(cs) >= 3}
+        cyc = sector_cycles(mem, hist, D, min_bars=150)
+        write_json("data/us/cycles.json", {"market": "US", "date": date, "n": len(cyc), "by": cyc})
+        log("cycles", len(cyc), "업종")
+    except Exception as e:
+        log("cycles FAIL", repr(e)[:160]); traceback.print_exc()
     try:
         er = earnings_nasdaq()
         write_json("data/us/earnings.json", {"asOf": date, "n": len(er), "by": er})
@@ -327,7 +339,7 @@ def main():
             cs, vd = verdict(d0[1], d0[2], d0[3], d0[4])
             c = dict(name=x["name"], code=t, price=round(d0[4], 2), chg=round(chg, 2) if chg is not None else None,
                      mcap=usd_tag(x["mcap"]), mcapUsd=int(x["mcap"]), val=usd_tag(d0[4] * d0[5]), valUsd=int(d0[4] * d0[5]),
-                     sectorEn=x["sector"], industryEn=x["industry"], hi52=round(prev_hi, 2), basis="52W",
+                     sectorEn=x["sector"], industryEn=x["industry"], ind=(x.get("industry") or "").strip(), hi52=round(prev_hi, 2), basis="52W",
                      cs=cs, verdict=vd, w52=True, ohlc=ohlc_str(h, 2))
             if len(h) >= 240 and d0[2] >= max(r[2] for r in h[:-1]):
                 c["basis"] = "52W"   # 1년 이력만 있어 사상 최고 판정은 하지 않음
