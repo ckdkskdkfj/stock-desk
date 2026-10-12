@@ -1,32 +1,33 @@
-23:50:51 universe 2395
-23:51:02 yf 200 / 2395 hist 200
-23:51:15 yf 400 / 2395 hist 400
-23:51:28 yf 600 / 2395 hist 600
-23:51:40 yf 800 / 2395 hist 800
-23:51:53 yf 1000 / 2395 hist 1000
-23:52:06 yf 1200 / 2395 hist 1200
-23:52:19 yf 1400 / 2395 hist 1400
-23:52:32 yf 1600 / 2395 hist 1600
-23:52:44 yf 1800 / 2395 hist 1800
-23:52:57 yf 2000 / 2395 hist 2000
-23:53:10 yf 2200 / 2395 hist 2200
-23:53:22 yf 2395 / 2395 hist 2395
-23:53:24 yf 2 / 2 hist 2
-23:53:26 analyst MRNA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-23:53:26 analyst TEAM ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+06:49:54 universe 2398
+06:50:11 yf 200 / 2398 hist 200
+06:50:31 yf 400 / 2398 hist 400
+06:50:51 yf 600 / 2398 hist 600
+06:51:11 yf 800 / 2398 hist 800
+06:51:27 yf 1000 / 2398 hist 1000
+06:51:43 yf 1200 / 2398 hist 1200
+06:51:59 yf 1400 / 2398 hist 1400
+06:52:16 yf 1600 / 2398 hist 1600
+06:52:31 yf 1800 / 2398 hist 1800
+06:52:47 yf 2000 / 2398 hist 2000
+06:53:03 yf 2200 / 2398 hist 2200
+06:53:19 yf 2398 / 2398 hist 2398
+06:53:21 yf 2 / 2 hist 2
+06:53:23 analyst MRNA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+06:53:23 analyst TEAM ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BWLP"}}}
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RUSHB"}}}
-23:53:56 analyst 45 / 47 종목 · 오류 0
-23:53:56 wrote data/us/analyst.json 29621 bytes
-23:53:56 wrote data/us/2026-10-09.json 194012 bytes
-23:53:56 wrote data/us/latest.json 194012 bytes
-23:53:56 wrote data/us/universe.json 563737 bytes
-23:53:56 wrote data/us/signals.json 917976 bytes
-23:53:56 wrote data/us/breadth.json 1537 bytes
-23:53:56 wrote data/us/sector_rs.json 202603 bytes
-23:53:56 sector_rs 118 업종
-23:53:57 wrote data/us/cycles.json 89639 bytes
-23:53:57 cycles 128 업종
-23:54:31 wrote data/us/earnings.json 28444 bytes
-23:54:31 signals 2392
-23:54:31 wrote data/status_us.json 166 bytes
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BGR"}}}
+06:54:02 analyst 59 / 62 종목 · 오류 0
+06:54:02 wrote data/us/analyst.json 32073 bytes
+06:54:02 wrote data/us/2026-10-12.json 245556 bytes
+06:54:02 wrote data/us/latest.json 245556 bytes
+06:54:02 wrote data/us/universe.json 564442 bytes
+06:54:02 wrote data/us/signals.json 919569 bytes
+06:54:02 wrote data/us/breadth.json 1728 bytes
+06:54:02 wrote data/us/sector_rs.json 227774 bytes
+06:54:02 sector_rs 116 업종
+06:54:03 wrote data/us/cycles.json 89402 bytes
+06:54:03 cycles 128 업종
+06:54:41 wrote data/us/earnings.json 32269 bytes
+06:54:41 signals 2394
+06:54:41 wrote data/status_us.json 166 bytes
