@@ -1,32 +1,34 @@
-07:01:52 universe 2388
-07:02:04 yf 200 / 2388 hist 200
-07:02:20 yf 400 / 2388 hist 400
-07:02:35 yf 600 / 2388 hist 600
-07:02:51 yf 800 / 2388 hist 800
-07:03:07 yf 1000 / 2388 hist 1000
-07:03:22 yf 1200 / 2388 hist 1200
-07:03:38 yf 1400 / 2388 hist 1400
-07:03:54 yf 1600 / 2388 hist 1600
-07:04:10 yf 1800 / 2388 hist 1800
-07:04:25 yf 2000 / 2388 hist 2000
-07:04:41 yf 2200 / 2388 hist 2200
-07:04:55 yf 2388 / 2388 hist 2388
-07:04:57 yf 2 / 2 hist 2
-07:04:59 analyst CVI ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-07:04:59 analyst MPC ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+06:59:54 universe 2374
+07:00:11 yf 200 / 2374 hist 200
+07:00:32 yf 400 / 2374 hist 400
+07:00:53 yf 600 / 2374 hist 600
+07:01:16 yf 800 / 2374 hist 800
+07:01:36 yf 1000 / 2374 hist 1000
+07:02:01 yf 1200 / 2374 hist 1200
+07:02:23 yf 1400 / 2374 hist 1400
+07:02:45 yf 1600 / 2374 hist 1600
+07:03:06 yf 1800 / 2374 hist 1800
+07:03:26 yf 2000 / 2374 hist 2000
+07:03:47 yf 2200 / 2374 hist 2200
+07:04:04 yf 2374 / 2374 hist 2374
+07:04:06 yf 2 / 2 hist 2
+07:04:08 analyst MRNA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+07:04:08 analyst TEAM ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CRVL"}}}
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BGR"}}}
-07:05:28 analyst 44 / 46 종목 · 오류 0
-07:05:28 wrote data/us/analyst.json 29355 bytes
-07:05:28 wrote data/us/2026-10-14.json 190052 bytes
-07:05:28 wrote data/us/latest.json 190052 bytes
-07:05:28 wrote data/us/universe.json 562521 bytes
-07:05:28 wrote data/us/signals.json 923440 bytes
-07:05:28 wrote data/us/breadth.json 2111 bytes
-07:05:28 wrote data/us/sector_rs.json 278108 bytes
-07:05:28 sector_rs 116 업종
-07:05:28 wrote data/us/cycles.json 90733 bytes
-07:05:28 cycles 127 업종
-07:06:08 wrote data/us/earnings.json 52617 bytes
-07:06:08 signals 2383
-07:06:08 wrote data/status_us.json 166 bytes
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RUSHB"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: FRHC"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NHC"}}}
+07:05:01 analyst 75 / 79 종목 · 오류 0
+07:05:01 wrote data/us/analyst.json 41580 bytes
+07:05:01 wrote data/us/2026-10-15.json 317003 bytes
+07:05:01 wrote data/us/latest.json 317003 bytes
+07:05:01 wrote data/us/universe.json 557995 bytes
+07:05:02 wrote data/us/signals.json 911124 bytes
+07:05:02 wrote data/us/breadth.json 2301 bytes
+07:05:02 wrote data/us/sector_rs.json 303274 bytes
+07:05:02 sector_rs 116 업종
+07:05:02 wrote data/us/cycles.json 89910 bytes
+07:05:02 cycles 127 업종
+07:05:39 wrote data/us/earnings.json 64227 bytes
+07:05:39 signals 2369
+07:05:39 wrote data/status_us.json 166 bytes
