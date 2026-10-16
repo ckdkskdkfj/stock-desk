@@ -1,34 +1,34 @@
-06:59:54 universe 2374
-07:00:11 yf 200 / 2374 hist 200
-07:00:32 yf 400 / 2374 hist 400
-07:00:53 yf 600 / 2374 hist 600
-07:01:16 yf 800 / 2374 hist 800
-07:01:36 yf 1000 / 2374 hist 1000
-07:02:01 yf 1200 / 2374 hist 1200
-07:02:23 yf 1400 / 2374 hist 1400
-07:02:45 yf 1600 / 2374 hist 1600
-07:03:06 yf 1800 / 2374 hist 1800
-07:03:26 yf 2000 / 2374 hist 2000
-07:03:47 yf 2200 / 2374 hist 2200
-07:04:04 yf 2374 / 2374 hist 2374
-07:04:06 yf 2 / 2 hist 2
-07:04:08 analyst MRNA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-07:04:08 analyst TEAM ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CRVL"}}}
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RUSHB"}}}
+07:00:21 universe 2387
+07:00:41 yf 200 / 2387 hist 200
+07:01:01 yf 400 / 2387 hist 400
+07:01:20 yf 600 / 2387 hist 600
+07:01:40 yf 800 / 2387 hist 800
+07:01:56 yf 1000 / 2387 hist 1000
+07:02:15 yf 1200 / 2387 hist 1200
+07:02:32 yf 1400 / 2387 hist 1400
+07:02:47 yf 1600 / 2387 hist 1600
+07:03:02 yf 1800 / 2387 hist 1800
+07:03:17 yf 2000 / 2387 hist 2000
+07:03:37 yf 2200 / 2387 hist 2200
+07:03:51 yf 2387 / 2387 hist 2387
+07:03:53 yf 2 / 2 hist 2
+07:03:55 analyst TEAM ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+07:03:55 analyst FIGS ['dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: FRHC"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RUSHB"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BGR"}}}
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NHC"}}}
-07:05:01 analyst 75 / 79 종목 · 오류 0
-07:05:01 wrote data/us/analyst.json 41580 bytes
-07:05:01 wrote data/us/2026-10-15.json 317003 bytes
-07:05:01 wrote data/us/latest.json 317003 bytes
-07:05:01 wrote data/us/universe.json 557995 bytes
-07:05:02 wrote data/us/signals.json 911124 bytes
-07:05:02 wrote data/us/breadth.json 2301 bytes
-07:05:02 wrote data/us/sector_rs.json 303274 bytes
-07:05:02 sector_rs 116 업종
-07:05:02 wrote data/us/cycles.json 89910 bytes
-07:05:02 cycles 127 업종
-07:05:39 wrote data/us/earnings.json 64227 bytes
-07:05:39 signals 2369
-07:05:39 wrote data/status_us.json 166 bytes
+07:04:44 analyst 72 / 76 종목 · 오류 0
+07:04:44 wrote data/us/analyst.json 41875 bytes
+07:04:44 wrote data/us/2026-10-16.json 305496 bytes
+07:04:44 wrote data/us/latest.json 305496 bytes
+07:04:44 wrote data/us/universe.json 561846 bytes
+07:04:44 wrote data/us/signals.json 916555 bytes
+07:04:44 wrote data/us/breadth.json 2493 bytes
+07:04:44 wrote data/us/sector_rs.json 328437 bytes
+07:04:44 sector_rs 116 업종
+07:04:44 wrote data/us/cycles.json 90829 bytes
+07:04:44 cycles 128 업종
+07:05:17 wrote data/us/earnings.json 66648 bytes
+07:05:17 signals 2380
+07:05:17 wrote data/status_us.json 166 bytes
