@@ -1,34 +1,36 @@
-07:02:59 universe 2369
+07:04:05 universe 2375
 
 1 Failed download:
-['ADSK']: OperationalError('database is locked')
-07:03:10 yf 200 / 2369 hist 199
-07:03:26 yf 400 / 2369 hist 399
-07:03:43 yf 600 / 2369 hist 599
-07:03:58 yf 800 / 2369 hist 799
-07:04:14 yf 1000 / 2369 hist 999
-07:04:33 yf 1200 / 2369 hist 1199
-07:04:51 yf 1400 / 2369 hist 1399
-07:05:07 yf 1600 / 2369 hist 1599
-07:05:28 yf 1800 / 2369 hist 1799
-07:05:52 yf 2000 / 2369 hist 1999
-07:06:13 yf 2200 / 2369 hist 2199
-07:06:29 yf 2369 / 2369 hist 2368
-07:06:31 yf 2 / 2 hist 2
-07:06:33 analyst MRNA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-07:06:33 analyst HTFL ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+['ADUS']: OperationalError('database is locked')
+07:04:21 yf 200 / 2375 hist 199
+07:04:39 yf 400 / 2375 hist 399
+07:04:56 yf 600 / 2375 hist 599
+07:05:21 yf 800 / 2375 hist 799
+Failed to get ticker 'GWW' reason: Failed to perform, curl: (28) Operation timed out after 10001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+07:05:44 yf 1000 / 2375 hist 999
+07:06:08 yf 1200 / 2375 hist 1199
+07:06:24 yf 1400 / 2375 hist 1399
+07:06:37 yf 1600 / 2375 hist 1599
+07:06:54 yf 1800 / 2375 hist 1799
+07:07:19 yf 2000 / 2375 hist 1999
+07:07:40 yf 2200 / 2375 hist 2199
+07:08:00 yf 2375 / 2375 hist 2374
+07:08:02 yf 2 / 2 hist 2
+07:08:04 analyst MRNA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+07:08:05 analyst TEAM ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RUSHB"}}}
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: NHC"}}}
-07:07:21 analyst 76 / 77 종목 · 오류 0
-07:07:21 wrote data/us/analyst.json 47989 bytes
-07:07:21 wrote data/us/2026-10-20.json 316402 bytes
-07:07:21 wrote data/us/latest.json 316402 bytes
-07:07:21 wrote data/us/universe.json 556643 bytes
-07:07:21 wrote data/us/signals.json 905078 bytes
-07:07:21 wrote data/us/breadth.json 2871 bytes
-07:07:21 wrote data/us/sector_rs.json 378756 bytes
-07:07:21 sector_rs 116 업종
-07:07:22 wrote data/us/cycles.json 89450 bytes
-07:07:22 cycles 127 업종
-07:08:01 wrote data/us/earnings.json 72099 bytes
-07:08:01 signals 2361
-07:08:01 wrote data/status_us.json 166 bytes
+07:08:59 analyst 75 / 77 종목 · 오류 0
+07:08:59 wrote data/us/analyst.json 49953 bytes
+07:08:59 wrote data/us/2026-10-21.json 320116 bytes
+07:08:59 wrote data/us/latest.json 320116 bytes
+07:08:59 wrote data/us/universe.json 558781 bytes
+07:08:59 wrote data/us/signals.json 907122 bytes
+07:08:59 wrote data/us/breadth.json 3060 bytes
+07:08:59 wrote data/us/sector_rs.json 403911 bytes
+07:08:59 sector_rs 116 업종
+07:08:59 wrote data/us/cycles.json 90308 bytes
+07:08:59 cycles 128 업종
+07:09:35 wrote data/us/earnings.json 77332 bytes
+07:09:35 signals 2369
+07:09:35 wrote data/status_us.json 166 bytes
