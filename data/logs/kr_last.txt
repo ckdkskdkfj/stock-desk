@@ -1,8 +1,8 @@
-16:45:20 try pykrx 20261027
+16:56:05 try pykrx 20261028
 KRX 로그인 실패: KRX_ID 또는 KRX_PW 환경 변수가 설정되지 않았습니다.
 Error occurred in get_market_ohlcv_by_ticker: Expecting value: line 1 column 1 (char 0)
-16:45:22 pykrx ohlcv fail 20261027 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
-16:45:22 FAIL pykrx: RuntimeError('pykrx: 20261027 스냅샷 없음(당일 미게시 또는 접속 차단)')
+16:56:05 pykrx ohlcv fail 20261028 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
+16:56:05 FAIL pykrx: RuntimeError('pykrx: 20261028 스냅샷 없음(당일 미게시 또는 접속 차단)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -12,27 +12,27 @@ Traceback (most recent call last):
                                               ^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 117, in load_pykrx
     raise RuntimeError(f"pykrx: {d} 스냅샷 없음(당일 미게시 또는 접속 차단)")
-RuntimeError: pykrx: 20261027 스냅샷 없음(당일 미게시 또는 접속 차단)
-16:45:22 try fdr 20261027
-16:45:24 naver hist 0 / 305
-16:45:59 naver hist 50 / 305
-16:46:30 naver hist 100 / 305
-16:47:01 naver hist 150 / 305
-16:47:31 naver hist 200 / 305
-16:48:00 naver hist 250 / 305
-16:48:29 naver hist 300 / 305
-16:48:32 wrote data/kr/2026-10-27.json 7583 bytes
-16:48:32 wrote data/kr/latest.json 7583 bytes
-16:48:32 wrote data/kr/universe.json 57519 bytes
-16:48:32 업종 캐시 2764 · naver 2026-10-12 · 빠진 종목 24
-16:48:32 wrote data/kr/signals.json 130166 bytes
-16:48:32 wrote data/kr/breadth.json 3175 bytes
-16:48:32 wrote data/kr/sector_rs.json 86494 bytes
-16:48:32 sector_rs 33 업종
-16:48:32 wrote data/kr/cycles.json 32227 bytes
-16:48:32 cycles 33 업종
-16:48:32 wrote data/kr/2026-10-27.json 7641 bytes
-16:48:32 wrote data/kr/latest.json 7641 bytes
-16:48:32 signals ok · 업종 2764
-16:48:32 wrote data/status_kr.json 168 bytes
-16:48:32 done {'raw': 68, 'pass': 2, 'basDt': '2026-10-27', 'src': 'naver'}
+RuntimeError: pykrx: 20261028 스냅샷 없음(당일 미게시 또는 접속 차단)
+16:56:05 try fdr 20261028
+16:56:08 naver hist 0 / 307
+16:56:50 naver hist 50 / 307
+16:57:27 naver hist 100 / 307
+16:58:05 naver hist 150 / 307
+16:58:40 naver hist 200 / 307
+16:59:14 naver hist 250 / 307
+16:59:47 naver hist 300 / 307
+16:59:52 wrote data/kr/2026-10-28.json 8083 bytes
+16:59:52 wrote data/kr/latest.json 8083 bytes
+16:59:52 wrote data/kr/universe.json 58107 bytes
+16:59:52 업종 캐시 2764 · naver 2026-10-12 · 빠진 종목 24
+16:59:52 wrote data/kr/signals.json 131224 bytes
+16:59:52 wrote data/kr/breadth.json 3360 bytes
+16:59:52 wrote data/kr/sector_rs.json 93618 bytes
+16:59:52 sector_rs 33 업종
+16:59:52 wrote data/kr/cycles.json 32115 bytes
+16:59:52 cycles 33 업종
+16:59:52 wrote data/kr/2026-10-28.json 8132 bytes
+16:59:52 wrote data/kr/latest.json 8132 bytes
+16:59:52 signals ok · 업종 2764
+16:59:52 wrote data/status_kr.json 168 bytes
+16:59:52 done {'raw': 96, 'pass': 2, 'basDt': '2026-10-28', 'src': 'naver'}
