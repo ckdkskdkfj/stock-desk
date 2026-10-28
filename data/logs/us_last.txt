@@ -1,31 +1,34 @@
-07:08:56 universe 2380
-07:09:11 yf 200 / 2380 hist 200
-07:09:25 yf 400 / 2380 hist 400
-07:09:41 yf 600 / 2380 hist 600
-07:09:54 yf 800 / 2380 hist 800
-07:10:13 yf 1000 / 2380 hist 1000
-07:10:36 yf 1200 / 2380 hist 1200
-07:10:55 yf 1400 / 2380 hist 1400
-07:11:16 yf 1600 / 2380 hist 1600
-07:11:34 yf 1800 / 2380 hist 1800
-07:11:53 yf 2000 / 2380 hist 2000
-07:12:09 yf 2200 / 2380 hist 2200
-07:12:22 yf 2380 / 2380 hist 2380
-07:12:23 yf 2 / 2 hist 2
-07:12:25 analyst CAI ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-07:12:26 analyst HTFL ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BUUU"}}}
-07:12:57 analyst 52 / 53 종목 · 오류 0
-07:12:57 wrote data/us/analyst.json 34646 bytes
-07:12:57 wrote data/us/2026-10-27.json 218426 bytes
-07:12:57 wrote data/us/latest.json 218426 bytes
-07:12:57 wrote data/us/universe.json 559915 bytes
-07:12:57 wrote data/us/signals.json 907858 bytes
-07:12:57 wrote data/us/breadth.json 3820 bytes
-07:12:57 wrote data/us/sector_rs.json 505149 bytes
-07:12:57 sector_rs 117 업종
-07:12:57 wrote data/us/cycles.json 88435 bytes
-07:12:57 cycles 128 업종
-07:13:35 wrote data/us/earnings.json 83115 bytes
-07:13:35 signals 2372
-07:13:35 wrote data/status_us.json 166 bytes
+07:13:01 universe 2384
+
+1 Failed download:
+['AIZ']: OperationalError('database is locked')
+07:13:17 yf 200 / 2384 hist 199
+07:13:35 yf 400 / 2384 hist 399
+07:13:57 yf 600 / 2384 hist 599
+07:14:14 yf 800 / 2384 hist 799
+07:14:30 yf 1000 / 2384 hist 999
+07:14:47 yf 1200 / 2384 hist 1199
+07:15:03 yf 1400 / 2384 hist 1399
+07:15:19 yf 1600 / 2384 hist 1599
+07:15:35 yf 1800 / 2384 hist 1799
+07:15:51 yf 2000 / 2384 hist 1999
+07:16:08 yf 2200 / 2384 hist 2199
+07:16:24 yf 2384 / 2384 hist 2383
+07:16:26 yf 2 / 2 hist 2
+07:16:28 analyst GMAB ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+07:16:28 analyst CAI ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: RUSHB"}}}
+07:17:13 analyst 77 / 78 종목 · 오류 0
+07:17:13 wrote data/us/analyst.json 53804 bytes
+07:17:13 wrote data/us/2026-10-28.json 325738 bytes
+07:17:13 wrote data/us/latest.json 325738 bytes
+07:17:13 wrote data/us/universe.json 561136 bytes
+07:17:13 wrote data/us/signals.json 911040 bytes
+07:17:13 wrote data/us/breadth.json 4009 bytes
+07:17:13 wrote data/us/sector_rs.json 530085 bytes
+07:17:13 sector_rs 115 업종
+07:17:14 wrote data/us/cycles.json 88016 bytes
+07:17:14 cycles 127 업종
+07:17:53 wrote data/us/earnings.json 79532 bytes
+07:17:53 signals 2376
+07:17:53 wrote data/status_us.json 166 bytes
