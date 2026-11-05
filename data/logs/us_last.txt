@@ -1,31 +1,33 @@
-10:36:58 universe 2378
-10:37:09 yf 200 / 2378 hist 200
-10:37:22 yf 400 / 2378 hist 400
-10:37:35 yf 600 / 2378 hist 600
-10:37:47 yf 800 / 2378 hist 800
-10:38:00 yf 1000 / 2378 hist 1000
-10:38:12 yf 1200 / 2378 hist 1200
-10:38:25 yf 1400 / 2378 hist 1400
-10:38:37 yf 1600 / 2378 hist 1600
-10:38:49 yf 1800 / 2378 hist 1800
-10:39:02 yf 2000 / 2378 hist 2000
-10:39:14 yf 2200 / 2378 hist 2200
-10:39:26 yf 2378 / 2378 hist 2378
-10:39:27 yf 2 / 2 hist 2
-10:39:29 analyst SG ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-10:39:30 analyst GDYN ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+10:44:45 universe 2377
+10:44:53 yf 200 / 2377 hist 200
+10:45:01 yf 400 / 2377 hist 400
+10:45:10 yf 600 / 2377 hist 600
+10:45:18 yf 800 / 2377 hist 800
+10:45:27 yf 1000 / 2377 hist 1000
+10:45:35 yf 1200 / 2377 hist 1200
+10:45:43 yf 1400 / 2377 hist 1400
+10:45:52 yf 1600 / 2377 hist 1600
+10:46:00 yf 1800 / 2377 hist 1800
+10:46:09 yf 2000 / 2377 hist 2000
+10:46:17 yf 2200 / 2377 hist 2200
+10:46:25 yf 2377 / 2377 hist 2377
+10:46:27 yf 2 / 2 hist 2
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BUUU"}}}
+10:46:29 analyst BUUU []
+10:46:29 analyst IBTA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CRVL"}}}
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: FRHC"}}}
-10:40:21 analyst 89 / 90 종목 · 오류 0
-10:40:21 wrote data/us/analyst.json 68568 bytes
-10:40:21 wrote data/us/2026-11-02.json 440384 bytes
-10:40:21 wrote data/us/latest.json 440384 bytes
-10:40:21 wrote data/us/universe.json 556445 bytes
-10:40:22 wrote data/us/signals.json 914624 bytes
-10:40:22 wrote data/us/breadth.json 4582 bytes
-10:40:22 wrote data/us/sector_rs.json 604896 bytes
-10:40:22 sector_rs 115 업종
-10:40:22 wrote data/us/cycles.json 90544 bytes
-10:40:22 cycles 128 업종
-10:40:57 wrote data/us/earnings.json 63802 bytes
-10:40:57 signals 2373
-10:40:57 wrote data/status_us.json 168 bytes
+10:46:59 analyst 56 / 59 종목 · 오류 0
+10:46:59 wrote data/us/analyst.json 43774 bytes
+10:46:59 wrote data/us/2026-11-03.json 249535 bytes
+10:46:59 wrote data/us/latest.json 249535 bytes
+10:46:59 wrote data/us/universe.json 557080 bytes
+10:47:00 wrote data/us/signals.json 908888 bytes
+10:47:00 wrote data/us/breadth.json 4771 bytes
+10:47:00 wrote data/us/sector_rs.json 629820 bytes
+10:47:00 sector_rs 115 업종
+10:47:00 wrote data/us/cycles.json 90768 bytes
+10:47:00 cycles 128 업종
+10:47:35 wrote data/us/earnings.json 52923 bytes
+10:47:35 signals 2373
+10:47:35 wrote data/status_us.json 166 bytes
