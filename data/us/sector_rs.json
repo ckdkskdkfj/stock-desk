@@ -42381,6 +42381,1621 @@
     }
    ],
    "date": "2026-11-04"
+  },
+  {
+   "sectors": [
+    {
+     "sector": "Other Pharmaceuticals",
+     "n": 4,
+     "r60": 22.0,
+     "r20": 15.2,
+     "rsr": 88.5,
+     "a20": 100,
+     "nh60": 1,
+     "top": [
+      "HLF",
+      "MCK",
+      "CAH"
+     ]
+    },
+    {
+     "sector": "Package Goods/Cosmetics",
+     "n": 11,
+     "r60": 14.6,
+     "r20": 11.2,
+     "rsr": 84.5,
+     "a20": 82,
+     "nh60": 2,
+     "top": [
+      "ODD",
+      "COTY",
+      "EL"
+     ]
+    },
+    {
+     "sector": "Professional Services",
+     "n": 13,
+     "r60": 11.4,
+     "r20": 18.2,
+     "rsr": 79.4,
+     "a20": 77,
+     "nh60": 0,
+     "top": [
+      "AMN",
+      "FCN",
+      "EXPO"
+     ]
+    },
+    {
+     "sector": "Beverages (Production/Distribution)",
+     "n": 18,
+     "r60": 8.8,
+     "r20": 13.2,
+     "rsr": 77.3,
+     "a20": 100,
+     "nh60": 2,
+     "top": [
+      "KDP",
+      "WEST",
+      "SAM"
+     ]
+    },
+    {
+     "sector": "Consumer Specialties",
+     "n": 4,
+     "r60": 7.5,
+     "r20": 17.3,
+     "rsr": 77.2,
+     "a20": 75,
+     "nh60": 0,
+     "top": [
+      "SIG",
+      "CENT",
+      "CENTA"
+     ]
+    },
+    {
+     "sector": "Environmental Services",
+     "n": 6,
+     "r60": 12.8,
+     "r20": 15.0,
+     "rsr": 75.5,
+     "a20": 83,
+     "nh60": 2,
+     "top": [
+      "RSG",
+      "WCN",
+      "GFL"
+     ]
+    },
+    {
+     "sector": "Food Chains",
+     "n": 8,
+     "r60": 14.7,
+     "r20": 10.1,
+     "rsr": 74.8,
+     "a20": 62,
+     "nh60": 0,
+     "top": [
+      "TBBB",
+      "GO",
+      "KR"
+     ]
+    },
+    {
+     "sector": "Hospital/Nursing Management",
+     "n": 13,
+     "r60": 13.2,
+     "r20": 14.0,
+     "rsr": 74.5,
+     "a20": 85,
+     "nh60": 2,
+     "top": [
+      "SGRY",
+      "ARDT",
+      "HCA"
+     ]
+    },
+    {
+     "sector": "Medicinal Chemicals and Botanical Products",
+     "n": 7,
+     "r60": 13.0,
+     "r20": 5.1,
+     "rsr": 74.4,
+     "a20": 57,
+     "nh60": 2,
+     "top": [
+      "MO",
+      "TRLV",
+      "CRON"
+     ]
+    },
+    {
+     "sector": "Garments and Clothing",
+     "n": 5,
+     "r60": 11.3,
+     "r20": 13.7,
+     "rsr": 74.4,
+     "a20": 80,
+     "nh60": 0,
+     "top": [
+      "VFC",
+      "PVH",
+      "CTAS"
+     ]
+    },
+    {
+     "sector": "Biotechnology: Commercial Physical & Biological Resarch",
+     "n": 6,
+     "r60": 9.6,
+     "r20": 5.0,
+     "rsr": 74.2,
+     "a20": 33,
+     "nh60": 0,
+     "top": [
+      "ICLR",
+      "CRL",
+      "IQV"
+     ]
+    },
+    {
+     "sector": "Misc Health and Biotechnology Services",
+     "n": 4,
+     "r60": 31.9,
+     "r20": 23.5,
+     "rsr": 74.0,
+     "a20": 75,
+     "nh60": 2,
+     "top": [
+      "PGNY",
+      "AGL",
+      "DVA"
+     ]
+    },
+    {
+     "sector": "Water Supply",
+     "n": 6,
+     "r60": 2.1,
+     "r20": 12.1,
+     "rsr": 72.3,
+     "a20": 100,
+     "nh60": 2,
+     "top": [
+      "WTRG",
+      "AWK",
+      "MSEX"
+     ]
+    },
+    {
+     "sector": "Department/Specialty Retail Stores",
+     "n": 12,
+     "r60": 10.1,
+     "r20": 12.3,
+     "rsr": 71.7,
+     "a20": 83,
+     "nh60": 1,
+     "top": [
+      "KSS",
+      "BJ",
+      "OLLI"
+     ]
+    },
+    {
+     "sector": "Biotechnology: Laboratory Analytical Instruments",
+     "n": 9,
+     "r60": 8.7,
+     "r20": 2.1,
+     "rsr": 71.2,
+     "a20": 44,
+     "nh60": 0,
+     "top": [
+      "RVTY",
+      "A",
+      "MTD"
+     ]
+    },
+    {
+     "sector": "Medical Specialities",
+     "n": 30,
+     "r60": 8.8,
+     "r20": 6.4,
+     "rsr": 69.9,
+     "a20": 50,
+     "nh60": 2,
+     "top": [
+      "GRAL",
+      "CDNA",
+      "CON"
+     ]
+    },
+    {
+     "sector": "Property-Casualty Insurers",
+     "n": 47,
+     "r60": 6.2,
+     "r20": 7.7,
+     "rsr": 69.9,
+     "a20": 81,
+     "nh60": 7,
+     "top": [
+      "KMPR",
+      "SLDE",
+      "PLMR"
+     ]
+    },
+    {
+     "sector": "Clothing/Shoe/Accessory Stores",
+     "n": 9,
+     "r60": 10.7,
+     "r20": 8.2,
+     "rsr": 69.0,
+     "a20": 44,
+     "nh60": 0,
+     "top": [
+      "ANF",
+      "AEO",
+      "VSXY"
+     ]
+    },
+    {
+     "sector": "Power Generation",
+     "n": 15,
+     "r60": 4.9,
+     "r20": 9.9,
+     "rsr": 68.9,
+     "a20": 100,
+     "nh60": 4,
+     "top": [
+      "NWE",
+      "ED",
+      "WEC"
+     ]
+    },
+    {
+     "sector": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
+     "n": 7,
+     "r60": 6.8,
+     "r20": 17.1,
+     "rsr": 68.1,
+     "a20": 71,
+     "nh60": 0,
+     "top": [
+      "MDT",
+      "CBLL",
+      "LIVN"
+     ]
+    },
+    {
+     "sector": "Medical/Nursing Services",
+     "n": 15,
+     "r60": 9.8,
+     "r20": 7.1,
+     "rsr": 67.9,
+     "a20": 67,
+     "nh60": 2,
+     "top": [
+      "AVAH",
+      "TDOC",
+      "OPCH"
+     ]
+    },
+    {
+     "sector": "Computer Software: Prepackaged Software",
+     "n": 116,
+     "r60": 9.1,
+     "r20": 3.8,
+     "rsr": 67.0,
+     "a20": 42,
+     "nh60": 7,
+     "top": [
+      "BRZE",
+      "GDYN",
+      "NTSK"
+     ]
+    },
+    {
+     "sector": "Shoe Manufacturing",
+     "n": 7,
+     "r60": 1.0,
+     "r20": 12.0,
+     "rsr": 66.9,
+     "a20": 86,
+     "nh60": 0,
+     "top": [
+      "ONON",
+      "WWW",
+      "CROX"
+     ]
+    },
+    {
+     "sector": "Specialty Chemicals",
+     "n": 4,
+     "r60": 2.1,
+     "r20": 18.9,
+     "rsr": 66.2,
+     "a20": 100,
+     "nh60": 0,
+     "top": [
+      "HWKN",
+      "ASH",
+      "CSL"
+     ]
+    },
+    {
+     "sector": "Specialty Insurers",
+     "n": 20,
+     "r60": 3.1,
+     "r20": 13.0,
+     "rsr": 65.7,
+     "a20": 85,
+     "nh60": 2,
+     "top": [
+      "HGTY",
+      "ARX",
+      "CRVL"
+     ]
+    },
+    {
+     "sector": "Catalog/Specialty Distribution",
+     "n": 9,
+     "r60": 0.6,
+     "r20": 6.6,
+     "rsr": 65.6,
+     "a20": 67,
+     "nh60": 1,
+     "top": [
+      "GCT",
+      "CDW",
+      "W"
+     ]
+    },
+    {
+     "sector": "Integrated oil Companies",
+     "n": 15,
+     "r60": 4.1,
+     "r20": -12.3,
+     "rsr": 64.7,
+     "a20": 0,
+     "nh60": 0,
+     "top": [
+      "CVI",
+      "PSX",
+      "CVX"
+     ]
+    },
+    {
+     "sector": "Business Services",
+     "n": 45,
+     "r60": 1.2,
+     "r20": 10.2,
+     "rsr": 64.1,
+     "a20": 67,
+     "nh60": 5,
+     "top": [
+      "ACN",
+      "ANDG",
+      "RSKD"
+     ]
+    },
+    {
+     "sector": "Publishing",
+     "n": 5,
+     "r60": 9.6,
+     "r20": -4.5,
+     "rsr": 64.0,
+     "a20": 60,
+     "nh60": 1,
+     "top": [
+      "DLX",
+      "TRI",
+      "WBTN"
+     ]
+    },
+    {
+     "sector": "Biotechnology: Biological Products (No Diagnostic Substances)",
+     "n": 40,
+     "r60": 3.8,
+     "r20": 2.4,
+     "rsr": 63.0,
+     "a20": 52,
+     "nh60": 2,
+     "top": [
+      "MRNA",
+      "KOD",
+      "EXEL"
+     ]
+    },
+    {
+     "sector": "Broadcasting",
+     "n": 9,
+     "r60": 2.1,
+     "r20": 7.0,
+     "rsr": 62.4,
+     "a20": 100,
+     "nh60": 0,
+     "top": [
+      "SPOT",
+      "SIRI",
+      "FOXA"
+     ]
+    },
+    {
+     "sector": "Recreational Games/Products/Toys",
+     "n": 6,
+     "r60": 2.2,
+     "r20": 15.0,
+     "rsr": 62.3,
+     "a20": 83,
+     "nh60": 0,
+     "top": [
+      "HAS",
+      "PTON",
+      "MAT"
+     ]
+    },
+    {
+     "sector": "Other Specialty Stores",
+     "n": 14,
+     "r60": 6.1,
+     "r20": 16.9,
+     "rsr": 61.4,
+     "a20": 57,
+     "nh60": 1,
+     "top": [
+      "ASO",
+      "ARHS",
+      "ULTA"
+     ]
+    },
+    {
+     "sector": "Forest Products",
+     "n": 5,
+     "r60": -1.4,
+     "r20": 18.3,
+     "rsr": 61.4,
+     "a20": 100,
+     "nh60": 0,
+     "top": [
+      "TREX",
+      "LPX",
+      "WFG"
+     ]
+    },
+    {
+     "sector": "Ophthalmic Goods",
+     "n": 6,
+     "r60": 4.0,
+     "r20": 17.0,
+     "rsr": 61.3,
+     "a20": 100,
+     "nh60": 0,
+     "top": [
+      "BLCO",
+      "STAA",
+      "ALC"
+     ]
+    },
+    {
+     "sector": "Auto & Home Supply Stores",
+     "n": 4,
+     "r60": 1.2,
+     "r20": 13.5,
+     "rsr": 60.8,
+     "a20": 100,
+     "nh60": 0,
+     "top": [
+      "AZO",
+      "HZO",
+      "ORLY"
+     ]
+    },
+    {
+     "sector": "Railroads",
+     "n": 8,
+     "r60": 1.2,
+     "r20": 8.3,
+     "rsr": 60.6,
+     "a20": 75,
+     "nh60": 0,
+     "top": [
+      "TRN",
+      "UNP",
+      "CSX"
+     ]
+    },
+    {
+     "sector": "EDP Services",
+     "n": 50,
+     "r60": 9.4,
+     "r20": 10.9,
+     "rsr": 60.3,
+     "a20": 56,
+     "nh60": 5,
+     "top": [
+      "EPAM",
+      "DXC",
+      "HNGE"
+     ]
+    },
+    {
+     "sector": "Agricultural Chemicals",
+     "n": 5,
+     "r60": -1.2,
+     "r20": 4.4,
+     "rsr": 60.0,
+     "a20": 80,
+     "nh60": 0,
+     "top": [
+      "NTR",
+      "SMG",
+      "CF"
+     ]
+    },
+    {
+     "sector": "Diversified Commercial Services",
+     "n": 21,
+     "r60": -0.7,
+     "r20": 7.6,
+     "rsr": 59.9,
+     "a20": 62,
+     "nh60": 3,
+     "top": [
+      "ADT",
+      "UPBD",
+      "ALLE"
+     ]
+    },
+    {
+     "sector": "Oil/Gas Transmission",
+     "n": 9,
+     "r60": 1.8,
+     "r20": 7.2,
+     "rsr": 59.9,
+     "a20": 67,
+     "nh60": 1,
+     "top": [
+      "SR",
+      "LNG",
+      "ATO"
+     ]
+    },
+    {
+     "sector": "Specialty Foods",
+     "n": 4,
+     "r60": 1.7,
+     "r20": 11.6,
+     "rsr": 59.8,
+     "a20": 100,
+     "nh60": 0,
+     "top": [
+      "MICC",
+      "JJSF",
+      "TR"
+     ]
+    },
+    {
+     "sector": "Medical/Dental Instruments",
+     "n": 40,
+     "r60": -1.7,
+     "r20": 8.0,
+     "rsr": 59.7,
+     "a20": 70,
+     "nh60": 2,
+     "top": [
+      "HTFL",
+      "HAE",
+      "ATRC"
+     ]
+    },
+    {
+     "sector": "Finance Companies",
+     "n": 9,
+     "r60": -7.9,
+     "r20": -3.2,
+     "rsr": 59.7,
+     "a20": 22,
+     "nh60": 1,
+     "top": [
+      "ECPG",
+      "JCAP",
+      "AGM"
+     ]
+    },
+    {
+     "sector": "Apparel",
+     "n": 13,
+     "r60": -0.5,
+     "r20": 15.8,
+     "rsr": 59.0,
+     "a20": 92,
+     "nh60": 0,
+     "top": [
+      "FIGS",
+      "CPRI",
+      "COLM"
+     ]
+    },
+    {
+     "sector": "Hotels/Resorts",
+     "n": 23,
+     "r60": 0.5,
+     "r20": 10.1,
+     "rsr": 57.6,
+     "a20": 83,
+     "nh60": 1,
+     "top": [
+      "PLNT",
+      "MAR",
+      "OSW"
+     ]
+    },
+    {
+     "sector": "Marine Transportation",
+     "n": 33,
+     "r60": -0.3,
+     "r20": -14.0,
+     "rsr": 57.6,
+     "a20": 24,
+     "nh60": 0,
+     "top": [
+      "ECO",
+      "TRMD",
+      "FRO"
+     ]
+    },
+    {
+     "sector": "Office Equipment/Supplies/Services",
+     "n": 7,
+     "r60": -1.9,
+     "r20": 3.0,
+     "rsr": 57.6,
+     "a20": 71,
+     "nh60": 1,
+     "top": [
+      "VYX",
+      "GWW",
+      "NATL"
+     ]
+    },
+    {
+     "sector": "Meat/Poultry/Fish",
+     "n": 5,
+     "r60": -2.4,
+     "r20": 3.8,
+     "rsr": 56.4,
+     "a20": 100,
+     "nh60": 0,
+     "top": [
+      "TSN",
+      "PPC",
+      "JBS"
+     ]
+    },
+    {
+     "sector": "Industrial Specialties",
+     "n": 20,
+     "r60": 0.5,
+     "r20": 18.7,
+     "rsr": 55.5,
+     "a20": 65,
+     "nh60": 3,
+     "top": [
+      "ISRG",
+      "ENOV",
+      "MAS"
+     ]
+    },
+    {
+     "sector": "Packaged Foods",
+     "n": 22,
+     "r60": -1.0,
+     "r20": 10.1,
+     "rsr": 55.3,
+     "a20": 73,
+     "nh60": 0,
+     "top": [
+      "SMPL",
+      "SJM",
+      "MDLZ"
+     ]
+    },
+    {
+     "sector": "Containers/Packaging",
+     "n": 12,
+     "r60": -1.3,
+     "r20": 11.9,
+     "rsr": 54.6,
+     "a20": 92,
+     "nh60": 0,
+     "top": [
+      "BALL",
+      "AVY",
+      "SLGN"
+     ]
+    },
+    {
+     "sector": "Restaurants",
+     "n": 21,
+     "r60": -4.2,
+     "r20": 13.9,
+     "rsr": 54.1,
+     "a20": 76,
+     "nh60": 0,
+     "top": [
+      "SG",
+      "WING",
+      "CBRL"
+     ]
+    },
+    {
+     "sector": "Real Estate Investment Trusts",
+     "n": 98,
+     "r60": -3.4,
+     "r20": 8.1,
+     "rsr": 53.8,
+     "a20": 85,
+     "nh60": 2,
+     "top": [
+      "CCI",
+      "LTC",
+      "HHH"
+     ]
+    },
+    {
+     "sector": "Homebuilding",
+     "n": 20,
+     "r60": -0.8,
+     "r20": 15.9,
+     "rsr": 52.3,
+     "a20": 90,
+     "nh60": 0,
+     "top": [
+      "DHI",
+      "LEN",
+      "CVCO"
+     ]
+    },
+    {
+     "sector": "Computer Manufacturing",
+     "n": 6,
+     "r60": 2.4,
+     "r20": 1.1,
+     "rsr": 52.2,
+     "a20": 50,
+     "nh60": 0,
+     "top": [
+      "AAPL",
+      "IBM",
+      "OMCL"
+     ]
+    },
+    {
+     "sector": "Finance/Investors Services",
+     "n": 7,
+     "r60": -6.4,
+     "r20": -1.5,
+     "rsr": 51.5,
+     "a20": 43,
+     "nh60": 0,
+     "top": [
+      "MAIN",
+      "HASI",
+      "CET"
+     ]
+    },
+    {
+     "sector": "Transportation Services",
+     "n": 11,
+     "r60": -7.7,
+     "r20": -3.0,
+     "rsr": 51.2,
+     "a20": 36,
+     "nh60": 0,
+     "top": [
+      "HAFN",
+      "RXO",
+      "GXO"
+     ]
+    },
+    {
+     "sector": "Accident &Health Insurance",
+     "n": 4,
+     "r60": 4.0,
+     "r20": 5.4,
+     "rsr": 51.0,
+     "a20": 75,
+     "nh60": 1,
+     "top": [
+      "AFL",
+      "PFG",
+      "UNM"
+     ]
+    },
+    {
+     "sector": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
+     "n": 6,
+     "r60": -0.0,
+     "r20": 0.6,
+     "rsr": 50.7,
+     "a20": 50,
+     "nh60": 0,
+     "top": [
+      "IDXX",
+      "NEOG",
+      "LNTH"
+     ]
+    },
+    {
+     "sector": "Food Distributors",
+     "n": 6,
+     "r60": -3.7,
+     "r20": 10.0,
+     "rsr": 50.7,
+     "a20": 50,
+     "nh60": 0,
+     "top": [
+      "PFGC",
+      "DPZ",
+      "USFD"
+     ]
+    },
+    {
+     "sector": "Services-Misc. Amusement & Recreation",
+     "n": 21,
+     "r60": -3.1,
+     "r20": 4.1,
+     "rsr": 50.4,
+     "a20": 76,
+     "nh60": 0,
+     "top": [
+      "BUUU",
+      "WMG",
+      "PRSU"
+     ]
+    },
+    {
+     "sector": "Cable & Other Pay Television Services",
+     "n": 11,
+     "r60": -4.9,
+     "r20": 4.3,
+     "rsr": 49.1,
+     "a20": 73,
+     "nh60": 0,
+     "top": [
+      "ROKU",
+      "LILAK",
+      "LILA"
+     ]
+    },
+    {
+     "sector": "Electric Utilities: Central",
+     "n": 40,
+     "r60": -1.4,
+     "r20": 4.9,
+     "rsr": 49.1,
+     "a20": 58,
+     "nh60": 1,
+     "top": [
+      "BKH",
+      "FTS",
+      "OGE"
+     ]
+    },
+    {
+     "sector": "RETAIL: Building Materials",
+     "n": 9,
+     "r60": -3.1,
+     "r20": 9.3,
+     "rsr": 49.0,
+     "a20": 89,
+     "nh60": 0,
+     "top": [
+      "LOW",
+      "HD",
+      "FAST"
+     ]
+    },
+    {
+     "sector": "Auto Manufacturing",
+     "n": 13,
+     "r60": -9.4,
+     "r20": 2.3,
+     "rsr": 48.9,
+     "a20": 69,
+     "nh60": 2,
+     "top": [
+      "TM",
+      "HMC",
+      "TSLA"
+     ]
+    },
+    {
+     "sector": "Retail-Auto Dealers and Gas Stations",
+     "n": 14,
+     "r60": -2.7,
+     "r20": 7.4,
+     "rsr": 48.6,
+     "a20": 79,
+     "nh60": 0,
+     "top": [
+      "RUSHB",
+      "CPRT",
+      "OPLN"
+     ]
+    },
+    {
+     "sector": "Life Insurance",
+     "n": 16,
+     "r60": -7.0,
+     "r20": 1.8,
+     "rsr": 47.5,
+     "a20": 38,
+     "nh60": 0,
+     "top": [
+      "RGA",
+      "MET",
+      "JXN"
+     ]
+    },
+    {
+     "sector": "Computer Software: Programming Data Processing",
+     "n": 29,
+     "r60": -7.9,
+     "r20": -5.3,
+     "rsr": 47.4,
+     "a20": 31,
+     "nh60": 2,
+     "top": [
+      "TEM",
+      "EVER",
+      "FDS"
+     ]
+    },
+    {
+     "sector": "Major Banks",
+     "n": 131,
+     "r60": -5.6,
+     "r20": 3.5,
+     "rsr": 47.4,
+     "a20": 73,
+     "nh60": 0,
+     "top": [
+      "EGBN",
+      "CBC",
+      "SBSI"
+     ]
+    },
+    {
+     "sector": "Consumer Electronics/Appliances",
+     "n": 10,
+     "r60": -0.7,
+     "r20": 3.0,
+     "rsr": 47.2,
+     "a20": 50,
+     "nh60": 0,
+     "top": [
+      "SN",
+      "OTIS",
+      "AOS"
+     ]
+    },
+    {
+     "sector": "Investment Managers",
+     "n": 39,
+     "r60": -8.0,
+     "r20": 3.6,
+     "rsr": 47.0,
+     "a20": 69,
+     "nh60": 1,
+     "top": [
+      "PS",
+      "MORN",
+      "HLI"
+     ]
+    },
+    {
+     "sector": "Major Chemicals",
+     "n": 33,
+     "r60": -8.1,
+     "r20": 1.6,
+     "rsr": 46.8,
+     "a20": 52,
+     "nh60": 0,
+     "top": [
+      "MEOH",
+      "CE",
+      "LIN"
+     ]
+    },
+    {
+     "sector": "Farming/Seeds/Milling",
+     "n": 11,
+     "r60": -8.2,
+     "r20": -5.9,
+     "rsr": 46.1,
+     "a20": 36,
+     "nh60": 0,
+     "top": [
+      "DOLE",
+      "CTVA",
+      "BV"
+     ]
+    },
+    {
+     "sector": "Home Furnishings",
+     "n": 8,
+     "r60": -1.8,
+     "r20": 8.6,
+     "rsr": 46.1,
+     "a20": 75,
+     "nh60": 0,
+     "top": [
+      "MHK",
+      "WSM",
+      "SGI"
+     ]
+    },
+    {
+     "sector": "Biotechnology: Pharmaceutical Preparations",
+     "n": 127,
+     "r60": -9.6,
+     "r20": 2.2,
+     "rsr": 45.8,
+     "a20": 52,
+     "nh60": 1,
+     "top": [
+      "GMAB",
+      "XNCR",
+      "XERS"
+     ]
+    },
+    {
+     "sector": "Plastic Products",
+     "n": 6,
+     "r60": -7.0,
+     "r20": -4.2,
+     "rsr": 45.5,
+     "a20": 33,
+     "nh60": 0,
+     "top": [
+      "ATR",
+      "KRT",
+      "AWI"
+     ]
+    },
+    {
+     "sector": "Investment Bankers/Brokers/Service",
+     "n": 43,
+     "r60": -6.7,
+     "r20": 1.9,
+     "rsr": 45.1,
+     "a20": 56,
+     "nh60": 1,
+     "top": [
+      "TW",
+      "CBOE",
+      "CME"
+     ]
+    },
+    {
+     "sector": "Other Consumer Services",
+     "n": 17,
+     "r60": -10.6,
+     "r20": -6.0,
+     "rsr": 45.0,
+     "a20": 29,
+     "nh60": 0,
+     "top": [
+      "DFIN",
+      "CRAI",
+      "IT"
+     ]
+    },
+    {
+     "sector": "Oil & Gas Production",
+     "n": 54,
+     "r60": -7.1,
+     "r20": -7.9,
+     "rsr": 44.6,
+     "a20": 6,
+     "nh60": 0,
+     "top": [
+      "RRC",
+      "APA",
+      "PDS"
+     ]
+    },
+    {
+     "sector": "Savings Institutions",
+     "n": 8,
+     "r60": -5.8,
+     "r20": 3.2,
+     "rsr": 44.4,
+     "a20": 75,
+     "nh60": 0,
+     "top": [
+      "EBC",
+      "CFFN",
+      "CLBK"
+     ]
+    },
+    {
+     "sector": "Building Materials",
+     "n": 6,
+     "r60": -7.1,
+     "r20": 14.0,
+     "rsr": 44.2,
+     "a20": 83,
+     "nh60": 0,
+     "top": [
+      "CRH",
+      "CX",
+      "JHX"
+     ]
+    },
+    {
+     "sector": "Air Freight/Delivery Services",
+     "n": 12,
+     "r60": -5.1,
+     "r20": 5.4,
+     "rsr": 43.2,
+     "a20": 92,
+     "nh60": 0,
+     "top": [
+      "ULCC",
+      "CPA",
+      "ALGT"
+     ]
+    },
+    {
+     "sector": "Finance: Consumer Services",
+     "n": 57,
+     "r60": -6.7,
+     "r20": -3.7,
+     "rsr": 42.9,
+     "a20": 44,
+     "nh60": 1,
+     "top": [
+      "ASST",
+      "PURR",
+      "SEZL"
+     ]
+    },
+    {
+     "sector": "Natural Gas Distribution",
+     "n": 16,
+     "r60": -6.5,
+     "r20": -6.6,
+     "rsr": 42.6,
+     "a20": 12,
+     "nh60": 0,
+     "top": [
+      "DINO",
+      "UGI",
+      "TRGP"
+     ]
+    },
+    {
+     "sector": "Real Estate",
+     "n": 21,
+     "r60": -7.5,
+     "r20": 4.0,
+     "rsr": 42.6,
+     "a20": 71,
+     "nh60": 0,
+     "top": [
+      "FSV",
+      "CSGP",
+      "JLL"
+     ]
+    },
+    {
+     "sector": "Commercial Banks",
+     "n": 22,
+     "r60": -6.5,
+     "r20": -2.4,
+     "rsr": 41.3,
+     "a20": 50,
+     "nh60": 1,
+     "top": [
+      "IBN",
+      "HDB",
+      "TD"
+     ]
+    },
+    {
+     "sector": "Integrated Freight & Logistics",
+     "n": 4,
+     "r60": -3.5,
+     "r20": -2.5,
+     "rsr": 40.5,
+     "a20": 25,
+     "nh60": 0,
+     "top": [
+      "EXPD",
+      "BCO",
+      "CHRW"
+     ]
+    },
+    {
+     "sector": "Industrial Machinery/Components",
+     "n": 101,
+     "r60": -13.8,
+     "r20": -5.2,
+     "rsr": 37.3,
+     "a20": 39,
+     "nh60": 4,
+     "top": [
+      "CRCT",
+      "ROP",
+      "VNT"
+     ]
+    },
+    {
+     "sector": "Computer peripheral equipment",
+     "n": 4,
+     "r60": -4.9,
+     "r20": -3.3,
+     "rsr": 36.8,
+     "a20": 0,
+     "nh60": 0,
+     "top": [
+      "CRSR",
+      "LOGI",
+      "PANW"
+     ]
+    },
+    {
+     "sector": "Construction/Ag Equipment/Trucks",
+     "n": 4,
+     "r60": -8.0,
+     "r20": 4.1,
+     "rsr": 36.0,
+     "a20": 50,
+     "nh60": 0,
+     "top": [
+      "CNH",
+      "BLBD",
+      "TEX"
+     ]
+    },
+    {
+     "sector": "Telecommunications Equipment",
+     "n": 36,
+     "r60": -15.4,
+     "r20": -10.2,
+     "rsr": 35.7,
+     "a20": 22,
+     "nh60": 0,
+     "top": [
+      "VEON",
+      "IDT",
+      "CHT"
+     ]
+    },
+    {
+     "sector": "Precious Metals",
+     "n": 37,
+     "r60": -12.7,
+     "r20": -6.0,
+     "rsr": 35.5,
+     "a20": 46,
+     "nh60": 0,
+     "top": [
+      "RGLD",
+      "FNV",
+      "OR"
+     ]
+    },
+    {
+     "sector": "Coal Mining",
+     "n": 5,
+     "r60": -16.5,
+     "r20": -15.1,
+     "rsr": 35.4,
+     "a20": 20,
+     "nh60": 0,
+     "top": [
+      "NRP",
+      "AMR",
+      "HCC"
+     ]
+    },
+    {
+     "sector": "Auto Parts:O.E.M.",
+     "n": 22,
+     "r60": -9.9,
+     "r20": -3.1,
+     "rsr": 35.3,
+     "a20": 36,
+     "nh60": 0,
+     "top": [
+      "SMP",
+      "DORM",
+      "ALV"
+     ]
+    },
+    {
+     "sector": "Fluid Controls",
+     "n": 6,
+     "r60": -9.5,
+     "r20": -1.9,
+     "rsr": 34.2,
+     "a20": 17,
+     "nh60": 0,
+     "top": [
+      "FLS",
+      "IEX",
+      "ITT"
+     ]
+    },
+    {
+     "sector": "Aerospace",
+     "n": 17,
+     "r60": -10.9,
+     "r20": 4.1,
+     "rsr": 34.1,
+     "a20": 59,
+     "nh60": 0,
+     "top": [
+      "BETA",
+      "EMBJ",
+      "OMAB"
+     ]
+    },
+    {
+     "sector": "Steel/Iron Ore",
+     "n": 10,
+     "r60": -10.3,
+     "r20": -1.4,
+     "rsr": 33.3,
+     "a20": 0,
+     "nh60": 0,
+     "top": [
+      "WOR",
+      "WS",
+      "GGB"
+     ]
+    },
+    {
+     "sector": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+     "n": 11,
+     "r60": -15.1,
+     "r20": -7.6,
+     "rsr": 31.5,
+     "a20": 36,
+     "nh60": 0,
+     "top": [
+      "VMC",
+      "USLM",
+      "MLM"
+     ]
+    },
+    {
+     "sector": "Retail: Computer Software & Peripheral Equipment",
+     "n": 4,
+     "r60": -12.8,
+     "r20": -11.4,
+     "rsr": 29.2,
+     "a20": 0,
+     "nh60": 0,
+     "top": [
+      "PLUS",
+      "INGM",
+      "SNX"
+     ]
+    },
+    {
+     "sector": "Military/Government/Technical",
+     "n": 28,
+     "r60": -16.6,
+     "r20": -3.1,
+     "rsr": 29.1,
+     "a20": 36,
+     "nh60": 0,
+     "top": [
+      "TTEK",
+      "ACM",
+      "STN"
+     ]
+    },
+    {
+     "sector": "Trucking Freight/Courier Services",
+     "n": 10,
+     "r60": -19.8,
+     "r20": -6.1,
+     "rsr": 29.0,
+     "a20": 20,
+     "nh60": 0,
+     "top": [
+      "UPS",
+      "ARCB",
+      "SAIA"
+     ]
+    },
+    {
+     "sector": "Radio And Television Broadcasting And Communications Equipment",
+     "n": 7,
+     "r60": -22.4,
+     "r20": -15.9,
+     "rsr": 27.7,
+     "a20": 14,
+     "nh60": 1,
+     "top": [
+      "MSI",
+      "QCOM",
+      "UI"
+     ]
+    },
+    {
+     "sector": "Oil and Gas Field Machinery",
+     "n": 9,
+     "r60": -18.5,
+     "r20": -11.5,
+     "rsr": 21.8,
+     "a20": 0,
+     "nh60": 0,
+     "top": [
+      "WFRD",
+      "NOV",
+      "FTI"
+     ]
+    },
+    {
+     "sector": "Metal Fabrications",
+     "n": 26,
+     "r60": -23.3,
+     "r20": -13.3,
+     "rsr": 21.6,
+     "a20": 8,
+     "nh60": 0,
+     "top": [
+      "CXT",
+      "RS",
+      "MWA"
+     ]
+    },
+    {
+     "sector": "Metal Mining",
+     "n": 12,
+     "r60": -18.1,
+     "r20": -15.9,
+     "rsr": 21.0,
+     "a20": 0,
+     "nh60": 0,
+     "top": [
+      "CLF",
+      "AUGO",
+      "SCCO"
+     ]
+    },
+    {
+     "sector": "Electronic Components",
+     "n": 14,
+     "r60": -24.7,
+     "r20": -26.7,
+     "rsr": 20.1,
+     "a20": 7,
+     "nh60": 1,
+     "top": [
+      "TGLS",
+      "TEL",
+      "NTAP"
+     ]
+    },
+    {
+     "sector": "Oilfield Services/Equipment",
+     "n": 10,
+     "r60": -27.2,
+     "r20": -19.6,
+     "rsr": 19.5,
+     "a20": 0,
+     "nh60": 0,
+     "top": [
+      "HAL",
+      "SLB",
+      "RES"
+     ]
+    },
+    {
+     "sector": "Semiconductors",
+     "n": 56,
+     "r60": -31.0,
+     "r20": -26.1,
+     "rsr": 19.1,
+     "a20": 7,
+     "nh60": 0,
+     "top": [
+      "SWKS",
+      "SHLS",
+      "SYNA"
+     ]
+    },
+    {
+     "sector": "Computer Communications Equipment",
+     "n": 6,
+     "r60": -22.7,
+     "r20": -16.8,
+     "rsr": 19.0,
+     "a20": 0,
+     "nh60": 0,
+     "top": [
+      "EXTR",
+      "ATEN",
+      "CSCO"
+     ]
+    },
+    {
+     "sector": "Electrical Products",
+     "n": 21,
+     "r60": -34.4,
+     "r20": -28.2,
+     "rsr": 18.6,
+     "a20": 14,
+     "nh60": 0,
+     "top": [
+      "VLTO",
+      "ITRI",
+      "OLED"
+     ]
+    },
+    {
+     "sector": "Engineering & Construction",
+     "n": 8,
+     "r60": -30.6,
+     "r20": -25.7,
+     "rsr": 15.2,
+     "a20": 12,
+     "nh60": 0,
+     "top": [
+      "BBUC",
+      "PWR",
+      "EME"
+     ]
+    },
+    {
+     "sector": "Other Metals and Minerals",
+     "n": 5,
+     "r60": -37.4,
+     "r20": -21.6,
+     "rsr": 8.8,
+     "a20": 0,
+     "nh60": 0,
+     "top": [
+      "NXE",
+      "CCJ",
+      "DNN"
+     ]
+    },
+    {
+     "sector": "Water Sewer Pipeline Comm & Power Line Construction",
+     "n": 5,
+     "r60": -43.5,
+     "r20": -27.9,
+     "rsr": 8.0,
+     "a20": 0,
+     "nh60": 0,
+     "top": [
+      "MYRG",
+      "PRIM",
+      "MTZ"
+     ]
+    },
+    {
+     "sector": "Trusts Except Educational Religious and Charitable",
+     "n": 7,
+     "r60": -8.1,
+     "r20": -0.3,
+     "rsr": null,
+     "a20": 71,
+     "nh60": 0,
+     "top": [
+      "PDI",
+      "BGR",
+      "RVT"
+     ]
+    }
+   ],
+   "date": "2026-11-05"
   }
  ]
 }
