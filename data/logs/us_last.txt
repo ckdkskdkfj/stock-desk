@@ -1,31 +1,30 @@
-10:07:27 universe 2358
-10:07:40 yf 200 / 2358 hist 200
-10:07:55 yf 400 / 2358 hist 400
-10:08:09 yf 600 / 2358 hist 600
-10:08:24 yf 800 / 2358 hist 800
-10:08:39 yf 1000 / 2358 hist 1000
-10:08:53 yf 1200 / 2358 hist 1200
-10:09:07 yf 1400 / 2358 hist 1400
-10:09:21 yf 1600 / 2358 hist 1600
-10:09:36 yf 1800 / 2358 hist 1800
-10:09:50 yf 2000 / 2358 hist 2000
-10:10:02 yf 2200 / 2358 hist 2200
-10:10:11 yf 2358 / 2358 hist 2358
-10:10:13 yf 2 / 2 hist 2
-10:10:15 analyst MRNA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-10:10:15 analyst BRZE ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CRVL"}}}
-10:11:10 analyst 89 / 90 종목 · 오류 0
-10:11:10 wrote data/us/analyst.json 72025 bytes
-10:11:10 wrote data/us/2026-11-05.json 849425 bytes
-10:11:10 wrote data/us/latest.json 849425 bytes
-10:11:10 wrote data/us/universe.json 553463 bytes
-10:11:10 wrote data/us/signals.json 921426 bytes
-10:11:10 wrote data/us/breadth.json 5155 bytes
-10:11:10 wrote data/us/sector_rs.json 679747 bytes
-10:11:10 sector_rs 115 업종
-10:11:11 wrote data/us/cycles.json 92977 bytes
-10:11:11 cycles 127 업종
-10:11:54 wrote data/us/earnings.json 35858 bytes
-10:11:54 signals 2355
-10:11:54 wrote data/status_us.json 168 bytes
+12:46:12 universe 2366
+12:46:22 yf 200 / 2366 hist 200
+12:46:35 yf 400 / 2366 hist 400
+12:46:47 yf 600 / 2366 hist 600
+12:46:59 yf 800 / 2366 hist 800
+12:47:11 yf 1000 / 2366 hist 1000
+12:47:23 yf 1200 / 2366 hist 1200
+12:47:34 yf 1400 / 2366 hist 1400
+12:47:48 yf 1600 / 2366 hist 1600
+12:47:59 yf 1800 / 2366 hist 1800
+12:48:11 yf 2000 / 2366 hist 2000
+12:48:23 yf 2200 / 2366 hist 2200
+12:48:33 yf 2366 / 2366 hist 2366
+12:48:35 yf 2 / 2 hist 2
+12:48:37 analyst MRNA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+12:48:37 analyst KOD ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+12:49:20 analyst 76 / 76 종목 · 오류 0
+12:49:20 wrote data/us/analyst.json 60521 bytes
+12:49:20 wrote data/us/2026-11-09.json 322230 bytes
+12:49:20 wrote data/us/latest.json 322230 bytes
+12:49:20 wrote data/us/universe.json 556257 bytes
+12:49:20 wrote data/us/signals.json 905046 bytes
+12:49:20 wrote data/us/breadth.json 5344 bytes
+12:49:20 wrote data/us/sector_rs.json 704704 bytes
+12:49:20 sector_rs 115 업종
+12:49:21 wrote data/us/cycles.json 92856 bytes
+12:49:21 cycles 127 업종
+12:50:05 wrote data/us/earnings.json 31033 bytes
+12:50:05 signals 2363
+12:50:05 wrote data/status_us.json 166 bytes
