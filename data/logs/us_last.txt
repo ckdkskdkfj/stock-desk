@@ -1,30 +1,30 @@
-12:46:12 universe 2366
-12:46:22 yf 200 / 2366 hist 200
-12:46:35 yf 400 / 2366 hist 400
-12:46:47 yf 600 / 2366 hist 600
-12:46:59 yf 800 / 2366 hist 800
-12:47:11 yf 1000 / 2366 hist 1000
-12:47:23 yf 1200 / 2366 hist 1200
-12:47:34 yf 1400 / 2366 hist 1400
-12:47:48 yf 1600 / 2366 hist 1600
-12:47:59 yf 1800 / 2366 hist 1800
-12:48:11 yf 2000 / 2366 hist 2000
-12:48:23 yf 2200 / 2366 hist 2200
-12:48:33 yf 2366 / 2366 hist 2366
-12:48:35 yf 2 / 2 hist 2
-12:48:37 analyst MRNA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-12:48:37 analyst KOD ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-12:49:20 analyst 76 / 76 종목 · 오류 0
-12:49:20 wrote data/us/analyst.json 60521 bytes
-12:49:20 wrote data/us/2026-11-09.json 322230 bytes
-12:49:20 wrote data/us/latest.json 322230 bytes
-12:49:20 wrote data/us/universe.json 556257 bytes
-12:49:20 wrote data/us/signals.json 905046 bytes
-12:49:20 wrote data/us/breadth.json 5344 bytes
-12:49:20 wrote data/us/sector_rs.json 704704 bytes
-12:49:20 sector_rs 115 업종
-12:49:21 wrote data/us/cycles.json 92856 bytes
-12:49:21 cycles 127 업종
-12:50:05 wrote data/us/earnings.json 31033 bytes
-12:50:05 signals 2363
-12:50:05 wrote data/status_us.json 166 bytes
+10:26:59 universe 2380
+10:27:08 yf 200 / 2380 hist 200
+10:27:19 yf 400 / 2380 hist 400
+10:27:29 yf 600 / 2380 hist 600
+10:27:40 yf 800 / 2380 hist 800
+10:27:51 yf 1000 / 2380 hist 1000
+10:28:01 yf 1200 / 2380 hist 1200
+10:28:12 yf 1400 / 2380 hist 1400
+10:28:23 yf 1600 / 2380 hist 1600
+10:28:33 yf 1800 / 2380 hist 1800
+10:28:44 yf 2000 / 2380 hist 2000
+10:28:55 yf 2200 / 2380 hist 2200
+10:29:04 yf 2380 / 2380 hist 2380
+10:29:06 yf 2 / 2 hist 2
+10:29:08 analyst MRNA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+10:29:08 analyst KOD ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+10:29:54 analyst 78 / 78 종목 · 오류 0
+10:29:54 wrote data/us/analyst.json 63860 bytes
+10:29:54 wrote data/us/2026-11-09.json 332353 bytes
+10:29:54 wrote data/us/latest.json 332353 bytes
+10:29:54 wrote data/us/universe.json 556499 bytes
+10:29:54 wrote data/us/signals.json 909876 bytes
+10:29:54 wrote data/us/breadth.json 5344 bytes
+10:29:54 wrote data/us/sector_rs.json 704917 bytes
+10:29:54 sector_rs 116 업종
+10:29:54 wrote data/us/cycles.json 93532 bytes
+10:29:54 cycles 128 업종
+10:30:35 wrote data/us/earnings.json 28692 bytes
+10:30:35 signals 2378
+10:30:35 wrote data/status_us.json 166 bytes
