@@ -1,34 +1,30 @@
-11:04:20 universe 2374
-
-1 Failed download:
-['ATEN']: OperationalError('database is locked')
-11:04:30 yf 200 / 2374 hist 199
-11:04:42 yf 400 / 2374 hist 399
-11:04:54 yf 600 / 2374 hist 599
-11:05:06 yf 800 / 2374 hist 799
-11:05:18 yf 1000 / 2374 hist 999
-11:05:30 yf 1200 / 2374 hist 1199
-11:05:42 yf 1400 / 2374 hist 1399
-11:05:54 yf 1600 / 2374 hist 1599
-11:06:06 yf 1800 / 2374 hist 1799
-11:06:18 yf 2000 / 2374 hist 1999
-11:06:30 yf 2200 / 2374 hist 2199
-11:06:41 yf 2374 / 2374 hist 2373
-11:06:42 yf 2 / 2 hist 2
-11:06:44 analyst KOD ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-11:06:45 analyst XERS ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: WMK"}}}
-11:07:23 analyst 66 / 67 종목 · 오류 0
-11:07:23 wrote data/us/analyst.json 57371 bytes
-11:07:23 wrote data/us/2026-11-11.json 289931 bytes
-11:07:23 wrote data/us/latest.json 289931 bytes
-11:07:24 wrote data/us/universe.json 555892 bytes
-11:07:24 wrote data/us/signals.json 904540 bytes
-11:07:24 wrote data/us/breadth.json 5719 bytes
-11:07:24 wrote data/us/sector_rs.json 755218 bytes
-11:07:24 sector_rs 116 업종
-11:07:24 wrote data/us/cycles.json 93754 bytes
-11:07:24 cycles 127 업종
-11:08:00 wrote data/us/earnings.json 16419 bytes
-11:08:00 signals 2371
-11:08:00 wrote data/status_us.json 166 bytes
+10:41:35 universe 2364
+10:41:45 yf 200 / 2364 hist 200
+10:41:57 yf 400 / 2364 hist 400
+10:42:09 yf 600 / 2364 hist 600
+10:42:20 yf 800 / 2364 hist 800
+10:42:32 yf 1000 / 2364 hist 1000
+10:42:43 yf 1200 / 2364 hist 1200
+10:42:55 yf 1400 / 2364 hist 1400
+10:43:06 yf 1600 / 2364 hist 1600
+10:43:18 yf 1800 / 2364 hist 1800
+10:43:29 yf 2000 / 2364 hist 2000
+10:43:41 yf 2200 / 2364 hist 2200
+10:43:51 yf 2364 / 2364 hist 2364
+10:43:52 yf 2 / 2 hist 2
+10:43:54 analyst CROX ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+10:43:55 analyst FCN ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+10:44:03 analyst 17 / 17 종목 · 오류 0
+10:44:03 wrote data/us/analyst.json 16429 bytes
+10:44:03 wrote data/us/2026-11-13.json 78018 bytes
+10:44:03 wrote data/us/latest.json 78018 bytes
+10:44:04 wrote data/us/universe.json 492616 bytes
+10:44:04 wrote data/us/signals.json 538093 bytes
+10:44:04 wrote data/us/breadth.json 5906 bytes
+10:44:04 wrote data/us/sector_rs.json 776406 bytes
+10:44:04 sector_rs 98 업종
+10:44:04 wrote data/us/cycles.json 78838 bytes
+10:44:04 cycles 111 업종
+10:44:38 wrote data/us/earnings.json 12020 bytes
+10:44:38 signals 1416
+10:44:38 wrote data/status_us.json 166 bytes
