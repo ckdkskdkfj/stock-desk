@@ -1,30 +1,32 @@
-10:41:35 universe 2364
-10:41:45 yf 200 / 2364 hist 200
-10:41:57 yf 400 / 2364 hist 400
-10:42:09 yf 600 / 2364 hist 600
-10:42:20 yf 800 / 2364 hist 800
-10:42:32 yf 1000 / 2364 hist 1000
-10:42:43 yf 1200 / 2364 hist 1200
-10:42:55 yf 1400 / 2364 hist 1400
-10:43:06 yf 1600 / 2364 hist 1600
-10:43:18 yf 1800 / 2364 hist 1800
-10:43:29 yf 2000 / 2364 hist 2000
-10:43:41 yf 2200 / 2364 hist 2200
-10:43:51 yf 2364 / 2364 hist 2364
-10:43:52 yf 2 / 2 hist 2
-10:43:54 analyst CROX ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-10:43:55 analyst FCN ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-10:44:03 analyst 17 / 17 종목 · 오류 0
-10:44:03 wrote data/us/analyst.json 16429 bytes
-10:44:03 wrote data/us/2026-11-13.json 78018 bytes
-10:44:03 wrote data/us/latest.json 78018 bytes
-10:44:04 wrote data/us/universe.json 492616 bytes
-10:44:04 wrote data/us/signals.json 538093 bytes
-10:44:04 wrote data/us/breadth.json 5906 bytes
-10:44:04 wrote data/us/sector_rs.json 776406 bytes
-10:44:04 sector_rs 98 업종
-10:44:04 wrote data/us/cycles.json 78838 bytes
-10:44:04 cycles 111 업종
-10:44:38 wrote data/us/earnings.json 12020 bytes
-10:44:38 signals 1416
-10:44:38 wrote data/status_us.json 166 bytes
+13:08:43 universe 2359
+13:08:53 yf 200 / 2359 hist 200
+13:09:05 yf 400 / 2359 hist 400
+13:09:16 yf 600 / 2359 hist 600
+13:09:29 yf 800 / 2359 hist 800
+13:09:41 yf 1000 / 2359 hist 1000
+13:09:54 yf 1200 / 2359 hist 1200
+13:10:06 yf 1400 / 2359 hist 1400
+13:10:17 yf 1600 / 2359 hist 1600
+13:10:28 yf 1800 / 2359 hist 1800
+13:10:44 yf 2000 / 2359 hist 2000
+13:10:55 yf 2200 / 2359 hist 2200
+13:11:05 yf 2359 / 2359 hist 2359
+13:11:06 yf 2 / 2 hist 2
+13:11:08 analyst XERS ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+13:11:09 analyst APPN ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TOP"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GHC"}}}
+13:11:34 analyst 43 / 44 종목 · 오류 0
+13:11:35 wrote data/us/analyst.json 38057 bytes
+13:11:35 wrote data/us/2026-11-16.json 195327 bytes
+13:11:35 wrote data/us/latest.json 195327 bytes
+13:11:35 wrote data/us/universe.json 555923 bytes
+13:11:35 wrote data/us/signals.json 908154 bytes
+13:11:35 wrote data/us/breadth.json 6097 bytes
+13:11:35 wrote data/us/sector_rs.json 801543 bytes
+13:11:35 sector_rs 116 업종
+13:11:35 wrote data/us/cycles.json 93998 bytes
+13:11:35 cycles 127 업종
+13:12:09 wrote data/us/earnings.json 9692 bytes
+13:12:09 signals 2354
+13:12:09 wrote data/status_us.json 166 bytes
