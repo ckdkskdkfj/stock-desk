@@ -1,31 +1,34 @@
-12:06:20 universe 2349
-12:06:30 yf 200 / 2349 hist 200
-12:06:42 yf 400 / 2349 hist 400
-12:06:53 yf 600 / 2349 hist 600
-12:07:05 yf 800 / 2349 hist 800
-12:07:16 yf 1000 / 2349 hist 1000
-12:07:28 yf 1200 / 2349 hist 1200
-12:07:39 yf 1400 / 2349 hist 1400
-12:07:49 yf 1600 / 2349 hist 1600
-12:08:01 yf 1800 / 2349 hist 1800
-12:08:12 yf 2000 / 2349 hist 2000
-12:08:23 yf 2200 / 2349 hist 2200
-12:08:32 yf 2349 / 2349 hist 2349
-12:08:33 yf 2 / 2 hist 2
-12:08:35 analyst ASO ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-12:08:36 analyst PGNY ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GHC"}}}
-12:08:45 analyst 17 / 17 종목 · 오류 0
-12:08:45 wrote data/us/analyst.json 10004 bytes
-12:08:45 wrote data/us/2026-11-17.json 70115 bytes
-12:08:45 wrote data/us/latest.json 70115 bytes
-12:08:45 wrote data/us/universe.json 553616 bytes
-12:08:45 wrote data/us/signals.json 905189 bytes
-12:08:45 wrote data/us/breadth.json 6286 bytes
-12:08:45 wrote data/us/sector_rs.json 826680 bytes
-12:08:45 sector_rs 116 업종
-12:08:46 wrote data/us/cycles.json 93583 bytes
-12:08:46 cycles 126 업종
-12:09:17 wrote data/us/earnings.json 11054 bytes
-12:09:17 signals 2343
-12:09:17 wrote data/status_us.json 166 bytes
+11:45:41 universe 2338
+
+1 Failed download:
+['AMCR']: OperationalError('database is locked')
+11:45:51 yf 200 / 2338 hist 199
+11:46:03 yf 400 / 2338 hist 399
+11:46:15 yf 600 / 2338 hist 599
+11:46:26 yf 800 / 2338 hist 799
+11:46:38 yf 1000 / 2338 hist 999
+11:46:50 yf 1200 / 2338 hist 1199
+11:47:02 yf 1400 / 2338 hist 1399
+11:47:14 yf 1600 / 2338 hist 1599
+11:47:25 yf 1800 / 2338 hist 1799
+11:47:37 yf 2000 / 2338 hist 1999
+11:47:49 yf 2200 / 2338 hist 2199
+11:47:57 yf 2338 / 2338 hist 2337
+11:47:59 yf 2 / 2 hist 2
+11:48:01 analyst ASO ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+11:48:01 analyst VIA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CRVL"}}}
+11:48:18 analyst 29 / 30 종목 · 오류 0
+11:48:18 wrote data/us/analyst.json 18805 bytes
+11:48:18 wrote data/us/2026-11-18.json 122194 bytes
+11:48:18 wrote data/us/latest.json 122194 bytes
+11:48:18 wrote data/us/universe.json 550174 bytes
+11:48:18 wrote data/us/signals.json 897812 bytes
+11:48:18 wrote data/us/breadth.json 6477 bytes
+11:48:18 wrote data/us/sector_rs.json 851835 bytes
+11:48:18 sector_rs 116 업종
+11:48:19 wrote data/us/cycles.json 92172 bytes
+11:48:19 cycles 126 업종
+11:48:55 wrote data/us/earnings.json 8604 bytes
+11:48:55 signals 2332
+11:48:55 wrote data/status_us.json 166 bytes
