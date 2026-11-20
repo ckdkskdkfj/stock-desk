@@ -1,34 +1,48 @@
-11:45:41 universe 2338
-
-1 Failed download:
-['AMCR']: OperationalError('database is locked')
-11:45:51 yf 200 / 2338 hist 199
-11:46:03 yf 400 / 2338 hist 399
-11:46:15 yf 600 / 2338 hist 599
-11:46:26 yf 800 / 2338 hist 799
-11:46:38 yf 1000 / 2338 hist 999
-11:46:50 yf 1200 / 2338 hist 1199
-11:47:02 yf 1400 / 2338 hist 1399
-11:47:14 yf 1600 / 2338 hist 1599
-11:47:25 yf 1800 / 2338 hist 1799
-11:47:37 yf 2000 / 2338 hist 1999
-11:47:49 yf 2200 / 2338 hist 2199
-11:47:57 yf 2338 / 2338 hist 2337
-11:47:59 yf 2 / 2 hist 2
-11:48:01 analyst ASO ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-11:48:01 analyst VIA ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CRVL"}}}
-11:48:18 analyst 29 / 30 종목 · 오류 0
-11:48:18 wrote data/us/analyst.json 18805 bytes
-11:48:18 wrote data/us/2026-11-18.json 122194 bytes
-11:48:18 wrote data/us/latest.json 122194 bytes
-11:48:18 wrote data/us/universe.json 550174 bytes
-11:48:18 wrote data/us/signals.json 897812 bytes
-11:48:18 wrote data/us/breadth.json 6477 bytes
-11:48:18 wrote data/us/sector_rs.json 851835 bytes
-11:48:18 sector_rs 116 업종
-11:48:19 wrote data/us/cycles.json 92172 bytes
-11:48:19 cycles 126 업종
-11:48:55 wrote data/us/earnings.json 8604 bytes
-11:48:55 signals 2332
-11:48:55 wrote data/status_us.json 166 bytes
+11:31:49 universe 2334
+11:31:56 yf 200 / 2334 hist 200
+11:32:05 yf 400 / 2334 hist 400
+11:32:14 yf 600 / 2334 hist 600
+11:32:22 yf 800 / 2334 hist 800
+11:32:31 yf 1000 / 2334 hist 1000
+11:32:39 yf 1200 / 2334 hist 1200
+11:32:47 yf 1400 / 2334 hist 1400
+11:32:56 yf 1600 / 2334 hist 1600
+11:33:05 yf 1800 / 2334 hist 1800
+11:33:13 yf 2000 / 2334 hist 2000
+11:33:21 yf 2200 / 2334 hist 2200
+11:33:28 yf 2334 / 2334 hist 2334
+11:33:29 yf 2 / 2 hist 2
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+11:33:31 analyst CBRL []
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+11:33:32 analyst IBN []
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+11:33:35 analyst 0 / 6 종목 · 오류 0
+11:33:35 wrote data/us/analyst.json 45 bytes
+11:33:35 wrote data/us/2026-11-19.json 20647 bytes
+11:33:35 wrote data/us/latest.json 20647 bytes
+11:33:35 wrote data/us/universe.json 487677 bytes
+11:33:35 wrote data/us/signals.json 543525 bytes
+11:33:35 wrote data/us/breadth.json 6666 bytes
+11:33:35 wrote data/us/sector_rs.json 872790 bytes
+11:33:35 sector_rs 97 업종
+11:33:35 wrote data/us/cycles.json 82032 bytes
+11:33:35 cycles 111 업종
+11:34:17 wrote data/us/earnings.json 8202 bytes
+11:34:17 signals 1404
+11:34:17 wrote data/status_us.json 164 bytes
