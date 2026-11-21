@@ -1,312 +1,284 @@
 {
  "market": "US",
- "date": "2026-11-19",
- "n": 111,
+ "date": "2026-11-20",
+ "n": 126,
  "by": {
   "Biotechnology: Laboratory Analytical Instruments": {
-   "n": 6,
-   "swings": [
-    {
-     "k": "down",
-     "from": "20251120",
-     "to": "20260313",
-     "ret": -18.2,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260313",
-     "to": "20261109",
-     "ret": 68.4,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -4.8,
-    "hiAt": "20261109",
-    "offLo": 60.3,
-    "loAt": "20260313",
-    "vsMa20": -0.9,
-    "r20": 1.1
-   },
-   "health": {
-    "valx": 0.92,
-    "a20": 17,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Military/Government/Technical": {
-   "n": 17,
+   "n": 9,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260220",
-     "ret": 28.6,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260220",
-     "to": "20260330",
-     "ret": -15.0,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260330",
-     "to": "20260817",
-     "ret": 24.2,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260817",
-     "to": "20261105",
-     "ret": -22.2,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -20.3,
-    "hiAt": "20260817",
-    "offLo": 2.5,
-    "loAt": "20261105",
-    "vsMa20": -3.2,
-    "r20": -1.9
-   },
-   "health": {
-    "valx": 0.75,
-    "a20": 24,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Air Freight/Delivery Services": {
-   "n": 10,
-   "swings": [
-    {
-     "k": "down",
-     "from": "20260206",
-     "to": "20260330",
-     "ret": -28.2,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260330",
-     "to": "20260417",
-     "ret": 21.0,
-     "live": false
-    },
-    {
-     "k": "down",
      "from": "20260417",
-     "to": "20260519",
-     "ret": -13.3,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260519",
-     "to": "20260626",
-     "ret": 37.2,
+     "to": "20261005",
+     "ret": 75.0,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260626",
-     "to": "20261019",
-     "ret": -28.1,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20261019",
-     "to": "20261111",
-     "ret": 20.1,
+     "from": "20261005",
+     "to": "20261120",
+     "ret": -17.1,
      "live": true
     }
    ],
    "now": {
-    "offHi": -6.7,
-    "hiAt": "20261111",
-    "offLo": 12.1,
-    "loAt": "20261019",
-    "vsMa20": 0.6,
-    "r20": 7.1
+    "offHi": -17.1,
+    "hiAt": "20261005",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -8.2,
+    "r20": -10.4
    },
    "health": {
-    "valx": 0.92,
-    "a20": 40,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Investment Managers": {
-   "n": 18,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260813",
-     "ret": 18.2,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260813",
-     "to": "20261014",
-     "ret": -13.4,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -11.3,
-    "hiAt": "20260813",
-    "offLo": 2.4,
-    "loAt": "20261014",
-    "vsMa20": -3.6,
-    "r20": -1.6
-   },
-   "health": {
-    "valx": 0.91,
+    "valx": 0.98,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20260417",
+    "20261120"
+   ]
+  },
+  "Military/Government/Technical": {
+   "n": 28,
+   "swings": [
+    {
+     "k": "down",
+     "from": "20260416",
+     "to": "20261120",
+     "ret": -18.9,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -18.9,
+    "hiAt": "20260416",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -8.0,
+    "r20": -4.4
+   },
+   "health": {
+    "valx": 0.96,
+    "a20": 11,
+    "nh": 0,
+    "nh5ago": 1
+   },
+   "span": [
+    "20260416",
+    "20261120"
+   ]
+  },
+  "Air Freight/Delivery Services": {
+   "n": 12,
+   "swings": [
+    {
+     "k": "down",
+     "from": "20260417",
+     "to": "20260429",
+     "ret": -13.1,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260429",
+     "to": "20260626",
+     "ret": 42.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260626",
+     "to": "20260723",
+     "ret": -15.8,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260723",
+     "to": "20260804",
+     "ret": 17.0,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260804",
+     "to": "20261019",
+     "ret": -28.6,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20261019",
+     "to": "20261109",
+     "ret": 26.4,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -10.2,
+    "hiAt": "20261109",
+    "offLo": 13.6,
+    "loAt": "20261019",
+    "vsMa20": -2.4,
+    "r20": 10.8
+   },
+   "health": {
+    "valx": 1.05,
+    "a20": 17,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Investment Managers": {
+   "n": 38,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260811",
+     "ret": 21.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260811",
+     "to": "20261120",
+     "ret": -18.3,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -18.3,
+    "hiAt": "20260811",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -7.3,
+    "r20": -5.1
+   },
+   "health": {
+    "valx": 1.1,
+    "a20": 3,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
    ]
   },
   "Semiconductors": {
-   "n": 37,
+   "n": 57,
    "swings": [
     {
      "k": "up",
      "from": "20260729",
      "to": "20260817",
-     "ret": 31.5,
+     "ret": 32.3,
      "live": false
     },
     {
      "k": "down",
      "from": "20260817",
      "to": "20260901",
-     "ret": -18.5,
+     "ret": -20.1,
      "live": false
     },
     {
      "k": "up",
      "from": "20260901",
-     "to": "20261002",
-     "ret": 27.5,
+     "to": "20261006",
+     "ret": 24.7,
      "live": false
     },
     {
      "k": "down",
-     "from": "20261002",
+     "from": "20261006",
      "to": "20261105",
-     "ret": -37.8,
+     "ret": -38.9,
      "live": false
     },
     {
      "k": "up",
      "from": "20261105",
      "to": "20261111",
-     "ret": 20.2,
+     "ret": 21.3,
      "live": false
     },
     {
      "k": "down",
      "from": "20261111",
-     "to": "20261119",
-     "ret": -12.7,
+     "to": "20261120",
+     "ret": -23.1,
      "live": true
     }
    ],
    "now": {
-    "offHi": -12.7,
+    "offHi": -23.1,
     "hiAt": "20261111",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -10.1,
-    "r20": -13.7
+    "loAt": "20261120",
+    "vsMa20": -19.3,
+    "r20": -24.1
    },
    "health": {
-    "valx": 1.07,
-    "a20": 8,
+    "valx": 1.54,
+    "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Industrial Machinery/Components": {
-   "n": 65,
+   "n": 100,
    "swings": [
     {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260220",
-     "ret": 28.9,
-     "live": false
-    },
-    {
      "k": "down",
-     "from": "20260220",
+     "from": "20260209",
      "to": "20260330",
-     "ret": -12.9,
+     "ret": -12.2,
      "live": false
     },
     {
      "k": "up",
      "from": "20260330",
      "to": "20260630",
-     "ret": 29.9,
+     "ret": 34.8,
      "live": false
     },
     {
      "k": "down",
      "from": "20260630",
-     "to": "20261119",
-     "ret": -22.0,
+     "to": "20261120",
+     "ret": -26.5,
      "live": true
     }
    ],
    "now": {
-    "offHi": -22.0,
+    "offHi": -26.5,
     "hiAt": "20260630",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -4.7,
-    "r20": -3.9
+    "loAt": "20261120",
+    "vsMa20": -8.8,
+    "r20": -7.8
    },
    "health": {
-    "valx": 0.92,
+    "valx": 1.2,
     "a20": 12,
     "nh": 0,
-    "nh5ago": 1
+    "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20260209",
+    "20261120"
    ]
   },
   "Auto & Home Supply Stores": {
@@ -314,964 +286,19 @@
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260813",
-     "ret": 33.5,
+     "ret": 26.2,
      "live": true
     }
    ],
    "now": {
-    "offHi": -2.9,
+    "offHi": -3.0,
     "hiAt": "20260813",
-    "offLo": 29.6,
-    "loAt": "20251120",
-    "vsMa20": 0.3,
-    "r20": -0.1
-   },
-   "health": {
-    "valx": 0.8,
-    "a20": 75,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Computer Manufacturing": {
-   "n": 5,
-   "swings": [
-    {
-     "k": "down",
-     "from": "20251120",
-     "to": "20260320",
-     "ret": -16.3,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260320",
-     "to": "20260602",
-     "ret": 51.3,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260602",
-     "to": "20260617",
-     "ret": -20.4,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260617",
-     "to": "20261007",
-     "ret": 17.0,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20261007",
-     "to": "20261119",
-     "ret": -14.7,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -14.7,
-    "hiAt": "20261007",
-    "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -7.8,
-    "r20": -13.5
-   },
-   "health": {
-    "valx": 0.84,
-    "a20": 20,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Real Estate Investment Trusts": {
-   "n": 69,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260728",
-     "ret": 21.3,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260728",
-     "to": "20261007",
-     "ret": -13.2,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -9.9,
-    "hiAt": "20260728",
-    "offLo": 3.7,
-    "loAt": "20261007",
-    "vsMa20": -2.3,
-    "r20": -0.5
-   },
-   "health": {
-    "valx": 0.88,
-    "a20": 17,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Biotechnology: Pharmaceutical Preparations": {
-   "n": 42,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260821",
-     "ret": 47.4,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260821",
-     "to": "20261105",
-     "ret": -14.3,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -8.2,
-    "hiAt": "20260821",
-    "offLo": 7.1,
-    "loAt": "20261105",
-    "vsMa20": 2.6,
-    "r20": 2.4
-   },
-   "health": {
-    "valx": 1.14,
-    "a20": 36,
-    "nh": 1,
-    "nh5ago": 2
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Major Banks": {
-   "n": 105,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260206",
-     "ret": 21.9,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260206",
-     "to": "20260318",
-     "ret": -14.1,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260318",
-     "to": "20260814",
-     "ret": 27.4,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -10.4,
-    "hiAt": "20260814",
-    "offLo": 14.1,
-    "loAt": "20260318",
-    "vsMa20": -4.3,
-    "r20": -4.4
-   },
-   "health": {
-    "valx": 1.02,
-    "a20": 1,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Retail-Auto Dealers and Gas Stations": {
-   "n": 12,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260121",
-     "ret": 17.4,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260121",
-     "to": "20260320",
-     "ret": -13.3,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260320",
-     "to": "20260729",
-     "ret": 39.8,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260729",
-     "to": "20261014",
-     "ret": -22.5,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -19.2,
-    "hiAt": "20260729",
-    "offLo": 4.2,
-    "loAt": "20261014",
-    "vsMa20": -2.7,
-    "r20": -1.3
-   },
-   "health": {
-    "valx": 0.83,
-    "a20": 8,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Diversified Commercial Services": {
-   "n": 9,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260220",
-     "ret": 15.5,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260220",
-     "to": "20260320",
-     "ret": -15.7,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260320",
-     "to": "20260716",
-     "ret": 27.9,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260716",
-     "to": "20260930",
-     "ret": -15.8,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260930",
-     "to": "20261111",
-     "ret": 21.2,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -3.2,
-    "hiAt": "20261111",
-    "offLo": 17.4,
-    "loAt": "20260930",
-    "vsMa20": 0.8,
-    "r20": 7.9
-   },
-   "health": {
-    "valx": 0.81,
-    "a20": 44,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Biotechnology: Commercial Physical & Biological Resarch": {
-   "n": 3,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260107",
-     "ret": 23.6,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260107",
-     "to": "20260312",
-     "ret": -33.6,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260312",
-     "to": "20261029",
-     "ret": 96.2,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -9.6,
-    "hiAt": "20261029",
-    "offLo": 77.3,
-    "loAt": "20260312",
-    "vsMa20": -4.2,
-    "r20": -1.2
-   },
-   "health": {
-    "valx": 0.55,
-    "a20": 0,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Services-Misc. Amusement & Recreation": {
-   "n": 8,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260618",
-     "ret": 20.2,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260618",
-     "to": "20261001",
-     "ret": -16.1,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -10.3,
-    "hiAt": "20260618",
-    "offLo": 6.9,
-    "loAt": "20261001",
-    "vsMa20": -0.1,
-    "r20": 4.2
-   },
-   "health": {
-    "valx": 1.25,
-    "a20": 38,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Property-Casualty Insurers": {
-   "n": 33,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20261116",
-     "ret": 18.6,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -2.1,
-    "hiAt": "20261116",
-    "offLo": 16.1,
-    "loAt": "20251120",
-    "vsMa20": 0.2,
-    "r20": 0.7
-   },
-   "health": {
-    "valx": 0.88,
-    "a20": 55,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Medical Specialities": {
-   "n": 12,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20261116",
-     "ret": 59.5,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -9.3,
-    "hiAt": "20261116",
-    "offLo": 44.6,
-    "loAt": "20251120",
-    "vsMa20": -5.6,
-    "r20": -6.8
-   },
-   "health": {
-    "valx": 1.82,
-    "a20": 25,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Aerospace": {
-   "n": 10,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260220",
-     "ret": 25.0,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260220",
-     "to": "20260519",
-     "ret": -18.1,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260519",
-     "to": "20260812",
-     "ret": 16.7,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260812",
-     "to": "20261119",
-     "ret": -23.3,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -23.3,
-    "hiAt": "20260812",
-    "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -9.8,
-    "r20": -7.9
-   },
-   "health": {
-    "valx": 0.76,
-    "a20": 20,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Food Chains": {
-   "n": 3,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260610",
-     "ret": 16.7,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260610",
-     "to": "20260909",
-     "ret": -13.7,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -3.6,
-    "hiAt": "20260610",
-    "offLo": 11.7,
-    "loAt": "20260909",
-    "vsMa20": -0.0,
-    "r20": -2.5
-   },
-   "health": {
-    "valx": 1.25,
-    "a20": 67,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Computer Software: Prepackaged Software": {
-   "n": 28,
-   "swings": [
-    {
-     "k": "down",
-     "from": "20251120",
-     "to": "20260410",
-     "ret": -21.9,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260410",
-     "to": "20260601",
-     "ret": 30.2,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260601",
-     "to": "20260723",
-     "ret": -13.0,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260723",
-     "to": "20261104",
-     "ret": 22.6,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -9.2,
-    "hiAt": "20261104",
-    "offLo": 11.4,
-    "loAt": "20260723",
-    "vsMa20": -6.7,
-    "r20": -8.7
-   },
-   "health": {
-    "valx": 0.92,
-    "a20": 18,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Business Services": {
-   "n": 22,
-   "swings": [],
-   "now": {
-    "offHi": -8.2,
-    "hiAt": "20260109",
-    "offLo": 11.0,
-    "loAt": "20260327",
-    "vsMa20": -5.0,
-    "r20": -4.6
-   },
-   "health": {
-    "valx": 0.99,
-    "a20": 18,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Specialty Insurers": {
-   "n": 10,
-   "swings": [
-    {
-     "k": "down",
-     "from": "20251120",
-     "to": "20260603",
-     "ret": -16.6,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260603",
-     "to": "20260824",
-     "ret": 22.1,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260824",
-     "to": "20260930",
-     "ret": -16.4,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260930",
-     "to": "20261105",
-     "ret": 18.2,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -3.3,
-    "hiAt": "20261105",
-    "offLo": 14.3,
-    "loAt": "20260930",
-    "vsMa20": 0.5,
-    "r20": 1.2
-   },
-   "health": {
-    "valx": 0.74,
-    "a20": 80,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Telecommunications Equipment": {
-   "n": 30,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260602",
-     "ret": 43.6,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260602",
-     "to": "20261105",
-     "ret": -22.2,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -21.8,
-    "hiAt": "20260602",
-    "offLo": 0.5,
-    "loAt": "20261105",
-    "vsMa20": -4.7,
-    "r20": -5.5
-   },
-   "health": {
-    "valx": 0.8,
-    "a20": 23,
-    "nh": 1,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Cable & Other Pay Television Services": {
-   "n": 6,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260423",
-     "ret": 21.9,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260423",
-     "to": "20261028",
-     "ret": -35.5,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20261028",
-     "to": "20261116",
-     "ret": 22.8,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -1.5,
-    "hiAt": "20261116",
-    "offLo": 20.9,
-    "loAt": "20261028",
-    "vsMa20": 7.5,
-    "r20": 13.9
-   },
-   "health": {
-    "valx": 0.93,
-    "a20": 100,
-    "nh": 1,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Packaged Foods": {
-   "n": 16,
-   "swings": [],
-   "now": {
-    "offHi": -13.7,
-    "hiAt": "20260902",
-    "offLo": 0.9,
-    "loAt": "20260107",
-    "vsMa20": -1.5,
-    "r20": -4.7
-   },
-   "health": {
-    "valx": 1.02,
-    "a20": 38,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Biotechnology: Biological Products (No Diagnostic Substances)": {
-   "n": 14,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260309",
-     "ret": 18.2,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260309",
-     "to": "20260429",
-     "ret": -12.6,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260429",
-     "to": "20261028",
-     "ret": 70.1,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20261028",
-     "to": "20261119",
-     "ret": -17.9,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -17.9,
-    "hiAt": "20261028",
-    "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -7.8,
-    "r20": -16.0
-   },
-   "health": {
-    "valx": 0.86,
-    "a20": 7,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Auto Parts:O.E.M.": {
-   "n": 15,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260211",
-     "ret": 31.3,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260211",
-     "to": "20260320",
-     "ret": -18.4,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260320",
-     "to": "20260603",
-     "ret": 23.7,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260603",
-     "to": "20261106",
-     "ret": -28.1,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -26.8,
-    "hiAt": "20260603",
-    "offLo": 1.9,
-    "loAt": "20261106",
-    "vsMa20": -1.4,
-    "r20": -4.0
-   },
-   "health": {
-    "valx": 0.75,
-    "a20": 40,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "EDP Services": {
-   "n": 15,
-   "swings": [
-    {
-     "k": "down",
-     "from": "20251120",
-     "to": "20260410",
-     "ret": -17.5,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260410",
-     "to": "20260601",
-     "ret": 20.7,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260601",
-     "to": "20260625",
-     "ret": -16.8,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260625",
-     "to": "20261026",
-     "ret": 23.9,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20261026",
-     "to": "20261119",
-     "ret": -13.9,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -13.9,
-    "hiAt": "20261026",
-    "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -7.5,
-    "r20": -13.4
-   },
-   "health": {
-    "valx": 0.88,
-    "a20": 7,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Medical/Nursing Services": {
-   "n": 4,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260223",
-     "ret": 17.1,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260223",
-     "to": "20260513",
-     "ret": -26.8,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260513",
-     "to": "20261111",
-     "ret": 46.2,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -2.5,
-    "hiAt": "20261111",
-    "offLo": 42.5,
-    "loAt": "20260513",
-    "vsMa20": 0.5,
-    "r20": 3.2
+    "offLo": 22.5,
+    "loAt": "20251121",
+    "vsMa20": 0.1,
+    "r20": 0.3
    },
    "health": {
     "valx": 1.18,
@@ -1280,8 +307,912 @@
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Computer Manufacturing": {
+   "n": 6,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260601",
+     "ret": 64.8,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260601",
+     "to": "20260610",
+     "ret": -19.0,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260610",
+     "to": "20260917",
+     "ret": 30.5,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260917",
+     "to": "20261120",
+     "ret": -32.7,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -32.7,
+    "hiAt": "20260917",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -15.3,
+    "r20": -24.7
+   },
+   "health": {
+    "valx": 1.55,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Real Estate Investment Trusts": {
+   "n": 97,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20260320",
+     "to": "20260728",
+     "ret": 19.5,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260728",
+     "to": "20261007",
+     "ret": -13.7,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -11.0,
+    "hiAt": "20260728",
+    "offLo": 3.1,
+    "loAt": "20261007",
+    "vsMa20": -2.8,
+    "r20": -1.0
+   },
+   "health": {
+    "valx": 1.04,
+    "a20": 16,
+    "nh": 0,
+    "nh5ago": 1
+   },
+   "span": [
+    "20260320",
+    "20261120"
+   ]
+  },
+  "Biotechnology: Pharmaceutical Preparations": {
+   "n": 128,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20260417",
+     "to": "20260825",
+     "ret": 28.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260825",
+     "to": "20261016",
+     "ret": -17.6,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -15.2,
+    "hiAt": "20260825",
+    "offLo": 3.0,
+    "loAt": "20261016",
+    "vsMa20": -4.8,
+    "r20": -0.7
+   },
+   "health": {
+    "valx": 1.08,
+    "a20": 26,
+    "nh": 1,
+    "nh5ago": 2
+   },
+   "span": [
+    "20260417",
+    "20261120"
+   ]
+  },
+  "Major Banks": {
+   "n": 128,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260206",
+     "ret": 18.8,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260206",
+     "to": "20260318",
+     "ret": -13.8,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260318",
+     "to": "20260814",
+     "ret": 27.8,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -11.8,
+    "hiAt": "20260814",
+    "offLo": 12.7,
+    "loAt": "20260318",
+    "vsMa20": -5.6,
+    "r20": -5.9
+   },
+   "health": {
+    "valx": 1.34,
+    "a20": 1,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Retail-Auto Dealers and Gas Stations": {
+   "n": 14,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260121",
+     "ret": 15.6,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260121",
+     "to": "20260320",
+     "ret": -13.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260320",
+     "to": "20260729",
+     "ret": 37.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260729",
+     "to": "20261014",
+     "ret": -21.1,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -18.5,
+    "hiAt": "20260729",
+    "offLo": 3.2,
+    "loAt": "20261014",
+    "vsMa20": -3.5,
+    "r20": -0.6
+   },
+   "health": {
+    "valx": 1.1,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Diversified Commercial Services": {
+   "n": 21,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20260302",
+     "to": "20261111",
+     "ret": 15.7,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -6.7,
+    "hiAt": "20261111",
+    "offLo": 8.0,
+    "loAt": "20260302",
+    "vsMa20": -3.6,
+    "r20": 3.5
+   },
+   "health": {
+    "valx": 1.14,
+    "a20": 19,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20260302",
+    "20261120"
+   ]
+  },
+  "Biotechnology: Commercial Physical & Biological Resarch": {
+   "n": 6,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260107",
+     "ret": 18.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260107",
+     "to": "20260312",
+     "ret": -34.3,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260312",
+     "to": "20260702",
+     "ret": 101.6,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260702",
+     "to": "20260724",
+     "ret": -14.6,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260724",
+     "to": "20261029",
+     "ret": 39.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261029",
+     "to": "20261120",
+     "ret": -21.2,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -21.2,
+    "hiAt": "20261029",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -11.8,
+    "r20": -10.2
+   },
+   "health": {
+    "valx": 0.83,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Services-Misc. Amusement & Recreation": {
+   "n": 21,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260702",
+     "ret": 29.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260702",
+     "to": "20261028",
+     "ret": -19.0,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -18.2,
+    "hiAt": "20260702",
+    "offLo": 1.1,
+    "loAt": "20261028",
+    "vsMa20": -3.6,
+    "r20": 1.0
+   },
+   "health": {
+    "valx": 1.17,
+    "a20": 33,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Property-Casualty Insurers": {
+   "n": 47,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20261116",
+     "ret": 18.1,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -1.2,
+    "hiAt": "20261116",
+    "offLo": 16.8,
+    "loAt": "20251121",
+    "vsMa20": 0.8,
+    "r20": 2.3
+   },
+   "health": {
+    "valx": 1.18,
+    "a20": 62,
+    "nh": 2,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Medical Specialities": {
+   "n": 30,
+   "swings": [
+    {
+     "k": "down",
+     "from": "20251211",
+     "to": "20260330",
+     "ret": -19.5,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260330",
+     "to": "20261104",
+     "ret": 81.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261104",
+     "to": "20261120",
+     "ret": -14.9,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -14.9,
+    "hiAt": "20261104",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -9.9,
+    "r20": -11.0
+   },
+   "health": {
+    "valx": 1.2,
+    "a20": 20,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251211",
+    "20261120"
+   ]
+  },
+  "Aerospace": {
+   "n": 17,
+   "swings": [
+    {
+     "k": "down",
+     "from": "20260417",
+     "to": "20261014",
+     "ret": -20.7,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20261014",
+     "to": "20261111",
+     "ret": 17.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261111",
+     "to": "20261120",
+     "ret": -20.8,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -20.8,
+    "hiAt": "20261111",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -13.2,
+    "r20": -8.8
+   },
+   "health": {
+    "valx": 1.0,
+    "a20": 12,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20260417",
+    "20261120"
+   ]
+  },
+  "Food Chains": {
+   "n": 8,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20261110",
+     "ret": 17.1,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -5.8,
+    "hiAt": "20261110",
+    "offLo": 10.3,
+    "loAt": "20251121",
+    "vsMa20": -2.5,
+    "r20": -4.1
+   },
+   "health": {
+    "valx": 1.3,
+    "a20": 38,
+    "nh": 0,
+    "nh5ago": 1
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Computer Software: Prepackaged Software": {
+   "n": 115,
+   "swings": [
+    {
+     "k": "down",
+     "from": "20251121",
+     "to": "20260410",
+     "ret": -26.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260410",
+     "to": "20260601",
+     "ret": 41.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260601",
+     "to": "20260622",
+     "ret": -16.4,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260622",
+     "to": "20261026",
+     "ret": 41.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261026",
+     "to": "20261120",
+     "ret": -13.1,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -13.1,
+    "hiAt": "20261026",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -8.2,
+    "r20": -12.4
+   },
+   "health": {
+    "valx": 1.82,
+    "a20": 13,
+    "nh": 0,
+    "nh5ago": 1
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Business Services": {
+   "n": 45,
+   "swings": [
+    {
+     "k": "down",
+     "from": "20251217",
+     "to": "20260327",
+     "ret": -15.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260327",
+     "to": "20261104",
+     "ret": 35.0,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -10.1,
+    "hiAt": "20261104",
+    "offLo": 21.4,
+    "loAt": "20260327",
+    "vsMa20": -6.1,
+    "r20": -5.6
+   },
+   "health": {
+    "valx": 1.14,
+    "a20": 13,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251217",
+    "20261120"
+   ]
+  },
+  "Specialty Insurers": {
+   "n": 21,
+   "swings": [
+    {
+     "k": "down",
+     "from": "20260129",
+     "to": "20260327",
+     "ret": -16.7,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260327",
+     "to": "20260825",
+     "ret": 40.0,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260825",
+     "to": "20260930",
+     "ret": -13.2,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260930",
+     "to": "20261104",
+     "ret": 15.3,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -5.8,
+    "hiAt": "20261104",
+    "offLo": 8.6,
+    "loAt": "20260930",
+    "vsMa20": -2.3,
+    "r20": -2.2
+   },
+   "health": {
+    "valx": 0.97,
+    "a20": 57,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20260129",
+    "20261120"
+   ]
+  },
+  "Telecommunications Equipment": {
+   "n": 36,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260602",
+     "ret": 56.3,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260602",
+     "to": "20261120",
+     "ret": -27.0,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -27.0,
+    "hiAt": "20260602",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -10.1,
+    "r20": -11.5
+   },
+   "health": {
+    "valx": 0.95,
+    "a20": 19,
+    "nh": 1,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Cable & Other Pay Television Services": {
+   "n": 10,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260423",
+     "ret": 26.9,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260423",
+     "to": "20261026",
+     "ret": -19.9,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -14.6,
+    "hiAt": "20260423",
+    "offLo": 6.5,
+    "loAt": "20261026",
+    "vsMa20": -0.4,
+    "r20": 4.4
+   },
+   "health": {
+    "valx": 1.15,
+    "a20": 80,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Packaged Foods": {
+   "n": 22,
+   "swings": [],
+   "now": {
+    "offHi": -12.1,
+    "hiAt": "20260227",
+    "offLo": 4.6,
+    "loAt": "20260622",
+    "vsMa20": -0.7,
+    "r20": -0.6
+   },
+   "health": {
+    "valx": 1.32,
+    "a20": 50,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Biotechnology: Biological Products (No Diagnostic Substances)": {
+   "n": 42,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260224",
+     "ret": 32.8,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260224",
+     "to": "20260330",
+     "ret": -14.3,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260330",
+     "to": "20261005",
+     "ret": 78.3,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261005",
+     "to": "20261120",
+     "ret": -15.6,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -15.6,
+    "hiAt": "20261005",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -9.4,
+    "r20": -8.2
+   },
+   "health": {
+    "valx": 1.05,
+    "a20": 17,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Auto Parts:O.E.M.": {
+   "n": 20,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20260327",
+     "to": "20260603",
+     "ret": 22.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260603",
+     "to": "20261120",
+     "ret": -24.5,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -24.5,
+    "hiAt": "20260603",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -3.5,
+    "r20": -1.9
+   },
+   "health": {
+    "valx": 0.91,
+    "a20": 35,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20260327",
+    "20261120"
+   ]
+  },
+  "EDP Services": {
+   "n": 50,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20260217",
+     "to": "20260511",
+     "ret": 46.5,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260511",
+     "to": "20260625",
+     "ret": -16.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260625",
+     "to": "20261026",
+     "ret": 27.6,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -8.5,
+    "hiAt": "20261026",
+    "offLo": 16.8,
+    "loAt": "20260625",
+    "vsMa20": -5.3,
+    "r20": -8.5
+   },
+   "health": {
+    "valx": 0.99,
+    "a20": 14,
+    "nh": 0,
+    "nh5ago": 1
+   },
+   "span": [
+    "20260217",
+    "20261120"
+   ]
+  },
+  "Medical/Nursing Services": {
+   "n": 13,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20261104",
+     "ret": 35.7,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -10.1,
+    "hiAt": "20261104",
+    "offLo": 22.0,
+    "loAt": "20251121",
+    "vsMa20": -4.8,
+    "r20": -2.3
+   },
+   "health": {
+    "valx": 0.82,
+    "a20": 31,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
    ]
   },
   "Power Generation": {
@@ -1290,170 +1221,287 @@
    "now": {
     "offHi": -5.8,
     "hiAt": "20260409",
-    "offLo": 13.0,
+    "offLo": 13.1,
     "loAt": "20260928",
-    "vsMa20": 0.3,
-    "r20": 2.2
+    "vsMa20": 0.2,
+    "r20": 3.0
    },
    "health": {
-    "valx": 0.87,
-    "a20": 43,
+    "valx": 1.08,
+    "a20": 50,
     "nh": 0,
-    "nh5ago": 0
+    "nh5ago": 1
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Life Insurance": {
-   "n": 11,
+   "n": 16,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260730",
-     "ret": 26.4,
+     "from": "20251121",
+     "to": "20260806",
+     "ret": 22.5,
      "live": true
     }
    ],
    "now": {
-    "offHi": -9.2,
-    "hiAt": "20260730",
-    "offLo": 14.8,
-    "loAt": "20251120",
-    "vsMa20": -2.9,
-    "r20": -4.4
+    "offHi": -11.1,
+    "hiAt": "20260806",
+    "offLo": 8.9,
+    "loAt": "20251121",
+    "vsMa20": -4.8,
+    "r20": -2.8
    },
    "health": {
-    "valx": 1.61,
-    "a20": 27,
+    "valx": 1.09,
+    "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Electrical Products": {
-   "n": 19,
+   "n": 21,
    "swings": [
-    {
-     "k": "down",
-     "from": "20260622",
-     "to": "20260729",
-     "ret": -32.5,
-     "live": false
-    },
     {
      "k": "up",
      "from": "20260729",
      "to": "20260817",
-     "ret": 34.1,
+     "ret": 31.9,
      "live": false
     },
     {
      "k": "down",
      "from": "20260817",
      "to": "20260901",
-     "ret": -23.1,
+     "ret": -22.2,
      "live": false
     },
     {
      "k": "up",
      "from": "20260901",
      "to": "20261002",
-     "ret": 22.5,
+     "ret": 21.2,
      "live": false
     },
     {
      "k": "down",
      "from": "20261002",
      "to": "20261105",
-     "ret": -37.9,
+     "ret": -35.8,
      "live": false
     },
     {
      "k": "up",
      "from": "20261105",
      "to": "20261111",
-     "ret": 19.4,
+     "ret": 18.0,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261111",
+     "to": "20261120",
+     "ret": -16.6,
      "live": true
     }
    ],
    "now": {
-    "offHi": -9.2,
+    "offHi": -16.6,
     "hiAt": "20261111",
-    "offLo": 8.4,
-    "loAt": "20261105",
-    "vsMa20": -5.7,
-    "r20": -5.7
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -12.9,
+    "r20": -13.6
    },
    "health": {
-    "valx": 0.72,
-    "a20": 16,
+    "valx": 1.07,
+    "a20": 10,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Precious Metals": {
-   "n": 24,
+   "n": 35,
    "swings": [
     {
      "k": "up",
      "from": "20260610",
      "to": "20260616",
-     "ret": 20.7,
+     "ret": 20.5,
      "live": false
     },
     {
      "k": "down",
      "from": "20260616",
      "to": "20260720",
-     "ret": -19.0,
+     "ret": -20.6,
      "live": false
     },
     {
      "k": "up",
      "from": "20260720",
      "to": "20260825",
-     "ret": 50.6,
+     "ret": 48.5,
      "live": false
     },
     {
      "k": "down",
      "from": "20260825",
      "to": "20261030",
-     "ret": -28.0,
+     "ret": -28.6,
      "live": false
     },
     {
      "k": "up",
      "from": "20261030",
      "to": "20261109",
-     "ret": 17.2,
+     "ret": 18.4,
      "live": false
     },
     {
      "k": "down",
      "from": "20261109",
-     "to": "20261119",
-     "ret": -23.7,
+     "to": "20261120",
+     "ret": -28.4,
      "live": true
     }
    ],
    "now": {
-    "offHi": -23.7,
+    "offHi": -28.4,
     "hiAt": "20261109",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -14.5,
-    "r20": -15.4
+    "loAt": "20261120",
+    "vsMa20": -18.4,
+    "r20": -17.9
+   },
+   "health": {
+    "valx": 1.43,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Clothing/Shoe/Accessory Stores": {
+   "n": 9,
+   "swings": [
+    {
+     "k": "down",
+     "from": "20260108",
+     "to": "20260330",
+     "ret": -22.1,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260330",
+     "to": "20260420",
+     "ret": 16.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260420",
+     "to": "20260518",
+     "ret": -16.4,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260518",
+     "to": "20260810",
+     "ret": 33.7,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260810",
+     "to": "20260915",
+     "ret": -13.0,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260915",
+     "to": "20261104",
+     "ret": 26.6,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -11.0,
+    "hiAt": "20261104",
+    "offLo": 12.6,
+    "loAt": "20260915",
+    "vsMa20": -4.5,
+    "r20": -1.0
+   },
+   "health": {
+    "valx": 1.66,
+    "a20": 33,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Electric Utilities: Central": {
+   "n": 40,
+   "swings": [],
+   "now": {
+    "offHi": -15.4,
+    "hiAt": "20260225",
+    "offLo": 1.7,
+    "loAt": "20260928",
+    "vsMa20": -3.7,
+    "r20": -2.7
+   },
+   "health": {
+    "valx": 1.11,
+    "a20": 25,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Accident &Health Insurance": {
+   "n": 4,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260903",
+     "ret": 28.8,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -8.8,
+    "hiAt": "20260903",
+    "offLo": 17.5,
+    "loAt": "20251121",
+    "vsMa20": -4.9,
+    "r20": -4.0
    },
    "health": {
     "valx": 1.05,
@@ -1462,694 +1510,407 @@
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
-  "Clothing/Shoe/Accessory Stores": {
-   "n": 7,
+  "Finance: Consumer Services": {
+   "n": 56,
    "swings": [
     {
+     "k": "down",
+     "from": "20251215",
+     "to": "20260330",
+     "ret": -17.9,
+     "live": false
+    },
+    {
      "k": "up",
-     "from": "20251120",
-     "to": "20260108",
-     "ret": 33.2,
+     "from": "20260330",
+     "to": "20260601",
+     "ret": 40.8,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260108",
-     "to": "20260513",
-     "ret": -23.5,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260513",
-     "to": "20261104",
-     "ret": 35.4,
+     "from": "20260601",
+     "to": "20261120",
+     "ret": -30.5,
      "live": true
     }
    ],
    "now": {
-    "offHi": -11.9,
-    "hiAt": "20261104",
-    "offLo": 19.3,
-    "loAt": "20260513",
-    "vsMa20": -5.7,
-    "r20": -7.3
+    "offHi": -30.5,
+    "hiAt": "20260601",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -11.8,
+    "r20": -13.5
    },
    "health": {
-    "valx": 1.49,
-    "a20": 29,
+    "valx": 1.03,
+    "a20": 11,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251215",
+    "20261120"
    ]
   },
-  "Electric Utilities: Central": {
-   "n": 30,
-   "swings": [],
-   "now": {
-    "offHi": -11.7,
-    "hiAt": "20260225",
-    "offLo": 5.7,
-    "loAt": "20260928",
-    "vsMa20": -1.4,
-    "r20": -0.9
-   },
-   "health": {
-    "valx": 0.88,
-    "a20": 40,
-    "nh": 0,
-    "nh5ago": 1
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Accident &Health Insurance": {
+  "Misc Health and Biotechnology Services": {
    "n": 4,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260903",
-     "ret": 30.0,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -7.3,
-    "hiAt": "20260903",
-    "offLo": 20.6,
-    "loAt": "20251120",
-    "vsMa20": -3.6,
-    "r20": -5.0
-   },
-   "health": {
-    "valx": 0.96,
-    "a20": 0,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Finance: Consumer Services": {
-   "n": 16,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260626",
-     "ret": 19.9,
+     "from": "20251121",
+     "to": "20260112",
+     "ret": 19.1,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260626",
+     "from": "20260112",
+     "to": "20260330",
+     "ret": -31.8,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260330",
+     "to": "20260717",
+     "ret": 289.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260717",
+     "to": "20260924",
+     "ret": -33.1,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260924",
+     "to": "20261116",
+     "ret": 34.6,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261116",
      "to": "20261119",
-     "ret": -16.3,
+     "ret": -17.3,
      "live": true
     }
    ],
    "now": {
-    "offHi": -16.3,
-    "hiAt": "20260626",
-    "offLo": 0.0,
+    "offHi": -16.6,
+    "hiAt": "20261116",
+    "offLo": 0.8,
     "loAt": "20261119",
-    "vsMa20": -4.8,
-    "r20": -5.7
+    "vsMa20": -7.6,
+    "r20": -0.3
    },
    "health": {
-    "valx": 0.93,
-    "a20": 12,
+    "valx": 0.79,
+    "a20": 25,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Finance Companies": {
-   "n": 7,
+   "n": 8,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260814",
-     "ret": 33.0,
+     "ret": 29.1,
      "live": false
     },
     {
      "k": "down",
      "from": "20260814",
-     "to": "20261119",
-     "ret": -12.7,
+     "to": "20261120",
+     "ret": -14.7,
      "live": true
     }
    ],
    "now": {
-    "offHi": -12.7,
+    "offHi": -14.7,
     "hiAt": "20260814",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -6.3,
-    "r20": -6.9
+    "loAt": "20261120",
+    "vsMa20": -7.1,
+    "r20": -7.3
    },
    "health": {
-    "valx": 0.8,
-    "a20": 0,
+    "valx": 1.14,
+    "a20": 12,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Farming/Seeds/Milling": {
-   "n": 5,
+   "n": 8,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260406",
-     "ret": 39.5,
+     "ret": 32.8,
      "live": false
     },
     {
      "k": "down",
      "from": "20260406",
-     "to": "20261119",
-     "ret": -36.6,
+     "to": "20261120",
+     "ret": -35.1,
      "live": true
     }
    ],
    "now": {
-    "offHi": -36.6,
+    "offHi": -35.1,
     "hiAt": "20260406",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -8.0,
-    "r20": -13.7
+    "loAt": "20261120",
+    "vsMa20": -11.3,
+    "r20": -17.8
    },
    "health": {
-    "valx": 1.21,
-    "a20": 20,
+    "valx": 1.25,
+    "a20": 12,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Engineering & Construction": {
-   "n": 6,
+   "n": 8,
    "swings": [
     {
      "k": "down",
-     "from": "20260514",
+     "from": "20260506",
      "to": "20260610",
-     "ret": -15.3,
+     "ret": -14.9,
      "live": false
     },
     {
      "k": "up",
      "from": "20260610",
      "to": "20260622",
-     "ret": 17.9,
+     "ret": 15.4,
      "live": false
     },
     {
      "k": "down",
      "from": "20260622",
      "to": "20260729",
-     "ret": -30.2,
+     "ret": -29.8,
      "live": false
     },
     {
      "k": "up",
      "from": "20260729",
      "to": "20260817",
-     "ret": 33.6,
+     "ret": 28.8,
      "live": false
     },
     {
      "k": "down",
      "from": "20260817",
      "to": "20261105",
-     "ret": -45.8,
+     "ret": -44.6,
      "live": false
     },
     {
      "k": "up",
      "from": "20261105",
      "to": "20261111",
-     "ret": 21.3,
+     "ret": 20.2,
      "live": true
     }
    ],
    "now": {
-    "offHi": -6.2,
+    "offHi": -11.6,
     "hiAt": "20261111",
-    "offLo": 13.8,
+    "offLo": 6.2,
     "loAt": "20261105",
-    "vsMa20": -3.7,
-    "r20": -6.4
+    "vsMa20": -8.8,
+    "r20": -8.6
    },
    "health": {
-    "valx": 0.75,
-    "a20": 17,
+    "valx": 1.11,
+    "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Industrial Specialties": {
-   "n": 16,
+   "n": 20,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260211",
-     "ret": 15.3,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260211",
-     "to": "20260330",
-     "ret": -13.0,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260330",
+     "from": "20251121",
      "to": "20260805",
-     "ret": 24.9,
+     "ret": 18.1,
      "live": false
     },
     {
      "k": "down",
      "from": "20260805",
-     "to": "20260915",
-     "ret": -12.2,
+     "to": "20261014",
+     "ret": -13.3,
      "live": true
     }
    ],
    "now": {
-    "offHi": -7.8,
+    "offHi": -11.3,
     "hiAt": "20260805",
-    "offLo": 5.1,
-    "loAt": "20260915",
-    "vsMa20": -0.8,
-    "r20": 0.8
+    "offLo": 2.3,
+    "loAt": "20261014",
+    "vsMa20": -3.3,
+    "r20": -1.0
    },
    "health": {
-    "valx": 0.84,
-    "a20": 44,
+    "valx": 0.94,
+    "a20": 30,
     "nh": 0,
-    "nh5ago": 0
+    "nh5ago": 2
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Major Chemicals": {
-   "n": 24,
+   "n": 33,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260505",
-     "ret": 42.5,
+     "ret": 45.3,
      "live": false
     },
     {
      "k": "down",
      "from": "20260505",
-     "to": "20261119",
-     "ret": -16.0,
+     "to": "20261120",
+     "ret": -22.4,
      "live": true
     }
    ],
    "now": {
-    "offHi": -16.0,
+    "offHi": -22.4,
     "hiAt": "20260505",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -4.7,
-    "r20": -4.8
+    "loAt": "20261120",
+    "vsMa20": -7.7,
+    "r20": -8.0
    },
    "health": {
-    "valx": 0.96,
-    "a20": 4,
+    "valx": 1.27,
+    "a20": 3,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Ophthalmic Goods": {
+   "n": 6,
+   "swings": [],
+   "now": {
+    "offHi": -16.0,
+    "hiAt": "20251211",
+    "offLo": 9.4,
+    "loAt": "20260921",
+    "vsMa20": -4.8,
+    "r20": -0.3
+   },
+   "health": {
+    "valx": 1.05,
+    "a20": 17,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
    ]
   },
   "Other Metals and Minerals": {
-   "n": 3,
+   "n": 5,
    "swings": [
     {
      "k": "up",
      "from": "20260519",
      "to": "20260602",
-     "ret": 20.2,
+     "ret": 19.7,
      "live": false
     },
     {
      "k": "down",
      "from": "20260602",
      "to": "20260610",
-     "ret": -27.4,
+     "ret": -26.5,
      "live": false
     },
     {
      "k": "up",
      "from": "20260610",
      "to": "20260618",
-     "ret": 18.5,
+     "ret": 19.6,
      "live": false
     },
     {
      "k": "down",
      "from": "20260618",
      "to": "20260729",
-     "ret": -21.4,
+     "ret": -28.4,
      "live": false
     },
     {
      "k": "up",
      "from": "20260729",
-     "to": "20260827",
-     "ret": 36.6,
+     "to": "20260825",
+     "ret": 45.9,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260827",
-     "to": "20261119",
-     "ret": -50.1,
+     "from": "20260825",
+     "to": "20261120",
+     "ret": -56.5,
      "live": true
     }
    ],
    "now": {
-    "offHi": -50.1,
-    "hiAt": "20260827",
+    "offHi": -56.5,
+    "hiAt": "20260825",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -16.4,
-    "r20": -20.2
-   },
-   "health": {
-    "valx": 0.78,
-    "a20": 0,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Natural Gas Distribution": {
-   "n": 11,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260723",
-     "ret": 30.5,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260723",
-     "to": "20261119",
-     "ret": -12.3,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -12.3,
-    "hiAt": "20260723",
-    "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -6.3,
-    "r20": -9.5
-   },
-   "health": {
-    "valx": 0.82,
-    "a20": 0,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Containers/Packaging": {
-   "n": 8,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260218",
-     "ret": 20.3,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260218",
-     "to": "20260519",
-     "ret": -18.7,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260519",
-     "to": "20260728",
-     "ret": 23.1,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260728",
-     "to": "20261007",
-     "ret": -15.8,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20261007",
-     "to": "20261104",
-     "ret": 16.5,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -7.0,
-    "hiAt": "20261104",
-    "offLo": 8.4,
-    "loAt": "20261007",
-    "vsMa20": -3.1,
-    "r20": -2.4
-   },
-   "health": {
-    "valx": 0.86,
-    "a20": 12,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Professional Services": {
-   "n": 14,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260123",
-     "ret": 19.8,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260123",
-     "to": "20260318",
-     "ret": -22.3,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260318",
-     "to": "20261104",
-     "ret": 61.0,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20261104",
-     "to": "20261119",
-     "ret": -12.9,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -12.9,
-    "hiAt": "20261104",
-    "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -8.2,
-    "r20": -9.1
-   },
-   "health": {
-    "valx": 0.79,
-    "a20": 14,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Building Materials": {
-   "n": 4,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260211",
-     "ret": 26.0,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260211",
-     "to": "20260320",
-     "ret": -24.1,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260320",
-     "to": "20260626",
-     "ret": 27.8,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260626",
-     "to": "20261014",
-     "ret": -21.3,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20261014",
-     "to": "20261104",
-     "ret": 20.0,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -10.8,
-    "hiAt": "20261104",
-    "offLo": 7.0,
-    "loAt": "20261014",
-    "vsMa20": -4.9,
-    "r20": -1.0
-   },
-   "health": {
-    "valx": 0.69,
-    "a20": 0,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Metal Fabrications": {
-   "n": 17,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260630",
-     "ret": 54.2,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260630",
-     "to": "20261105",
-     "ret": -24.3,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -23.7,
-    "hiAt": "20260630",
-    "offLo": 0.8,
-    "loAt": "20261105",
-    "vsMa20": -3.6,
-    "r20": -3.1
-   },
-   "health": {
-    "valx": 0.91,
-    "a20": 29,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Catalog/Specialty Distribution": {
-   "n": 3,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20261013",
-     "ret": 67.7,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -8.6,
-    "hiAt": "20261013",
-    "offLo": 53.4,
-    "loAt": "20251120",
-    "vsMa20": -2.8,
-    "r20": -4.5
+    "loAt": "20261120",
+    "vsMa20": -21.5,
+    "r20": -25.3
    },
    "health": {
     "valx": 1.06,
@@ -2158,546 +1919,968 @@
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
-  "Computer Communications Equipment": {
-   "n": 4,
+  "Natural Gas Distribution": {
+   "n": 16,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260709",
-     "ret": 82.8,
+     "from": "20251121",
+     "to": "20260722",
+     "ret": 35.7,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260709",
-     "to": "20261105",
-     "ret": -24.4,
+     "from": "20260722",
+     "to": "20261120",
+     "ret": -16.1,
      "live": true
     }
    ],
    "now": {
-    "offHi": -22.2,
-    "hiAt": "20260709",
-    "offLo": 3.0,
-    "loAt": "20261105",
-    "vsMa20": -6.1,
-    "r20": -13.7
+    "offHi": -16.1,
+    "hiAt": "20260722",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -6.9,
+    "r20": -11.3
    },
    "health": {
-    "valx": 0.83,
-    "a20": 25,
+    "valx": 0.95,
+    "a20": 0,
     "nh": 0,
-    "nh5ago": 1
+    "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
-  "Consumer Electronics/Appliances": {
-   "n": 4,
+  "Containers/Packaging": {
+   "n": 12,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260210",
-     "ret": 24.1,
+     "from": "20251121",
+     "to": "20260218",
+     "ret": 19.3,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260210",
-     "to": "20260515",
-     "ret": -29.5,
+     "from": "20260218",
+     "to": "20260519",
+     "ret": -19.7,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260515",
-     "to": "20260805",
-     "ret": 22.0,
+     "from": "20260519",
+     "to": "20260728",
+     "ret": 24.5,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260805",
-     "to": "20260916",
-     "ret": -15.3,
+     "from": "20260728",
+     "to": "20261007",
+     "ret": -15.8,
      "live": true
     }
    ],
    "now": {
     "offHi": -12.4,
-    "hiAt": "20260805",
-    "offLo": 3.4,
-    "loAt": "20260916",
-    "vsMa20": -3.0,
-    "r20": 1.0
+    "hiAt": "20260728",
+    "offLo": 4.1,
+    "loAt": "20261007",
+    "vsMa20": -4.8,
+    "r20": -3.0
    },
    "health": {
     "valx": 0.93,
-    "a20": 25,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Oil & Gas Production": {
-   "n": 32,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260327",
-     "ret": 49.5,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260327",
-     "to": "20260417",
-     "ret": -12.4,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260417",
-     "to": "20260519",
-     "ret": 15.7,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260519",
-     "to": "20260701",
-     "ret": -20.9,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260701",
-     "to": "20261030",
-     "ret": 32.3,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20261030",
-     "to": "20261119",
-     "ret": -18.1,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -18.1,
-    "hiAt": "20261030",
-    "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -9.3,
-    "r20": -13.7
-   },
-   "health": {
-    "valx": 0.81,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
-  "Computer Software: Programming Data Processing": {
-   "n": 4,
+  "Movies/Entertainment": {
+   "n": 3,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260122",
-     "ret": 17.0,
+     "from": "20260212",
+     "to": "20260618",
+     "ret": 83.0,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260122",
-     "to": "20260327",
-     "ret": -23.0,
+     "from": "20260618",
+     "to": "20260713",
+     "ret": -19.6,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260327",
-     "to": "20260601",
-     "ret": 29.5,
+     "from": "20260713",
+     "to": "20260803",
+     "ret": 19.8,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260601",
-     "to": "20260625",
-     "ret": -14.0,
+     "from": "20260803",
+     "to": "20260910",
+     "ret": -13.7,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260625",
-     "to": "20260804",
-     "ret": 15.9,
+     "from": "20260910",
+     "to": "20261111",
+     "ret": 30.4,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260804",
-     "to": "20261119",
-     "ret": -15.6,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -15.6,
-    "hiAt": "20260804",
-    "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -7.1,
-    "r20": -13.3
-   },
-   "health": {
-    "valx": 1.08,
-    "a20": 0,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Trucking Freight/Courier Services": {
-   "n": 9,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260204",
-     "ret": 52.8,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260204",
-     "to": "20260312",
-     "ret": -17.5,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260312",
-     "to": "20260611",
-     "ret": 54.4,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260611",
-     "to": "20261106",
-     "ret": -30.0,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -28.6,
-    "hiAt": "20260611",
-    "offLo": 2.0,
-    "loAt": "20261106",
-    "vsMa20": -1.7,
-    "r20": -5.3
-   },
-   "health": {
-    "valx": 0.99,
-    "a20": 33,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Restaurants": {
-   "n": 12,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260206",
-     "ret": 22.5,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260206",
-     "to": "20260327",
-     "ret": -14.6,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260327",
-     "to": "20260824",
-     "ret": 44.9,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260824",
-     "to": "20260917",
-     "ret": -15.2,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260917",
-     "to": "20261118",
-     "ret": 17.6,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -3.8,
-    "hiAt": "20261118",
-    "offLo": 13.2,
-    "loAt": "20260917",
-    "vsMa20": 1.2,
-    "r20": 4.3
-   },
-   "health": {
-    "valx": 1.04,
-    "a20": 67,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Hospital/Nursing Management": {
-   "n": 10,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260211",
-     "ret": 17.8,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260211",
-     "to": "20260601",
-     "ret": -16.3,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260601",
-     "to": "20261104",
-     "ret": 28.6,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -10.4,
-    "hiAt": "20261104",
-    "offLo": 15.2,
-    "loAt": "20260601",
-    "vsMa20": -5.1,
-    "r20": -5.7
-   },
-   "health": {
-    "valx": 1.01,
-    "a20": 0,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Other Specialty Stores": {
-   "n": 7,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260226",
-     "ret": 28.0,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260226",
-     "to": "20260327",
+     "from": "20261111",
+     "to": "20261120",
      "ret": -13.2,
      "live": true
     }
    ],
    "now": {
-    "offHi": -11.7,
-    "hiAt": "20260226",
-    "offLo": 1.8,
-    "loAt": "20260327",
-    "vsMa20": -6.2,
-    "r20": -6.7
+    "offHi": -13.2,
+    "hiAt": "20261111",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -6.7,
+    "r20": -1.9
    },
    "health": {
-    "valx": 0.96,
+    "valx": 0.84,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
-  "Electronic Components": {
-   "n": 10,
+  "Professional Services": {
+   "n": 13,
    "swings": [
     {
+     "k": "up",
+     "from": "20251121",
+     "to": "20261104",
+     "ret": 38.7,
+     "live": false
+    },
+    {
      "k": "down",
-     "from": "20260622",
+     "from": "20261104",
+     "to": "20261119",
+     "ret": -13.1,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -11.7,
+    "hiAt": "20261104",
+    "offLo": 1.6,
+    "loAt": "20261119",
+    "vsMa20": -6.4,
+    "r20": -10.7
+   },
+   "health": {
+    "valx": 0.78,
+    "a20": 23,
+    "nh": 0,
+    "nh5ago": 1
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Coal Mining": {
+   "n": 5,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20260227",
+     "to": "20260327",
+     "ret": 23.9,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260327",
+     "to": "20260520",
+     "ret": -24.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260520",
+     "to": "20260604",
+     "ret": 20.7,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260604",
      "to": "20260729",
-     "ret": -28.7,
+     "ret": -25.1,
      "live": false
     },
     {
      "k": "up",
      "from": "20260729",
-     "to": "20260817",
-     "ret": 22.6,
+     "to": "20260831",
+     "ret": 38.0,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260817",
-     "to": "20260915",
+     "from": "20260831",
+     "to": "20261120",
+     "ret": -29.6,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -29.6,
+    "hiAt": "20260831",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -8.7,
+    "r20": -15.0
+   },
+   "health": {
+    "valx": 1.18,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Building Materials": {
+   "n": 5,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260220",
+     "ret": 24.6,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260220",
+     "to": "20260320",
+     "ret": -22.3,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260320",
+     "to": "20260626",
+     "ret": 22.8,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260626",
+     "to": "20261014",
+     "ret": -24.0,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20261014",
+     "to": "20261104",
+     "ret": 20.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261104",
+     "to": "20261120",
+     "ret": -12.1,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -12.1,
+    "hiAt": "20261104",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -6.1,
+    "r20": -1.3
+   },
+   "health": {
+    "valx": 0.74,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Metal Fabrications": {
+   "n": 25,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260211",
+     "ret": 25.3,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260211",
+     "to": "20260330",
+     "ret": -12.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260330",
+     "to": "20260622",
+     "ret": 35.3,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260622",
+     "to": "20261120",
+     "ret": -27.6,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -27.6,
+    "hiAt": "20260622",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -9.2,
+    "r20": -9.4
+   },
+   "health": {
+    "valx": 1.13,
+    "a20": 8,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Catalog/Specialty Distribution": {
+   "n": 9,
+   "swings": [
+    {
+     "k": "down",
+     "from": "20251121",
+     "to": "20260330",
+     "ret": -13.7,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260330",
+     "to": "20260417",
+     "ret": 18.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260417",
+     "to": "20260519",
+     "ret": -17.1,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260519",
+     "to": "20261104",
+     "ret": 45.4,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -10.2,
+    "hiAt": "20261104",
+    "offLo": 30.5,
+    "loAt": "20260519",
+    "vsMa20": -6.9,
+    "r20": -8.2
+   },
+   "health": {
+    "valx": 1.39,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Computer Communications Equipment": {
+   "n": 6,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260709",
+     "ret": 82.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260709",
+     "to": "20260910",
      "ret": -16.7,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260915",
-     "to": "20261005",
-     "ret": 15.5,
+     "from": "20260910",
+     "to": "20261009",
+     "ret": 15.2,
      "live": false
     },
     {
      "k": "down",
-     "from": "20261005",
+     "from": "20261009",
      "to": "20261105",
-     "ret": -35.6,
+     "ret": -23.2,
      "live": false
     },
     {
      "k": "up",
      "from": "20261105",
      "to": "20261111",
-     "ret": 17.1,
+     "ret": 15.2,
      "live": true
     }
    ],
    "now": {
-    "offHi": -7.8,
+    "offHi": -9.6,
     "hiAt": "20261111",
-    "offLo": 8.0,
+    "offLo": 4.1,
     "loAt": "20261105",
-    "vsMa20": -6.8,
-    "r20": -11.7
+    "vsMa20": -6.5,
+    "r20": -11.3
    },
    "health": {
-    "valx": 0.9,
-    "a20": 10,
+    "valx": 1.3,
+    "a20": 17,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Consumer Electronics/Appliances": {
+   "n": 10,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260211",
+     "ret": 18.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260211",
+     "to": "20260330",
+     "ret": -17.1,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260330",
+     "to": "20260814",
+     "ret": 26.4,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -7.0,
+    "hiAt": "20260814",
+    "offLo": 17.5,
+    "loAt": "20260330",
+    "vsMa20": -2.1,
+    "r20": 2.7
+   },
+   "health": {
+    "valx": 1.12,
+    "a20": 10,
+    "nh": 1,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Oil & Gas Production": {
+   "n": 55,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260519",
+     "ret": 48.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260519",
+     "to": "20260701",
+     "ret": -19.8,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260701",
+     "to": "20261030",
+     "ret": 25.6,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261030",
+     "to": "20261120",
+     "ret": -18.8,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -18.8,
+    "hiAt": "20261030",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -9.3,
+    "r20": -17.2
+   },
+   "health": {
+    "valx": 0.94,
+    "a20": 2,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Computer Software: Programming Data Processing": {
+   "n": 29,
+   "swings": [
+    {
+     "k": "down",
+     "from": "20251121",
+     "to": "20260330",
+     "ret": -12.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260330",
+     "to": "20260601",
+     "ret": 36.3,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260601",
+     "to": "20260724",
+     "ret": -13.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260724",
+     "to": "20260921",
+     "ret": 15.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260921",
+     "to": "20261120",
+     "ret": -26.0,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -26.0,
+    "hiAt": "20260921",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -12.2,
+    "r20": -15.1
+   },
+   "health": {
+    "valx": 1.13,
+    "a20": 14,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Trucking Freight/Courier Services": {
+   "n": 10,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260204",
+     "ret": 43.9,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260204",
+     "to": "20260312",
+     "ret": -17.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260312",
+     "to": "20260611",
+     "ret": 54.8,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260611",
+     "to": "20261120",
+     "ret": -30.8,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -30.8,
+    "hiAt": "20260611",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -5.0,
+    "r20": -6.9
+   },
+   "health": {
+    "valx": 1.09,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Restaurants": {
+   "n": 21,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260115",
+     "ret": 15.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260115",
+     "to": "20260327",
+     "ret": -14.1,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260327",
+     "to": "20260824",
+     "ret": 31.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260824",
+     "to": "20260917",
+     "ret": -15.1,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260917",
+     "to": "20261118",
+     "ret": 18.5,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -5.1,
+    "hiAt": "20261118",
+    "offLo": 12.5,
+    "loAt": "20260917",
+    "vsMa20": -1.4,
+    "r20": 5.2
+   },
+   "health": {
+    "valx": 1.01,
+    "a20": 38,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Hospital/Nursing Management": {
+   "n": 13,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260217",
+     "ret": 15.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260217",
+     "to": "20260608",
+     "ret": -14.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260608",
+     "to": "20261111",
+     "ret": 37.0,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -7.6,
+    "hiAt": "20261111",
+    "offLo": 26.5,
+    "loAt": "20260608",
+    "vsMa20": -3.0,
+    "r20": 2.4
+   },
+   "health": {
+    "valx": 0.83,
+    "a20": 15,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Other Specialty Stores": {
+   "n": 14,
+   "swings": [
+    {
+     "k": "down",
+     "from": "20260205",
+     "to": "20260327",
+     "ret": -19.0,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260327",
+     "to": "20260807",
+     "ret": 21.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260807",
+     "to": "20260930",
+     "ret": -12.7,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260930",
+     "to": "20261109",
+     "ret": 20.9,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -11.6,
+    "hiAt": "20261109",
+    "offLo": 6.9,
+    "loAt": "20260930",
+    "vsMa20": -5.9,
+    "r20": -1.2
+   },
+   "health": {
+    "valx": 1.09,
+    "a20": 14,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20260205",
+    "20261120"
+   ]
+  },
+  "Electronic Components": {
+   "n": 13,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20260312",
+     "to": "20260622",
+     "ret": 65.9,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260622",
+     "to": "20260729",
+     "ret": -24.0,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260729",
+     "to": "20260817",
+     "ret": 22.8,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260817",
+     "to": "20260915",
+     "ret": -15.6,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260915",
+     "to": "20261005",
+     "ret": 17.0,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261005",
+     "to": "20261120",
+     "ret": -31.4,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -31.4,
+    "hiAt": "20261005",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -12.8,
+    "r20": -17.0
+   },
+   "health": {
+    "valx": 1.07,
+    "a20": 8,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20260312",
+    "20261120"
    ]
   },
   "Apparel": {
-   "n": 8,
+   "n": 14,
    "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260220",
+     "ret": 31.0,
+     "live": false
+    },
     {
      "k": "down",
      "from": "20260220",
      "to": "20260330",
-     "ret": -21.5,
+     "ret": -18.9,
      "live": false
     },
     {
      "k": "up",
      "from": "20260330",
      "to": "20260421",
-     "ret": 16.2,
+     "ret": 17.0,
      "live": false
     },
     {
      "k": "down",
      "from": "20260421",
-     "to": "20260515",
-     "ret": -15.7,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260515",
-     "to": "20260612",
-     "ret": 16.8,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260612",
      "to": "20260924",
-     "ret": -24.5,
+     "ret": -23.2,
      "live": false
     },
     {
      "k": "up",
      "from": "20260924",
      "to": "20261104",
-     "ret": 19.4,
+     "ret": 25.9,
      "live": true
     }
    ],
    "now": {
-    "offHi": -6.8,
+    "offHi": -9.8,
     "hiAt": "20261104",
-    "offLo": 11.3,
+    "offLo": 13.6,
     "loAt": "20260924",
-    "vsMa20": -0.9,
-    "r20": 4.1
+    "vsMa20": -4.1,
+    "r20": 2.6
    },
    "health": {
-    "valx": 0.85,
-    "a20": 25,
+    "valx": 1.06,
+    "a20": 21,
     "nh": 0,
-    "nh5ago": 0
+    "nh5ago": 1
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Specialty Chemicals": {
@@ -2705,9 +2888,9 @@
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260211",
-     "ret": 30.4,
+     "ret": 24.6,
      "live": false
     },
     {
@@ -2728,7 +2911,7 @@
      "k": "down",
      "from": "20260810",
      "to": "20260918",
-     "ret": -13.6,
+     "ret": -13.7,
      "live": false
     },
     {
@@ -2740,147 +2923,154 @@
     }
    ],
    "now": {
-    "offHi": -2.7,
+    "offHi": -4.6,
     "hiAt": "20261109",
-    "offLo": 18.7,
+    "offLo": 16.3,
     "loAt": "20260918",
-    "vsMa20": 1.5,
-    "r20": 9.4
+    "vsMa20": -0.9,
+    "r20": 8.7
    },
    "health": {
-    "valx": 0.71,
-    "a20": 75,
+    "valx": 0.88,
+    "a20": 25,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Medical/Dental Instruments": {
-   "n": 20,
+   "n": 40,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20260306",
      "to": "20261104",
-     "ret": 21.3,
+     "ret": 31.3,
      "live": true
     }
    ],
    "now": {
-    "offHi": -6.9,
+    "offHi": -10.3,
     "hiAt": "20261104",
-    "offLo": 12.9,
-    "loAt": "20251120",
-    "vsMa20": -1.8,
-    "r20": -1.0
+    "offLo": 17.9,
+    "loAt": "20260306",
+    "vsMa20": -4.8,
+    "r20": -4.2
    },
    "health": {
-    "valx": 0.81,
-    "a20": 20,
+    "valx": 0.84,
+    "a20": 15,
     "nh": 0,
-    "nh5ago": 0
+    "nh5ago": 1
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20260306",
+    "20261120"
    ]
   },
   "Steel/Iron Ore": {
-   "n": 8,
+   "n": 9,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260211",
-     "ret": 36.0,
+     "ret": 35.1,
      "live": false
     },
     {
      "k": "down",
      "from": "20260211",
      "to": "20260320",
-     "ret": -17.6,
+     "ret": -19.8,
      "live": false
     },
     {
      "k": "up",
      "from": "20260320",
+     "to": "20260612",
+     "ret": 47.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260612",
+     "to": "20260701",
+     "ret": -12.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260701",
      "to": "20260807",
-     "ret": 51.5,
+     "ret": 15.8,
      "live": false
     },
     {
      "k": "down",
      "from": "20260807",
-     "to": "20261119",
-     "ret": -21.3,
+     "to": "20261120",
+     "ret": -23.7,
      "live": true
     }
    ],
    "now": {
-    "offHi": -21.3,
+    "offHi": -23.7,
     "hiAt": "20260807",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -5.2,
-    "r20": -5.9
+    "loAt": "20261120",
+    "vsMa20": -9.4,
+    "r20": -9.9
    },
    "health": {
-    "valx": 0.86,
+    "valx": 1.3,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Oil/Gas Transmission": {
-   "n": 7,
+   "n": 9,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260327",
-     "ret": 34.5,
+     "ret": 29.4,
      "live": false
     },
     {
      "k": "down",
      "from": "20260327",
      "to": "20260618",
-     "ret": -19.0,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260618",
-     "to": "20261030",
-     "ret": 15.6,
+     "ret": -15.8,
      "live": true
     }
    ],
    "now": {
-    "offHi": -7.0,
-    "hiAt": "20261030",
-    "offLo": 7.6,
+    "offHi": -10.6,
+    "hiAt": "20260327",
+    "offLo": 6.2,
     "loAt": "20260618",
     "vsMa20": -2.7,
-    "r20": -1.6
+    "r20": -2.2
    },
    "health": {
-    "valx": 0.73,
-    "a20": 0,
+    "valx": 0.93,
+    "a20": 33,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Plastic Products": {
@@ -2890,127 +3080,127 @@
      "k": "up",
      "from": "20260330",
      "to": "20260420",
-     "ret": 19.8,
+     "ret": 19.6,
      "live": false
     },
     {
      "k": "down",
      "from": "20260420",
      "to": "20260519",
-     "ret": -13.3,
+     "ret": -13.2,
      "live": false
     },
     {
      "k": "up",
      "from": "20260519",
      "to": "20260630",
-     "ret": 43.1,
+     "ret": 43.0,
      "live": false
     },
     {
      "k": "down",
      "from": "20260630",
      "to": "20260729",
-     "ret": -15.5,
+     "ret": -15.1,
      "live": false
     },
     {
      "k": "up",
      "from": "20260729",
      "to": "20260813",
-     "ret": 16.0,
+     "ret": 15.6,
      "live": false
     },
     {
      "k": "down",
      "from": "20260813",
-     "to": "20261105",
-     "ret": -13.4,
+     "to": "20261120",
+     "ret": -15.3,
      "live": true
     }
    ],
    "now": {
-    "offHi": -11.8,
+    "offHi": -15.3,
     "hiAt": "20260813",
-    "offLo": 1.8,
-    "loAt": "20261105",
-    "vsMa20": -3.5,
-    "r20": -2.9
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -7.1,
+    "r20": -5.7
    },
    "health": {
-    "valx": 0.84,
+    "valx": 1.34,
     "a20": 20,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Metal Mining": {
-   "n": 6,
+   "n": 11,
    "swings": [
     {
      "k": "up",
      "from": "20260320",
-     "to": "20260513",
-     "ret": 34.6,
+     "to": "20260420",
+     "ret": 38.8,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260513",
+     "from": "20260420",
      "to": "20260519",
-     "ret": -12.1,
+     "ret": -12.5,
      "live": false
     },
     {
      "k": "up",
      "from": "20260519",
      "to": "20260602",
-     "ret": 21.5,
+     "ret": 20.5,
      "live": false
     },
     {
      "k": "down",
      "from": "20260602",
-     "to": "20260708",
-     "ret": -24.7,
+     "to": "20260717",
+     "ret": -27.8,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260708",
+     "from": "20260717",
      "to": "20260825",
-     "ret": 32.7,
+     "ret": 37.7,
      "live": false
     },
     {
      "k": "down",
      "from": "20260825",
-     "to": "20261119",
-     "ret": -33.9,
+     "to": "20261120",
+     "ret": -41.7,
      "live": true
     }
    ],
    "now": {
-    "offHi": -33.9,
+    "offHi": -41.7,
     "hiAt": "20260825",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -16.0,
-    "r20": -19.5
+    "loAt": "20261120",
+    "vsMa20": -20.0,
+    "r20": -24.5
    },
    "health": {
-    "valx": 1.21,
+    "valx": 1.42,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Water Supply": {
@@ -3018,39 +3208,39 @@
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20261106",
-     "ret": 23.3,
+     "ret": 20.3,
      "live": true
     }
    ],
    "now": {
-    "offHi": -4.3,
+    "offHi": -3.8,
     "hiAt": "20261106",
-    "offLo": 18.0,
-    "loAt": "20251120",
-    "vsMa20": -1.1,
-    "r20": 1.8
+    "offLo": 15.7,
+    "loAt": "20251121",
+    "vsMa20": -0.8,
+    "r20": 2.0
    },
    "health": {
-    "valx": 0.82,
-    "a20": 33,
+    "valx": 0.95,
+    "a20": 50,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Savings Institutions": {
-   "n": 6,
+   "n": 7,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260206",
-     "ret": 25.8,
+     "ret": 21.5,
      "live": false
     },
     {
@@ -3063,144 +3253,253 @@
     {
      "k": "up",
      "from": "20260318",
-     "to": "20260804",
-     "ret": 28.4,
+     "to": "20260814",
+     "ret": 28.9,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260804",
-     "to": "20261119",
-     "ret": -16.1,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -16.1,
-    "hiAt": "20260804",
-    "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -5.1,
-    "r20": -6.3
-   },
-   "health": {
-    "valx": 1.03,
-    "a20": 0,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Biotechnology: Electromedical & Electrotherapeutic Apparatus": {
-   "n": 3,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260223",
-     "ret": 16.3,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260223",
-     "to": "20260330",
-     "ret": -16.6,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260330",
-     "to": "20260826",
-     "ret": 43.7,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260826",
-     "to": "20261007",
-     "ret": -19.7,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20261007",
-     "to": "20261111",
-     "ret": 35.9,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -4.5,
-    "hiAt": "20261111",
-    "offLo": 29.7,
-    "loAt": "20261007",
-    "vsMa20": 4.3,
-    "r20": 20.2
-   },
-   "health": {
-    "valx": 0.77,
-    "a20": 67,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Commercial Banks": {
-   "n": 19,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260210",
-     "ret": 22.9,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260210",
-     "to": "20260330",
-     "ret": -15.1,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260330",
-     "to": "20260715",
-     "ret": 30.1,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260715",
-     "to": "20261119",
+     "from": "20260814",
+     "to": "20261120",
      "ret": -14.3,
      "live": true
     }
    ],
    "now": {
     "offHi": -14.3,
-    "hiAt": "20260715",
+    "hiAt": "20260814",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -5.3,
-    "r20": -6.6
+    "loAt": "20261120",
+    "vsMa20": -5.8,
+    "r20": -6.5
    },
    "health": {
-    "valx": 1.21,
-    "a20": 11,
+    "valx": 1.25,
+    "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Biotechnology: Electromedical & Electrotherapeutic Apparatus": {
+   "n": 6,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260108",
+     "ret": 16.5,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260108",
+     "to": "20260330",
+     "ret": -17.2,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260330",
+     "to": "20260819",
+     "ret": 34.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260819",
+     "to": "20261007",
+     "ret": -13.0,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20261007",
+     "to": "20261111",
+     "ret": 26.5,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -3.6,
+    "hiAt": "20261111",
+    "offLo": 22.0,
+    "loAt": "20261007",
+    "vsMa20": 2.9,
+    "r20": 13.0
+   },
+   "health": {
+    "valx": 1.12,
+    "a20": 67,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Paints/Coatings": {
+   "n": 3,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260212",
+     "ret": 19.9,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260212",
+     "to": "20260320",
+     "ret": -24.5,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260320",
+     "to": "20260807",
+     "ret": 32.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260807",
+     "to": "20261005",
+     "ret": -15.0,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20261005",
+     "to": "20261104",
+     "ret": 16.7,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -7.7,
+    "hiAt": "20261104",
+    "offLo": 7.7,
+    "loAt": "20261005",
+    "vsMa20": -3.1,
+    "r20": 3.2
+   },
+   "health": {
+    "valx": 0.88,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Building operators": {
+   "n": 3,
+   "swings": [
+    {
+     "k": "down",
+     "from": "20251121",
+     "to": "20260320",
+     "ret": -16.8,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260320",
+     "to": "20260813",
+     "ret": 31.6,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260813",
+     "to": "20261014",
+     "ret": -16.1,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20261014",
+     "to": "20261104",
+     "ret": 18.3,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -8.0,
+    "hiAt": "20261104",
+    "offLo": 8.8,
+    "loAt": "20261014",
+    "vsMa20": -3.2,
+    "r20": 1.4
+   },
+   "health": {
+    "valx": 1.78,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Commercial Banks": {
+   "n": 23,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260210",
+     "ret": 21.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260210",
+     "to": "20260320",
+     "ret": -14.0,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260320",
+     "to": "20260715",
+     "ret": 26.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260715",
+     "to": "20261120",
+     "ret": -16.0,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -16.0,
+    "hiAt": "20260715",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -6.6,
+    "r20": -9.3
+   },
+   "health": {
+    "valx": 1.46,
+    "a20": 9,
+    "nh": 2,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
    ]
   },
   "Banks": {
@@ -3208,102 +3507,131 @@
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260716",
-     "ret": 36.5,
+     "ret": 31.5,
      "live": false
     },
     {
      "k": "down",
      "from": "20260716",
-     "to": "20261014",
-     "ret": -18.4,
+     "to": "20261120",
+     "ret": -18.8,
      "live": true
     }
    ],
    "now": {
-    "offHi": -17.5,
+    "offHi": -18.8,
     "hiAt": "20260716",
-    "offLo": 1.1,
-    "loAt": "20261014",
-    "vsMa20": -3.5,
-    "r20": -5.2
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -4.8,
+    "r20": -5.0
    },
    "health": {
-    "valx": 0.74,
+    "valx": 1.04,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Finance/Investors Services": {
    "n": 6,
-   "swings": [],
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260813",
+     "ret": 16.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260813",
+     "to": "20261120",
+     "ret": -15.9,
+     "live": true
+    }
+   ],
    "now": {
-    "offHi": -13.9,
+    "offHi": -15.9,
     "hiAt": "20260813",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -5.3,
-    "r20": -5.6
+    "loAt": "20261120",
+    "vsMa20": -7.0,
+    "r20": -6.5
    },
    "health": {
-    "valx": 1.08,
+    "valx": 1.52,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "RETAIL: Building Materials": {
-   "n": 6,
+   "n": 9,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260211",
-     "ret": 18.8,
+     "ret": 21.0,
      "live": false
     },
     {
      "k": "down",
      "from": "20260211",
+     "to": "20260519",
+     "ret": -30.1,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260519",
+     "to": "20260807",
+     "ret": 17.7,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260807",
      "to": "20261007",
-     "ret": -28.9,
+     "ret": -17.8,
      "live": false
     },
     {
      "k": "up",
      "from": "20261007",
-     "to": "20261109",
-     "ret": 17.8,
+     "to": "20261104",
+     "ret": 15.5,
      "live": true
     }
    ],
    "now": {
-    "offHi": -5.0,
-    "hiAt": "20261109",
-    "offLo": 11.9,
+    "offHi": -9.2,
+    "hiAt": "20261104",
+    "offLo": 5.0,
     "loAt": "20261007",
-    "vsMa20": -0.7,
-    "r20": 2.3
+    "vsMa20": -4.1,
+    "r20": -0.4
    },
    "health": {
-    "valx": 0.95,
-    "a20": 33,
+    "valx": 1.36,
+    "a20": 22,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Integrated Freight & Logistics": {
@@ -3311,635 +3639,687 @@
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260204",
-     "ret": 29.9,
+     "ret": 26.2,
      "live": false
     },
     {
      "k": "down",
      "from": "20260204",
      "to": "20260330",
-     "ret": -22.4,
+     "ret": -22.3,
      "live": false
     },
     {
      "k": "up",
      "from": "20260330",
      "to": "20260717",
-     "ret": 30.8,
+     "ret": 30.7,
      "live": false
     },
     {
      "k": "down",
      "from": "20260717",
      "to": "20261106",
-     "ret": -26.6,
+     "ret": -26.5,
      "live": true
     }
    ],
    "now": {
-    "offHi": -23.5,
+    "offHi": -24.6,
     "hiAt": "20260717",
-    "offLo": 4.2,
+    "offLo": 2.5,
     "loAt": "20261106",
-    "vsMa20": -0.2,
-    "r20": -2.6
+    "vsMa20": -1.6,
+    "r20": -3.5
    },
    "health": {
-    "valx": 1.29,
+    "valx": 1.23,
     "a20": 50,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Other Consumer Services": {
-   "n": 13,
+   "n": 17,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260729",
-     "ret": 24.7,
+     "ret": 19.2,
      "live": false
     },
     {
      "k": "down",
      "from": "20260729",
-     "to": "20261119",
-     "ret": -18.3,
+     "to": "20261120",
+     "ret": -19.2,
      "live": true
     }
    ],
    "now": {
-    "offHi": -18.3,
+    "offHi": -19.2,
     "hiAt": "20260729",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -5.7,
-    "r20": -13.5
-   },
-   "health": {
-    "valx": 1.27,
-    "a20": 15,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Investment Bankers/Brokers/Service": {
-   "n": 31,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260828",
-     "ret": 17.6,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -11.7,
-    "hiAt": "20260828",
-    "offLo": 3.9,
-    "loAt": "20251120",
-    "vsMa20": -4.4,
-    "r20": -4.2
+    "loAt": "20261120",
+    "vsMa20": -6.9,
+    "r20": -13.8
    },
    "health": {
     "valx": 1.08,
-    "a20": 13,
+    "a20": 12,
+    "nh": 1,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Medical Electronics": {
+   "n": 3,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20260622",
+     "to": "20260629",
+     "ret": 15.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260629",
+     "to": "20260724",
+     "ret": -18.7,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260724",
+     "to": "20260810",
+     "ret": 32.3,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260810",
+     "to": "20260910",
+     "ret": -20.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260910",
+     "to": "20260922",
+     "ret": 24.8,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260922",
+     "to": "20261120",
+     "ret": -25.1,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -25.1,
+    "hiAt": "20260922",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -9.2,
+    "r20": -7.4
+   },
+   "health": {
+    "valx": 0.92,
+    "a20": 33,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Investment Bankers/Brokers/Service": {
+   "n": 42,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260903",
+     "ret": 23.6,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260903",
+     "to": "20261120",
+     "ret": -15.9,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -15.9,
+    "hiAt": "20260903",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -6.1,
+    "r20": -8.2
+   },
+   "health": {
+    "valx": 1.35,
+    "a20": 12,
+    "nh": 0,
+    "nh5ago": 1
+   },
+   "span": [
+    "20251121",
+    "20261120"
    ]
   },
   "Trusts Except Educational Religious and Charitable": {
-   "n": 8,
+   "n": 6,
    "swings": [],
    "now": {
-    "offHi": -13.3,
-    "hiAt": "20260211",
+    "offHi": -14.8,
+    "hiAt": "20260302",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -4.0,
-    "r20": -4.2
+    "loAt": "20261120",
+    "vsMa20": -5.7,
+    "r20": -6.2
    },
    "health": {
-    "valx": 1.42,
+    "valx": 1.3,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Marine Transportation": {
-   "n": 21,
+   "n": 33,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260302",
-     "ret": 35.5,
+     "ret": 33.1,
      "live": false
     },
     {
      "k": "down",
      "from": "20260302",
      "to": "20260313",
-     "ret": -12.1,
+     "ret": -12.9,
      "live": false
     },
     {
      "k": "up",
      "from": "20260313",
      "to": "20261013",
-     "ret": 31.6,
+     "ret": 36.1,
      "live": false
     },
     {
      "k": "down",
      "from": "20261013",
-     "to": "20261119",
-     "ret": -14.8,
+     "to": "20261120",
+     "ret": -15.2,
      "live": true
     }
    ],
    "now": {
-    "offHi": -14.8,
+    "offHi": -15.2,
     "hiAt": "20261013",
     "offLo": 0.0,
-    "loAt": "20261119",
+    "loAt": "20261120",
     "vsMa20": -6.7,
-    "r20": -8.7
+    "r20": -10.7
    },
    "health": {
-    "valx": 0.79,
-    "a20": 0,
-    "nh": 0,
+    "valx": 1.11,
+    "a20": 9,
+    "nh": 1,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Shoe Manufacturing": {
-   "n": 5,
+   "n": 7,
    "swings": [
     {
-     "k": "down",
-     "from": "20260220",
-     "to": "20260330",
-     "ret": -18.7,
-     "live": false
-    },
-    {
      "k": "up",
-     "from": "20260330",
-     "to": "20260420",
-     "ret": 18.3,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260420",
-     "to": "20260515",
-     "ret": -12.7,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260515",
-     "to": "20260804",
-     "ret": 23.5,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260804",
-     "to": "20260915",
-     "ret": -15.5,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260915",
+     "from": "20251121",
      "to": "20261104",
-     "ret": 24.4,
+     "ret": 16.5,
      "live": true
     }
    ],
    "now": {
-    "offHi": -4.9,
+    "offHi": -8.9,
     "hiAt": "20261104",
-    "offLo": 18.3,
-    "loAt": "20260915",
-    "vsMa20": 1.8,
-    "r20": 8.8
+    "offLo": 6.2,
+    "loAt": "20251121",
+    "vsMa20": -2.3,
+    "r20": 6.8
    },
    "health": {
-    "valx": 1.0,
-    "a20": 40,
+    "valx": 0.99,
+    "a20": 29,
     "nh": 0,
-    "nh5ago": 0
+    "nh5ago": 2
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Department/Specialty Retail Stores": {
-   "n": 8,
+   "n": 12,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260213",
-     "ret": 29.6,
+     "ret": 20.9,
      "live": false
     },
     {
      "k": "down",
      "from": "20260213",
-     "to": "20260320",
-     "ret": -14.8,
+     "to": "20260511",
+     "ret": -13.1,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260320",
+     "from": "20260511",
      "to": "20261104",
-     "ret": 32.2,
+     "ret": 25.6,
      "live": true
     }
    ],
    "now": {
-    "offHi": -2.7,
+    "offHi": -4.7,
     "hiAt": "20261104",
-    "offLo": 28.5,
-    "loAt": "20260320",
-    "vsMa20": 1.1,
-    "r20": 0.9
+    "offLo": 19.8,
+    "loAt": "20260511",
+    "vsMa20": -1.0,
+    "r20": 1.5
    },
    "health": {
-    "valx": 1.17,
-    "a20": 62,
+    "valx": 1.72,
+    "a20": 50,
     "nh": 0,
     "nh5ago": 1
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Transportation Services": {
-   "n": 5,
+   "n": 11,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260106",
-     "ret": 18.5,
+     "from": "20251121",
+     "to": "20260302",
+     "ret": 24.2,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260106",
+     "from": "20260302",
+     "to": "20260313",
+     "ret": -14.6,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260313",
+     "to": "20261029",
+     "ret": 42.0,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -9.3,
+    "hiAt": "20261029",
+    "offLo": 28.8,
+    "loAt": "20260313",
+    "vsMa20": -6.1,
+    "r20": -7.0
+   },
+   "health": {
+    "valx": 0.97,
+    "a20": 18,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Oil and Gas Field Machinery": {
+   "n": 9,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260520",
+     "ret": 46.5,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260520",
+     "to": "20260729",
+     "ret": -17.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260729",
+     "to": "20260817",
+     "ret": 21.7,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260817",
+     "to": "20261120",
+     "ret": -23.3,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -23.3,
+    "hiAt": "20260817",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -10.7,
+    "r20": -14.6
+   },
+   "health": {
+    "valx": 1.3,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Construction/Ag Equipment/Trucks": {
+   "n": 4,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260217",
+     "ret": 36.5,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260217",
      "to": "20260330",
-     "ret": -16.7,
+     "ret": -16.4,
      "live": false
     },
     {
      "k": "up",
      "from": "20260330",
-     "to": "20260420",
-     "ret": 21.9,
+     "to": "20260625",
+     "ret": 36.7,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260420",
-     "to": "20260519",
-     "ret": -16.2,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260519",
-     "to": "20260814",
-     "ret": 24.1,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260814",
-     "to": "20261007",
-     "ret": -19.4,
+     "from": "20260625",
+     "to": "20261120",
+     "ret": -32.0,
      "live": true
     }
    ],
    "now": {
-    "offHi": -17.9,
-    "hiAt": "20260814",
-    "offLo": 1.7,
-    "loAt": "20261007",
-    "vsMa20": -3.7,
-    "r20": -4.3
-   },
-   "health": {
-    "valx": 0.76,
-    "a20": 40,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Oil and Gas Field Machinery": {
-   "n": 4,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260519",
-     "ret": 48.4,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260519",
-     "to": "20260706",
-     "ret": -16.3,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260706",
-     "to": "20260902",
-     "ret": 22.9,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260902",
-     "to": "20261119",
-     "ret": -24.7,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -24.7,
-    "hiAt": "20260902",
+    "offHi": -32.0,
+    "hiAt": "20260625",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -9.0,
-    "r20": -12.1
+    "loAt": "20261120",
+    "vsMa20": -8.2,
+    "r20": -9.5
    },
    "health": {
-    "valx": 0.75,
+    "valx": 1.04,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Integrated oil Companies": {
-   "n": 13,
+   "n": 15,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260505",
-     "ret": 40.7,
+     "from": "20251121",
+     "to": "20260330",
+     "ret": 39.9,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260505",
-     "to": "20260624",
-     "ret": -13.8,
+     "from": "20260330",
+     "to": "20260618",
+     "ret": -14.3,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260624",
-     "to": "20261016",
-     "ret": 54.0,
+     "from": "20260618",
+     "to": "20261014",
+     "ret": 60.0,
      "live": false
     },
     {
      "k": "down",
-     "from": "20261016",
-     "to": "20261119",
-     "ret": -24.0,
+     "from": "20261014",
+     "to": "20261120",
+     "ret": -24.4,
      "live": true
     }
    ],
    "now": {
-    "offHi": -24.0,
-    "hiAt": "20261016",
+    "offHi": -24.4,
+    "hiAt": "20261014",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -12.5,
-    "r20": -21.0
+    "loAt": "20261120",
+    "vsMa20": -11.8,
+    "r20": -21.5
    },
    "health": {
-    "valx": 0.85,
+    "valx": 1.18,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Medicinal Chemicals and Botanical Products": {
-   "n": 3,
+   "n": 7,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260225",
-     "ret": 19.0,
+     "from": "20251121",
+     "to": "20260107",
+     "ret": 58.7,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260225",
-     "to": "20260421",
-     "ret": -13.2,
+     "from": "20260107",
+     "to": "20260330",
+     "ret": -21.2,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260421",
-     "to": "20261104",
-     "ret": 24.3,
+     "from": "20260330",
+     "to": "20260825",
+     "ret": 33.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260825",
+     "to": "20261120",
+     "ret": -19.5,
      "live": true
     }
    ],
    "now": {
-    "offHi": -8.2,
-    "hiAt": "20261104",
-    "offLo": 14.0,
-    "loAt": "20260421",
-    "vsMa20": -4.7,
-    "r20": -4.8
+    "offHi": -19.5,
+    "hiAt": "20260825",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -11.9,
+    "r20": -14.2
    },
    "health": {
-    "valx": 1.42,
+    "valx": 1.39,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Beverages (Production/Distribution)": {
-   "n": 16,
+   "n": 17,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260227",
-     "ret": 19.3,
+     "ret": 18.1,
      "live": false
     },
     {
      "k": "down",
      "from": "20260227",
      "to": "20261001",
-     "ret": -15.0,
+     "ret": -14.3,
      "live": false
     },
     {
      "k": "up",
      "from": "20261001",
-     "to": "20261113",
-     "ret": 17.9,
+     "to": "20261110",
+     "ret": 17.7,
      "live": true
     }
    ],
    "now": {
-    "offHi": -3.6,
-    "hiAt": "20261113",
-    "offLo": 13.6,
+    "offHi": -4.4,
+    "hiAt": "20261110",
+    "offLo": 12.6,
     "loAt": "20261001",
-    "vsMa20": -0.6,
-    "r20": 0.4
+    "vsMa20": -1.2,
+    "r20": 1.9
    },
    "health": {
-    "valx": 1.0,
-    "a20": 50,
+    "valx": 1.23,
+    "a20": 35,
     "nh": 0,
-    "nh5ago": 0
+    "nh5ago": 1
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Real Estate": {
-   "n": 9,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260819",
-     "ret": 18.9,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260819",
-     "to": "20261007",
-     "ret": -15.3,
-     "live": true
-    }
-   ],
+   "n": 20,
+   "swings": [],
    "now": {
-    "offHi": -13.2,
+    "offHi": -15.9,
     "hiAt": "20260819",
-    "offLo": 2.5,
-    "loAt": "20261007",
-    "vsMa20": -3.4,
-    "r20": -3.7
+    "offLo": 1.8,
+    "loAt": "20261014",
+    "vsMa20": -4.2,
+    "r20": -2.4
    },
    "health": {
-    "valx": 0.77,
-    "a20": 0,
+    "valx": 1.15,
+    "a20": 10,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Hotels/Resorts": {
-   "n": 11,
+   "n": 22,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260626",
-     "ret": 26.3,
+     "ret": 32.5,
      "live": false
     },
     {
      "k": "down",
      "from": "20260626",
-     "to": "20261001",
-     "ret": -19.8,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20261001",
-     "to": "20261118",
-     "ret": 16.1,
+     "to": "20261014",
+     "ret": -15.7,
      "live": true
     }
    ],
    "now": {
-    "offHi": -2.4,
-    "hiAt": "20261118",
-    "offLo": 13.4,
-    "loAt": "20261001",
-    "vsMa20": 2.1,
-    "r20": 7.1
+    "offHi": -10.4,
+    "hiAt": "20260626",
+    "offLo": 6.3,
+    "loAt": "20261014",
+    "vsMa20": -1.1,
+    "r20": 5.5
    },
    "health": {
-    "valx": 0.77,
-    "a20": 91,
+    "valx": 1.08,
+    "a20": 36,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Other Pharmaceuticals": {
@@ -3947,125 +4327,111 @@
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260227",
-     "ret": 32.9,
+     "ret": 22.0,
      "live": false
     },
     {
      "k": "down",
      "from": "20260227",
      "to": "20260603",
-     "ret": -30.0,
+     "ret": -29.1,
      "live": false
     },
     {
      "k": "up",
      "from": "20260603",
      "to": "20261116",
-     "ret": 43.1,
+     "ret": 43.2,
      "live": true
     }
    ],
    "now": {
     "offHi": -3.9,
     "hiAt": "20261116",
-    "offLo": 37.5,
+    "offLo": 37.6,
     "loAt": "20260603",
-    "vsMa20": 3.0,
-    "r20": 6.9
+    "vsMa20": 2.4,
+    "r20": 8.9
    },
    "health": {
-    "valx": 1.05,
+    "valx": 1.12,
     "a20": 75,
     "nh": 0,
-    "nh5ago": 0
+    "nh5ago": 1
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Recreational Games/Products/Toys": {
-   "n": 3,
+   "n": 6,
    "swings": [
     {
-     "k": "down",
-     "from": "20260210",
-     "to": "20260330",
-     "ret": -17.5,
-     "live": false
-    },
-    {
      "k": "up",
-     "from": "20260330",
-     "to": "20260508",
-     "ret": 18.7,
+     "from": "20251121",
+     "to": "20260204",
+     "ret": 19.4,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260508",
-     "to": "20260605",
-     "ret": -13.5,
+     "from": "20260204",
+     "to": "20260320",
+     "ret": -18.6,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260605",
+     "from": "20260320",
      "to": "20260804",
-     "ret": 18.7,
+     "ret": 28.4,
      "live": false
     },
     {
      "k": "down",
      "from": "20260804",
      "to": "20260930",
-     "ret": -18.3,
+     "ret": -19.7,
      "live": false
     },
     {
      "k": "up",
      "from": "20260930",
-     "to": "20261111",
-     "ret": 30.6,
+     "to": "20261109",
+     "ret": 19.9,
      "live": true
     }
    ],
    "now": {
-    "offHi": -7.3,
-    "hiAt": "20261111",
-    "offLo": 21.0,
+    "offHi": -11.2,
+    "hiAt": "20261109",
+    "offLo": 6.5,
     "loAt": "20260930",
-    "vsMa20": -2.0,
-    "r20": 1.2
+    "vsMa20": -6.7,
+    "r20": -4.0
    },
    "health": {
-    "valx": 0.66,
-    "a20": 33,
+    "valx": 0.96,
+    "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Rental/Leasing Companies": {
    "n": 3,
    "swings": [
     {
-     "k": "down",
-     "from": "20260204",
-     "to": "20260320",
-     "ret": -18.8,
-     "live": false
-    },
-    {
      "k": "up",
-     "from": "20260320",
+     "from": "20251121",
      "to": "20260421",
-     "ret": 188.3,
+     "ret": 162.1,
      "live": false
     },
     {
@@ -4098,260 +4464,298 @@
     }
    ],
    "now": {
-    "offHi": -3.1,
+    "offHi": -4.5,
     "hiAt": "20261104",
-    "offLo": 12.2,
+    "offLo": 10.6,
     "loAt": "20261021",
-    "vsMa20": 0.4,
-    "r20": 5.9
+    "vsMa20": -1.2,
+    "r20": 4.2
    },
    "health": {
-    "valx": 1.11,
-    "a20": 67,
+    "valx": 0.82,
+    "a20": 33,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Homebuilding": {
-   "n": 15,
+   "n": 18,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260213",
-     "ret": 16.9,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260213",
-     "to": "20260330",
-     "ret": -20.4,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260330",
+     "from": "20251121",
      "to": "20260626",
-     "ret": 26.2,
+     "ret": 15.4,
      "live": false
     },
     {
      "k": "down",
      "from": "20260626",
      "to": "20261019",
-     "ret": -18.3,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20261019",
-     "to": "20261109",
-     "ret": 17.3,
+     "ret": -19.8,
      "live": true
     }
    ],
    "now": {
-    "offHi": -8.3,
-    "hiAt": "20261109",
-    "offLo": 7.5,
+    "offHi": -17.0,
+    "hiAt": "20260626",
+    "offLo": 3.5,
     "loAt": "20261019",
-    "vsMa20": -2.7,
-    "r20": 1.7
+    "vsMa20": -4.3,
+    "r20": -0.7
    },
    "health": {
-    "valx": 0.87,
-    "a20": 20,
+    "valx": 1.0,
+    "a20": 17,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Consumer Specialties": {
-   "n": 3,
+   "n": 4,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260220",
-     "ret": 20.8,
+     "from": "20251121",
+     "to": "20260716",
+     "ret": 59.1,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260220",
-     "to": "20260318",
-     "ret": -12.9,
+     "from": "20260716",
+     "to": "20260901",
+     "ret": -15.1,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260318",
-     "to": "20260806",
-     "ret": 26.6,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260806",
-     "to": "20260908",
-     "ret": -12.5,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260908",
+     "from": "20260901",
      "to": "20261104",
-     "ret": 27.6,
+     "ret": 24.1,
      "live": true
     }
    ],
    "now": {
-    "offHi": -10.1,
+    "offHi": -9.7,
     "hiAt": "20261104",
-    "offLo": 14.8,
-    "loAt": "20260908",
-    "vsMa20": -4.9,
-    "r20": -2.9
+    "offLo": 12.1,
+    "loAt": "20260901",
+    "vsMa20": -5.4,
+    "r20": -5.4
    },
    "health": {
-    "valx": 0.87,
+    "valx": 1.42,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Agricultural Chemicals": {
-   "n": 3,
+   "n": 5,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260312",
-     "ret": 39.6,
+     "ret": 33.0,
      "live": false
     },
     {
      "k": "down",
      "from": "20260312",
-     "to": "20260610",
-     "ret": -19.8,
+     "to": "20260623",
+     "ret": -18.9,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260610",
+     "from": "20260623",
      "to": "20260902",
-     "ret": 19.2,
+     "ret": 20.1,
      "live": false
     },
     {
      "k": "down",
      "from": "20260902",
-     "to": "20261009",
-     "ret": -21.0,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20261009",
-     "to": "20261111",
-     "ret": 19.2,
+     "to": "20261120",
+     "ret": -19.2,
      "live": true
     }
    ],
    "now": {
-    "offHi": -7.7,
-    "hiAt": "20261111",
-    "offLo": 10.1,
-    "loAt": "20261009",
-    "vsMa20": -2.9,
-    "r20": 3.4
+    "offHi": -19.2,
+    "hiAt": "20260902",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -6.9,
+    "r20": -5.0
    },
    "health": {
-    "valx": 0.88,
+    "valx": 1.21,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Package Goods/Cosmetics": {
-   "n": 8,
+   "n": 10,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260220",
-     "ret": 27.5,
+     "ret": 21.7,
      "live": false
     },
     {
      "k": "down",
      "from": "20260220",
-     "to": "20260515",
-     "ret": -19.3,
+     "to": "20260519",
+     "ret": -22.5,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260515",
+     "from": "20260519",
      "to": "20261109",
-     "ret": 36.2,
+     "ret": 48.6,
      "live": true
     }
    ],
    "now": {
-    "offHi": -3.9,
+    "offHi": -4.6,
     "hiAt": "20261109",
-    "offLo": 30.9,
-    "loAt": "20260515",
+    "offLo": 41.7,
+    "loAt": "20260519",
     "vsMa20": -0.9,
-    "r20": 1.1
+    "r20": 3.6
    },
    "health": {
-    "valx": 0.99,
-    "a20": 38,
+    "valx": 1.17,
+    "a20": 60,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Food Distributors": {
-   "n": 4,
+   "n": 6,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260731",
-     "ret": 36.9,
+     "ret": 33.1,
      "live": true
     }
    ],
    "now": {
-    "offHi": -6.3,
+    "offHi": -3.5,
     "hiAt": "20260731",
-    "offLo": 28.3,
-    "loAt": "20251120",
-    "vsMa20": 1.0,
-    "r20": -0.2
+    "offLo": 28.4,
+    "loAt": "20251121",
+    "vsMa20": 1.5,
+    "r20": 4.4
+   },
+   "health": {
+    "valx": 1.01,
+    "a20": 67,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Biotechnology: In Vitro & In Vivo Diagnostic Substances": {
+   "n": 6,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260422",
+     "ret": 61.0,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260422",
+     "to": "20260519",
+     "ret": -12.5,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260519",
+     "to": "20260819",
+     "ret": 38.0,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260819",
+     "to": "20261016",
+     "ret": -18.3,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20261016",
+     "to": "20261109",
+     "ret": 16.9,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -8.9,
+    "hiAt": "20261109",
+    "offLo": 6.5,
+    "loAt": "20261016",
+    "vsMa20": -4.6,
+    "r20": 2.3
+   },
+   "health": {
+    "valx": 1.25,
+    "a20": 33,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Environmental Services": {
+   "n": 6,
+   "swings": [],
+   "now": {
+    "offHi": -4.3,
+    "hiAt": "20261116",
+    "offLo": 15.4,
+    "loAt": "20260602",
+    "vsMa20": -2.0,
+    "r20": -3.9
    },
    "health": {
     "valx": 0.87,
@@ -4360,161 +4764,52 @@
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Biotechnology: In Vitro & In Vivo Diagnostic Substances": {
-   "n": 4,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260427",
-     "ret": 68.8,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260427",
-     "to": "20260602",
-     "ret": -16.9,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260602",
-     "to": "20260817",
-     "ret": 57.3,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260817",
-     "to": "20261016",
-     "ret": -23.5,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20261016",
-     "to": "20261110",
-     "ret": 25.0,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -8.4,
-    "hiAt": "20261110",
-    "offLo": 14.5,
-    "loAt": "20261016",
-    "vsMa20": -2.5,
-    "r20": 7.5
-   },
-   "health": {
-    "valx": 0.68,
-    "a20": 25,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Environmental Services": {
-   "n": 5,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20261116",
-     "ret": 18.9,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -4.2,
-    "hiAt": "20261116",
-    "offLo": 13.9,
-    "loAt": "20251120",
-    "vsMa20": -1.2,
-    "r20": -2.7
-   },
-   "health": {
-    "valx": 0.78,
-    "a20": 60,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Publishing": {
-   "n": 3,
+   "n": 5,
    "swings": [
     {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260202",
-     "ret": 17.5,
-     "live": false
-    },
-    {
      "k": "down",
-     "from": "20260202",
-     "to": "20260223",
-     "ret": -12.6,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260223",
-     "to": "20260501",
-     "ret": 24.3,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260501",
+     "from": "20251121",
      "to": "20260622",
-     "ret": -19.7,
+     "ret": -12.7,
      "live": false
     },
     {
      "k": "up",
      "from": "20260622",
      "to": "20260804",
-     "ret": 24.1,
+     "ret": 16.7,
      "live": false
     },
     {
      "k": "down",
      "from": "20260804",
-     "to": "20261103",
-     "ret": -24.1,
+     "to": "20261120",
+     "ret": -18.4,
      "live": true
     }
    ],
    "now": {
-    "offHi": -23.4,
+    "offHi": -18.4,
     "hiAt": "20260804",
-    "offLo": 0.9,
-    "loAt": "20261103",
-    "vsMa20": -6.1,
-    "r20": -15.2
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -5.8,
+    "r20": -14.5
    },
    "health": {
-    "valx": 0.96,
-    "a20": 33,
+    "valx": 1.24,
+    "a20": 20,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Railroads": {
@@ -4522,9 +4817,9 @@
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260302",
-     "ret": 27.5,
+     "ret": 25.1,
      "live": false
     },
     {
@@ -4550,208 +4845,331 @@
     }
    ],
    "now": {
-    "offHi": -10.3,
+    "offHi": -12.4,
     "hiAt": "20260724",
-    "offLo": 5.0,
+    "offLo": 2.6,
     "loAt": "20261007",
-    "vsMa20": -2.8,
-    "r20": -0.5
+    "vsMa20": -4.9,
+    "r20": -1.2
    },
    "health": {
-    "valx": 1.09,
+    "valx": 1.18,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Computer peripheral equipment": {
+   "n": 4,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20260205",
+     "to": "20260602",
+     "ret": 92.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260602",
+     "to": "20260609",
+     "ret": -15.1,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260609",
+     "to": "20260813",
+     "ret": 33.5,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260813",
+     "to": "20260820",
+     "ret": -12.8,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260820",
+     "to": "20261006",
+     "ret": 21.8,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261006",
+     "to": "20261117",
+     "ret": -23.7,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -22.6,
+    "hiAt": "20261006",
+    "offLo": 1.6,
+    "loAt": "20261117",
+    "vsMa20": -6.8,
+    "r20": -19.8
+   },
+   "health": {
+    "valx": 1.45,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
    ]
   },
   "Home Furnishings": {
-   "n": 6,
+   "n": 8,
    "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260210",
+     "ret": 20.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260210",
+     "to": "20260320",
+     "ret": -26.6,
+     "live": false
+    },
     {
      "k": "up",
      "from": "20260320",
      "to": "20260420",
-     "ret": 17.7,
+     "ret": 17.5,
      "live": false
     },
     {
      "k": "down",
      "from": "20260420",
      "to": "20260519",
-     "ret": -12.8,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260519",
-     "to": "20260811",
-     "ret": 29.0,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260811",
-     "to": "20260921",
      "ret": -14.5,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260921",
-     "to": "20261104",
-     "ret": 16.8,
+     "from": "20260519",
+     "to": "20260807",
+     "ret": 30.8,
      "live": false
     },
     {
      "k": "down",
-     "from": "20261104",
-     "to": "20261119",
-     "ret": -14.4,
+     "from": "20260807",
+     "to": "20261120",
+     "ret": -19.6,
      "live": true
     }
    ],
    "now": {
-    "offHi": -14.4,
-    "hiAt": "20261104",
+    "offHi": -19.6,
+    "hiAt": "20260807",
     "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -6.7,
-    "r20": -6.9
+    "loAt": "20261120",
+    "vsMa20": -8.5,
+    "r20": -8.7
    },
    "health": {
-    "valx": 1.95,
-    "a20": 17,
+    "valx": 1.13,
+    "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Garments and Clothing": {
-   "n": 4,
+   "n": 5,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
-     "to": "20260220",
-     "ret": 17.8,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260220",
-     "to": "20260330",
-     "ret": -16.4,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260330",
+     "from": "20251121",
      "to": "20260420",
-     "ret": 26.7,
+     "ret": 16.6,
      "live": false
     },
     {
      "k": "down",
      "from": "20260420",
+     "to": "20260515",
+     "ret": -17.5,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260515",
+     "to": "20260728",
+     "ret": 20.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260728",
      "to": "20260910",
-     "ret": -21.2,
+     "ret": -19.0,
      "live": false
     },
     {
      "k": "up",
      "from": "20260910",
      "to": "20261104",
-     "ret": 34.4,
+     "ret": 31.8,
      "live": true
     }
    ],
    "now": {
-    "offHi": -5.2,
+    "offHi": -6.6,
     "hiAt": "20261104",
-    "offLo": 27.4,
+    "offLo": 23.0,
     "loAt": "20260910",
-    "vsMa20": 0.1,
-    "r20": 5.5
+    "vsMa20": -1.8,
+    "r20": 3.4
    },
    "health": {
-    "valx": 0.86,
-    "a20": 50,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Office Equipment/Supplies/Services": {
-   "n": 5,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260206",
-     "ret": 27.6,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260206",
-     "to": "20260330",
-     "ret": -25.3,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260330",
-     "to": "20260805",
-     "ret": 51.9,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260805",
-     "to": "20260930",
-     "ret": -12.7,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -7.1,
-    "hiAt": "20260805",
-    "offLo": 6.3,
-    "loAt": "20260930",
-    "vsMa20": -3.0,
-    "r20": -3.6
-   },
-   "health": {
-    "valx": 1.16,
+    "valx": 1.26,
     "a20": 20,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Office Equipment/Supplies/Services": {
+   "n": 7,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260218",
+     "ret": 21.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260218",
+     "to": "20260330",
+     "ret": -17.7,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260330",
+     "to": "20260728",
+     "ret": 37.6,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260728",
+     "to": "20260930",
+     "ret": -13.1,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -11.4,
+    "hiAt": "20260728",
+    "offLo": 2.0,
+    "loAt": "20260930",
+    "vsMa20": -4.5,
+    "r20": -6.0
+   },
+   "health": {
+    "valx": 1.37,
+    "a20": 14,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Automotive Aftermarket": {
+   "n": 3,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260206",
+     "ret": 23.7,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260206",
+     "to": "20260320",
+     "ret": -38.0,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260320",
+     "to": "20260420",
+     "ret": 19.5,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260420",
+     "to": "20260515",
+     "ret": -13.6,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260515",
+     "to": "20260728",
+     "ret": 27.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260728",
+     "to": "20261120",
+     "ret": -29.1,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -29.1,
+    "hiAt": "20260728",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -8.0,
+    "r20": -8.8
+   },
+   "health": {
+    "valx": 1.42,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
    ]
   },
   "Water Sewer Pipeline Comm & Power Line Construction": {
    "n": 5,
    "swings": [
-    {
-     "k": "down",
-     "from": "20260505",
-     "to": "20260610",
-     "ret": -19.0,
-     "live": false
-    },
     {
      "k": "up",
      "from": "20260610",
@@ -4763,21 +5181,21 @@
      "k": "down",
      "from": "20260629",
      "to": "20260729",
-     "ret": -31.0,
+     "ret": -31.1,
      "live": false
     },
     {
      "k": "up",
      "from": "20260729",
      "to": "20260817",
-     "ret": 22.8,
+     "ret": 22.7,
      "live": false
     },
     {
      "k": "down",
      "from": "20260817",
      "to": "20261105",
-     "ret": -42.7,
+     "ret": -42.6,
      "live": false
     },
     {
@@ -4785,63 +5203,63 @@
      "from": "20261105",
      "to": "20261111",
      "ret": 17.9,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261111",
+     "to": "20261120",
+     "ret": -17.2,
      "live": true
     }
    ],
    "now": {
-    "offHi": -9.2,
+    "offHi": -17.2,
     "hiAt": "20261111",
-    "offLo": 7.0,
-    "loAt": "20261105",
-    "vsMa20": -6.2,
-    "r20": -7.4
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -13.8,
+    "r20": -14.9
    },
    "health": {
-    "valx": 0.84,
+    "valx": 1.26,
     "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Auto Manufacturing": {
-   "n": 9,
+   "n": 13,
    "swings": [
     {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260204",
-     "ret": 18.5,
-     "live": false
-    },
-    {
      "k": "down",
-     "from": "20260204",
-     "to": "20260330",
-     "ret": -17.5,
+     "from": "20251121",
+     "to": "20261120",
+     "ret": -14.5,
      "live": true
     }
    ],
    "now": {
-    "offHi": -15.8,
-    "hiAt": "20260204",
-    "offLo": 2.1,
-    "loAt": "20260330",
-    "vsMa20": -3.0,
-    "r20": -1.3
+    "offHi": -14.5,
+    "hiAt": "20251121",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -7.8,
+    "r20": -4.9
    },
    "health": {
-    "valx": 0.72,
-    "a20": 11,
+    "valx": 1.13,
+    "a20": 8,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Forest Products": {
@@ -4849,23 +5267,23 @@
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260210",
-     "ret": 36.3,
+     "ret": 31.5,
      "live": false
     },
     {
      "k": "down",
      "from": "20260210",
      "to": "20260519",
-     "ret": -30.2,
+     "ret": -30.1,
      "live": false
     },
     {
      "k": "up",
      "from": "20260519",
      "to": "20260630",
-     "ret": 28.9,
+     "ret": 28.8,
      "live": false
     },
     {
@@ -4879,27 +5297,27 @@
      "k": "up",
      "from": "20261007",
      "to": "20261109",
-     "ret": 21.9,
+     "ret": 21.8,
      "live": true
     }
    ],
    "now": {
-    "offHi": -9.1,
+    "offHi": -9.8,
     "hiAt": "20261109",
-    "offLo": 10.7,
+    "offLo": 9.9,
     "loAt": "20261007",
-    "vsMa20": -2.7,
-    "r20": -2.3
+    "vsMa20": -3.4,
+    "r20": -1.6
    },
    "health": {
-    "valx": 1.03,
-    "a20": 20,
+    "valx": 0.81,
+    "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Fluid Controls": {
@@ -4907,9 +5325,9 @@
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
      "to": "20260206",
-     "ret": 24.1,
+     "ret": 20.9,
      "live": false
     },
     {
@@ -4929,312 +5347,567 @@
     {
      "k": "down",
      "from": "20260811",
-     "to": "20261022",
-     "ret": -12.8,
+     "to": "20261120",
+     "ret": -13.9,
      "live": true
     }
    ],
    "now": {
-    "offHi": -11.2,
+    "offHi": -13.9,
     "hiAt": "20260811",
-    "offLo": 1.9,
-    "loAt": "20261022",
-    "vsMa20": -1.7,
-    "r20": 1.9
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -4.6,
+    "r20": -2.3
    },
    "health": {
-    "valx": 1.03,
-    "a20": 50,
+    "valx": 0.84,
+    "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Broadcasting": {
-   "n": 5,
-   "swings": [
-    {
-     "k": "down",
-     "from": "20251120",
-     "to": "20261014",
-     "ret": -13.7,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20261014",
-     "to": "20261110",
-     "ret": 17.8,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -5.1,
-    "hiAt": "20261110",
-    "offLo": 11.7,
-    "loAt": "20261014",
-    "vsMa20": 1.2,
-    "r20": 7.3
-   },
-   "health": {
-    "valx": 0.88,
-    "a20": 60,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Oilfield Services/Equipment": {
-   "n": 5,
-   "swings": [
-    {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260430",
-     "ret": 61.7,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260430",
-     "to": "20260702",
-     "ret": -17.3,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260702",
-     "to": "20260831",
-     "ret": 24.1,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260831",
-     "to": "20261119",
-     "ret": -29.2,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -29.2,
-    "hiAt": "20260831",
-    "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -9.1,
-    "r20": -9.7
-   },
-   "health": {
-    "valx": 0.78,
-    "a20": 0,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Mining & Quarrying of Nonmetallic Minerals (No Fuels)": {
    "n": 9,
    "swings": [
     {
-     "k": "up",
-     "from": "20251120",
-     "to": "20260128",
-     "ret": 40.1,
-     "live": false
-    },
-    {
      "k": "down",
-     "from": "20260128",
-     "to": "20260320",
-     "ret": -24.5,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260320",
-     "to": "20260511",
-     "ret": 19.6,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260511",
-     "to": "20260720",
-     "ret": -21.1,
-     "live": false
-    },
-    {
-     "k": "up",
-     "from": "20260720",
-     "to": "20260827",
-     "ret": 18.4,
-     "live": false
-    },
-    {
-     "k": "down",
-     "from": "20260827",
-     "to": "20261119",
-     "ret": -30.6,
-     "live": true
-    }
-   ],
-   "now": {
-    "offHi": -30.6,
-    "hiAt": "20260827",
-    "offLo": 0.0,
-    "loAt": "20261119",
-    "vsMa20": -10.3,
-    "r20": -10.5
-   },
-   "health": {
-    "valx": 0.92,
-    "a20": 0,
-    "nh": 0,
-    "nh5ago": 0
-   },
-   "span": [
-    "20251120",
-    "20261119"
-   ]
-  },
-  "Radio And Television Broadcasting And Communications Equipment": {
-   "n": 4,
-   "swings": [
-    {
-     "k": "down",
-     "from": "20260302",
+     "from": "20251215",
      "to": "20260330",
-     "ret": -12.1,
+     "ret": -14.9,
      "live": false
     },
     {
      "k": "up",
      "from": "20260330",
-     "to": "20260506",
-     "ret": 31.2,
+     "to": "20260420",
+     "ret": 16.5,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260506",
-     "to": "20260519",
-     "ret": -16.1,
+     "from": "20260420",
+     "to": "20260625",
+     "ret": -17.4,
      "live": false
     },
     {
      "k": "up",
-     "from": "20260519",
-     "to": "20260526",
-     "ret": 19.3,
+     "from": "20260625",
+     "to": "20260825",
+     "ret": 17.6,
      "live": false
     },
     {
      "k": "down",
-     "from": "20260526",
+     "from": "20260825",
+     "to": "20261001",
+     "ret": -14.4,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20261001",
+     "to": "20261111",
+     "ret": 15.0,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -6.9,
+    "hiAt": "20261111",
+    "offLo": 7.1,
+    "loAt": "20261001",
+    "vsMa20": -2.4,
+    "r20": 1.9
+   },
+   "health": {
+    "valx": 0.75,
+    "a20": 33,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251215",
+    "20261120"
+   ]
+  },
+  "Misc Corporate Leasing Services": {
+   "n": 3,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20260519",
+     "to": "20260618",
+     "ret": 23.8,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260618",
+     "to": "20261016",
+     "ret": -37.2,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20261016",
+     "to": "20261103",
+     "ret": 28.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261103",
+     "to": "20261105",
+     "ret": -13.5,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20261105",
+     "to": "20261109",
+     "ret": 16.4,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261109",
+     "to": "20261120",
+     "ret": -22.2,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -22.2,
+    "hiAt": "20261109",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -15.4,
+    "r20": 0.2
+   },
+   "health": {
+    "valx": 0.98,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Oilfield Services/Equipment": {
+   "n": 10,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260518",
+     "ret": 63.5,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260518",
      "to": "20260729",
-     "ret": -24.2,
+     "ret": -13.9,
      "live": false
     },
     {
      "k": "up",
      "from": "20260729",
-     "to": "20261112",
-     "ret": 15.9,
+     "to": "20260817",
+     "ret": 20.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260817",
+     "to": "20261120",
+     "ret": -35.5,
      "live": true
     }
    ],
    "now": {
-    "offHi": -3.0,
-    "hiAt": "20261112",
-    "offLo": 12.4,
-    "loAt": "20260729",
-    "vsMa20": 1.9,
-    "r20": 5.0
+    "offHi": -35.5,
+    "hiAt": "20260817",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -13.4,
+    "r20": -20.0
    },
    "health": {
-    "valx": 0.92,
-    "a20": 75,
+    "valx": 1.15,
+    "a20": 0,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
-  "Meat/Poultry/Fish": {
-   "n": 3,
+  "Mining & Quarrying of Nonmetallic Minerals (No Fuels)": {
+   "n": 11,
    "swings": [
     {
      "k": "up",
-     "from": "20251120",
+     "from": "20251121",
+     "to": "20260123",
+     "ret": 34.3,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260123",
+     "to": "20260320",
+     "ret": -21.6,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260320",
+     "to": "20260506",
+     "ret": 18.7,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260506",
+     "to": "20261120",
+     "ret": -38.6,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -38.6,
+    "hiAt": "20260506",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -13.2,
+    "r20": -13.7
+   },
+   "health": {
+    "valx": 0.97,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Radio And Television Broadcasting And Communications Equipment": {
+   "n": 6,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20260330",
+     "to": "20260528",
+     "ret": 52.1,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260528",
+     "to": "20260729",
+     "ret": -42.2,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260729",
+     "to": "20260814",
+     "ret": 20.5,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260814",
+     "to": "20261105",
+     "ret": -28.7,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20261105",
+     "to": "20261111",
+     "ret": 17.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261111",
+     "to": "20261120",
+     "ret": -15.6,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -15.6,
+    "hiAt": "20261111",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -10.8,
+    "r20": -11.0
+   },
+   "health": {
+    "valx": 1.29,
+    "a20": 17,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Retail: Computer Software & Peripheral Equipment": {
+   "n": 4,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260602",
+     "ret": 77.6,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260602",
+     "to": "20260702",
+     "ret": -18.2,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260702",
+     "to": "20261009",
+     "ret": 34.5,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20261009",
+     "to": "20261105",
+     "ret": -26.9,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -26.3,
+    "hiAt": "20261009",
+    "offLo": 0.8,
+    "loAt": "20261105",
+    "vsMa20": -10.1,
+    "r20": -15.8
+   },
+   "health": {
+    "valx": 1.1,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Meat/Poultry/Fish": {
+   "n": 5,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
      "to": "20260227",
-     "ret": 17.6,
+     "ret": 16.7,
      "live": false
     },
     {
      "k": "down",
      "from": "20260227",
      "to": "20261001",
-     "ret": -28.5,
+     "ret": -29.4,
      "live": false
     },
     {
      "k": "up",
      "from": "20261001",
-     "to": "20261116",
-     "ret": 19.1,
+     "to": "20261120",
+     "ret": 15.3,
      "live": true
     }
    ],
    "now": {
-    "offHi": -0.8,
-    "hiAt": "20261116",
-    "offLo": 18.2,
+    "offHi": 0.0,
+    "hiAt": "20261120",
+    "offLo": 15.3,
     "loAt": "20261001",
-    "vsMa20": 4.5,
-    "r20": 6.9
+    "vsMa20": 3.8,
+    "r20": 6.2
    },
    "health": {
-    "valx": 0.9,
-    "a20": 67,
-    "nh": 0,
+    "valx": 1.49,
+    "a20": 80,
+    "nh": 1,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251121",
+    "20261120"
    ]
   },
   "Specialty Foods": {
-   "n": 3,
+   "n": 4,
    "swings": [],
    "now": {
-    "offHi": -10.9,
-    "hiAt": "20260302",
-    "offLo": 11.3,
+    "offHi": -5.8,
+    "hiAt": "20260211",
+    "offLo": 12.8,
     "loAt": "20260622",
-    "vsMa20": 2.8,
-    "r20": 3.7
+    "vsMa20": 1.0,
+    "r20": 5.5
    },
    "health": {
-    "valx": 1.56,
-    "a20": 100,
+    "valx": 1.63,
+    "a20": 50,
     "nh": 0,
     "nh5ago": 0
    },
    "span": [
-    "20251120",
-    "20261119"
+    "20251208",
+    "20261120"
+   ]
+  },
+  "Advertising": {
+   "n": 3,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260417",
+     "ret": 33.2,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260417",
+     "to": "20260514",
+     "ret": -13.9,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260514",
+     "to": "20260701",
+     "ret": 17.6,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260701",
+     "to": "20260723",
+     "ret": -12.3,
+     "live": false
+    },
+    {
+     "k": "up",
+     "from": "20260723",
+     "to": "20261104",
+     "ret": 70.7,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -9.9,
+    "hiAt": "20261104",
+    "offLo": 53.8,
+    "loAt": "20260723",
+    "vsMa20": -2.8,
+    "r20": 9.8
+   },
+   "health": {
+    "valx": 0.74,
+    "a20": 33,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Newspapers/Magazines": {
+   "n": 3,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20260827",
+     "ret": 16.5,
+     "live": false
+    },
+    {
+     "k": "down",
+     "from": "20260827",
+     "to": "20261120",
+     "ret": -14.0,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -14.0,
+    "hiAt": "20260827",
+    "offLo": 0.0,
+    "loAt": "20261120",
+    "vsMa20": -6.8,
+    "r20": -12.8
+   },
+   "health": {
+    "valx": 1.07,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
+   ]
+  },
+  "Books": {
+   "n": 3,
+   "swings": [
+    {
+     "k": "up",
+     "from": "20251121",
+     "to": "20261022",
+     "ret": 52.0,
+     "live": true
+    }
+   ],
+   "now": {
+    "offHi": -9.4,
+    "hiAt": "20261022",
+    "offLo": 37.7,
+    "loAt": "20251121",
+    "vsMa20": -4.1,
+    "r20": -9.3
+   },
+   "health": {
+    "valx": 1.0,
+    "a20": 0,
+    "nh": 0,
+    "nh5ago": 0
+   },
+   "span": [
+    "20251121",
+    "20261120"
    ]
   }
  }
