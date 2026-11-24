@@ -1,31 +1,31 @@
-11:45:42 universe 2321
-11:45:52 yf 200 / 2321 hist 200
-11:46:04 yf 400 / 2321 hist 400
-11:46:16 yf 600 / 2321 hist 600
-11:46:27 yf 800 / 2321 hist 800
-11:46:39 yf 1000 / 2321 hist 1000
-11:46:50 yf 1200 / 2321 hist 1200
-11:47:01 yf 1400 / 2321 hist 1400
-11:47:13 yf 1600 / 2321 hist 1600
-11:47:24 yf 1800 / 2321 hist 1800
-11:47:36 yf 2000 / 2321 hist 2000
-11:47:47 yf 2200 / 2321 hist 2200
-11:47:55 yf 2321 / 2321 hist 2321
-11:47:57 yf 2 / 2 hist 2
+14:28:52 universe 2298
+14:29:03 yf 200 / 2298 hist 200
+14:29:15 yf 400 / 2298 hist 400
+14:29:27 yf 600 / 2298 hist 600
+14:29:39 yf 800 / 2298 hist 800
+14:29:51 yf 1000 / 2298 hist 1000
+14:30:03 yf 1200 / 2298 hist 1200
+14:30:15 yf 1400 / 2298 hist 1400
+14:30:27 yf 1600 / 2298 hist 1600
+14:30:39 yf 1800 / 2298 hist 1800
+14:30:51 yf 2000 / 2298 hist 2000
+14:31:03 yf 2200 / 2298 hist 2200
+14:31:10 yf 2298 / 2298 hist 2298
+14:31:11 yf 2 / 2 hist 2
+14:31:13 analyst XERS ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+14:31:14 analyst ULCC ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DGICB"}}}
-11:47:59 analyst DGICB []
-11:47:59 analyst FCN ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-11:48:05 analyst 11 / 12 종목 · 오류 0
-11:48:05 wrote data/us/analyst.json 5867 bytes
-11:48:05 wrote data/us/2026-11-20.json 47578 bytes
-11:48:05 wrote data/us/latest.json 47578 bytes
-11:48:05 wrote data/us/universe.json 547381 bytes
-11:48:05 wrote data/us/signals.json 908298 bytes
-11:48:05 wrote data/us/breadth.json 6858 bytes
-11:48:06 wrote data/us/sector_rs.json 897755 bytes
-11:48:06 sector_rs 115 업종
-11:48:06 wrote data/us/cycles.json 92582 bytes
-11:48:06 cycles 126 업종
-11:48:42 wrote data/us/earnings.json 7536 bytes
-11:48:42 signals 2314
-11:48:42 wrote data/status_us.json 166 bytes
+14:31:24 analyst 18 / 19 종목 · 오류 0
+14:31:24 wrote data/us/analyst.json 9882 bytes
+14:31:24 wrote data/us/2026-11-23.json 75061 bytes
+14:31:24 wrote data/us/latest.json 75061 bytes
+14:31:24 wrote data/us/universe.json 540374 bytes
+14:31:24 wrote data/us/signals.json 878641 bytes
+14:31:24 wrote data/us/breadth.json 7046 bytes
+14:31:24 wrote data/us/sector_rs.json 922690 bytes
+14:31:24 sector_rs 115 업종
+14:31:25 wrote data/us/cycles.json 92107 bytes
+14:31:25 cycles 125 업종
+14:32:02 wrote data/us/earnings.json 7853 bytes
+14:32:02 signals 2291
+14:32:02 wrote data/status_us.json 166 bytes
