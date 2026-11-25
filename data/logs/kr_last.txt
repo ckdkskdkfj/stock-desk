@@ -1,8 +1,8 @@
-03:48:43 try pykrx 20261125
+02:55:18 try pykrx 20261126
 KRX 로그인 실패: KRX_ID 또는 KRX_PW 환경 변수가 설정되지 않았습니다.
 Error occurred in get_market_ohlcv_by_ticker: Expecting value: line 1 column 1 (char 0)
-03:48:47 pykrx ohlcv fail 20261125 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
-03:48:47 FAIL pykrx: RuntimeError('pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)')
+02:55:21 pykrx ohlcv fail 20261126 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
+02:55:21 FAIL pykrx: RuntimeError('pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -12,9 +12,9 @@ Traceback (most recent call last):
                                               ^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 117, in load_pykrx
     raise RuntimeError(f"pykrx: {d} 스냅샷 없음(당일 미게시 또는 접속 차단)")
-RuntimeError: pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)
-03:48:47 try fdr 20261125
-03:48:49 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)
+02:55:21 try fdr 20261126
+02:55:23 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -24,11 +24,11 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-03:48:49 try naver 20261125
-03:48:50 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
-03:48:50 naver mcap unit × 100000000.0
-03:48:57 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+02:55:23 try naver 20261126
+02:55:25 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
+02:55:25 naver mcap unit × 100000000.0
+02:55:32 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -38,12 +38,12 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-03:48:57 당일 데이터 미게시 또는 실패 — 5분 후 재시도
-03:53:57 try pykrx 20261125
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+02:55:32 당일 데이터 미게시 또는 실패 — 5분 후 재시도
+03:00:32 try pykrx 20261126
 Error occurred in get_market_ohlcv_by_ticker: Expecting value: line 1 column 1 (char 0)
-03:53:58 pykrx ohlcv fail 20261125 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
-03:53:58 FAIL pykrx: RuntimeError('pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)')
+03:00:33 pykrx ohlcv fail 20261126 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
+03:00:33 FAIL pykrx: RuntimeError('pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -53,9 +53,9 @@ Traceback (most recent call last):
                                               ^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 117, in load_pykrx
     raise RuntimeError(f"pykrx: {d} 스냅샷 없음(당일 미게시 또는 접속 차단)")
-RuntimeError: pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)
-03:53:58 try fdr 20261125
-03:53:59 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)
+03:00:33 try fdr 20261126
+03:00:35 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -65,11 +65,11 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-03:53:59 try naver 20261125
-03:54:01 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
-03:54:01 naver mcap unit × 100000000.0
-03:54:08 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:00:35 try naver 20261126
+03:00:37 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
+03:00:37 naver mcap unit × 100000000.0
+03:00:44 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -79,12 +79,12 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-03:54:08 당일 데이터 미게시 또는 실패 — 5분 후 재시도
-03:59:08 try pykrx 20261125
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:00:44 당일 데이터 미게시 또는 실패 — 5분 후 재시도
+03:05:44 try pykrx 20261126
 Error occurred in get_market_ohlcv_by_ticker: Expecting value: line 1 column 1 (char 0)
-03:59:09 pykrx ohlcv fail 20261125 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
-03:59:09 FAIL pykrx: RuntimeError('pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)')
+03:05:44 pykrx ohlcv fail 20261126 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
+03:05:44 FAIL pykrx: RuntimeError('pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -94,9 +94,9 @@ Traceback (most recent call last):
                                               ^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 117, in load_pykrx
     raise RuntimeError(f"pykrx: {d} 스냅샷 없음(당일 미게시 또는 접속 차단)")
-RuntimeError: pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)
-03:59:09 try fdr 20261125
-03:59:11 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)
+03:05:44 try fdr 20261126
+03:05:47 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -106,11 +106,11 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-03:59:11 try naver 20261125
-03:59:13 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
-03:59:13 naver mcap unit × 100000000.0
-03:59:20 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:05:47 try naver 20261126
+03:05:48 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
+03:05:48 naver mcap unit × 100000000.0
+03:05:55 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -120,12 +120,12 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-03:59:20 당일 데이터 미게시 또는 실패 — 5분 후 재시도
-04:04:20 try pykrx 20261125
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:05:55 당일 데이터 미게시 또는 실패 — 5분 후 재시도
+03:10:55 try pykrx 20261126
 Error occurred in get_market_ohlcv_by_ticker: Expecting value: line 1 column 1 (char 0)
-04:04:20 pykrx ohlcv fail 20261125 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
-04:04:20 FAIL pykrx: RuntimeError('pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)')
+03:10:56 pykrx ohlcv fail 20261126 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
+03:10:56 FAIL pykrx: RuntimeError('pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -135,9 +135,9 @@ Traceback (most recent call last):
                                               ^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 117, in load_pykrx
     raise RuntimeError(f"pykrx: {d} 스냅샷 없음(당일 미게시 또는 접속 차단)")
-RuntimeError: pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)
-04:04:20 try fdr 20261125
-04:04:22 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)
+03:10:56 try fdr 20261126
+03:10:58 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -147,11 +147,11 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-04:04:22 try naver 20261125
-04:04:24 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
-04:04:24 naver mcap unit × 100000000.0
-04:04:31 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:10:58 try naver 20261126
+03:11:00 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
+03:11:00 naver mcap unit × 100000000.0
+03:11:07 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -161,12 +161,12 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-04:04:31 당일 데이터 미게시 또는 실패 — 5분 후 재시도
-04:09:31 try pykrx 20261125
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:11:07 당일 데이터 미게시 또는 실패 — 5분 후 재시도
+03:16:07 try pykrx 20261126
 Error occurred in get_market_ohlcv_by_ticker: Expecting value: line 1 column 1 (char 0)
-04:09:31 pykrx ohlcv fail 20261125 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
-04:09:31 FAIL pykrx: RuntimeError('pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)')
+03:16:07 pykrx ohlcv fail 20261126 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
+03:16:07 FAIL pykrx: RuntimeError('pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -176,9 +176,9 @@ Traceback (most recent call last):
                                               ^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 117, in load_pykrx
     raise RuntimeError(f"pykrx: {d} 스냅샷 없음(당일 미게시 또는 접속 차단)")
-RuntimeError: pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)
-04:09:31 try fdr 20261125
-04:09:33 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)
+03:16:07 try fdr 20261126
+03:16:10 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -188,11 +188,11 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-04:09:33 try naver 20261125
-04:09:35 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
-04:09:35 naver mcap unit × 100000000.0
-04:09:42 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:16:10 try naver 20261126
+03:16:12 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
+03:16:12 naver mcap unit × 100000000.0
+03:16:19 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -202,12 +202,12 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-04:09:42 당일 데이터 미게시 또는 실패 — 5분 후 재시도
-04:14:42 try pykrx 20261125
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:16:19 당일 데이터 미게시 또는 실패 — 5분 후 재시도
+03:21:19 try pykrx 20261126
 Error occurred in get_market_ohlcv_by_ticker: Expecting value: line 1 column 1 (char 0)
-04:14:42 pykrx ohlcv fail 20261125 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
-04:14:42 FAIL pykrx: RuntimeError('pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)')
+03:21:19 pykrx ohlcv fail 20261126 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
+03:21:19 FAIL pykrx: RuntimeError('pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -217,9 +217,9 @@ Traceback (most recent call last):
                                               ^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 117, in load_pykrx
     raise RuntimeError(f"pykrx: {d} 스냅샷 없음(당일 미게시 또는 접속 차단)")
-RuntimeError: pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)
-04:14:42 try fdr 20261125
-04:14:44 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)
+03:21:19 try fdr 20261126
+03:21:21 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -229,11 +229,11 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-04:14:44 try naver 20261125
-04:14:46 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
-04:14:46 naver mcap unit × 100000000.0
-04:14:53 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:21:21 try naver 20261126
+03:21:23 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
+03:21:23 naver mcap unit × 100000000.0
+03:21:30 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -243,12 +243,12 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-04:14:53 당일 데이터 미게시 또는 실패 — 5분 후 재시도
-04:19:53 try pykrx 20261125
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:21:30 당일 데이터 미게시 또는 실패 — 5분 후 재시도
+03:26:30 try pykrx 20261126
 Error occurred in get_market_ohlcv_by_ticker: Expecting value: line 1 column 1 (char 0)
-04:19:54 pykrx ohlcv fail 20261125 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
-04:19:54 FAIL pykrx: RuntimeError('pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)')
+03:26:30 pykrx ohlcv fail 20261126 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
+03:26:30 FAIL pykrx: RuntimeError('pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -258,9 +258,9 @@ Traceback (most recent call last):
                                               ^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 117, in load_pykrx
     raise RuntimeError(f"pykrx: {d} 스냅샷 없음(당일 미게시 또는 접속 차단)")
-RuntimeError: pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)
-04:19:54 try fdr 20261125
-04:19:55 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)
+03:26:30 try fdr 20261126
+03:26:33 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -270,11 +270,11 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-04:19:55 try naver 20261125
-04:19:57 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
-04:19:57 naver mcap unit × 100000000.0
-04:20:04 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:26:33 try naver 20261126
+03:26:34 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
+03:26:34 naver mcap unit × 100000000.0
+03:26:41 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -284,12 +284,12 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-04:20:04 당일 데이터 미게시 또는 실패 — 5분 후 재시도
-04:25:04 try pykrx 20261125
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:26:41 당일 데이터 미게시 또는 실패 — 5분 후 재시도
+03:31:41 try pykrx 20261126
 Error occurred in get_market_ohlcv_by_ticker: Expecting value: line 1 column 1 (char 0)
-04:25:05 pykrx ohlcv fail 20261125 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
-04:25:05 FAIL pykrx: RuntimeError('pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)')
+03:31:42 pykrx ohlcv fail 20261126 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
+03:31:42 FAIL pykrx: RuntimeError('pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -299,9 +299,9 @@ Traceback (most recent call last):
                                               ^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 117, in load_pykrx
     raise RuntimeError(f"pykrx: {d} 스냅샷 없음(당일 미게시 또는 접속 차단)")
-RuntimeError: pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)
-04:25:05 try fdr 20261125
-04:25:07 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)
+03:31:42 try fdr 20261126
+03:31:44 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -311,11 +311,11 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-04:25:07 try naver 20261125
-04:25:09 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
-04:25:09 naver mcap unit × 100000000.0
-04:25:16 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:31:44 try naver 20261126
+03:31:46 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
+03:31:46 naver mcap unit × 100000000.0
+03:31:53 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -325,12 +325,12 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-04:25:16 당일 데이터 미게시 또는 실패 — 5분 후 재시도
-04:30:16 try pykrx 20261125
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:31:53 당일 데이터 미게시 또는 실패 — 5분 후 재시도
+03:36:53 try pykrx 20261126
 Error occurred in get_market_ohlcv_by_ticker: Expecting value: line 1 column 1 (char 0)
-04:30:16 pykrx ohlcv fail 20261125 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
-04:30:16 FAIL pykrx: RuntimeError('pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)')
+03:36:53 pykrx ohlcv fail 20261126 KeyError("None of [Index(['시가', '고가', '저가', '종가'], dtype='object')] are in the [columns]")
+03:36:53 FAIL pykrx: RuntimeError('pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -340,9 +340,9 @@ Traceback (most recent call last):
                                               ^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 117, in load_pykrx
     raise RuntimeError(f"pykrx: {d} 스냅샷 없음(당일 미게시 또는 접속 차단)")
-RuntimeError: pykrx: 20261125 스냅샷 없음(당일 미게시 또는 접속 차단)
-04:30:16 try fdr 20261125
-04:30:19 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: pykrx: 20261126 스냅샷 없음(당일 미게시 또는 접속 차단)
+03:36:53 try fdr 20261126
+03:36:55 FAIL fdr: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -352,11 +352,11 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-04:30:19 try naver 20261125
-04:30:21 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
-04:30:21 naver mcap unit × 100000000.0
-04:30:27 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)')
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:36:55 try naver 20261126
+03:36:57 naver list keys KOSPI ['accumulatedTradingValue', 'accumulatedTradingValueKrwHangeul', 'accumulatedTradingValueRaw', 'accumulatedTradingVolume', 'accumulatedTradingVolumeRaw', 'closePrice', 'closePriceRaw', 'compareToPreviousClosePrice', 'compareToPreviousClosePriceRaw', 'compareToPreviousPrice', 'endUrl', 'fluctuationsRatio', 'itemCode', 'itemLogoPngUrl', 'itemLogoUrl', 'localTradedAt', 'marketStatus', 'marketValue', 'marketValueHangeul', 'marketValueRaw', 'nav', 'newPcUrl', 'overMarketPriceInfo', 'reutersCode', 'sosok', 'stockEndType', 'stockExchangeType', 'stockMiniImageChart', 'stockName', 'stockType', 'threeMonthEarningRate', 'tradableStatus', 'tradableStatusCode', 'tradableStatusUpdatedAt', 'tradeStopType']
+03:36:57 naver mcap unit × 100000000.0
+03:37:04 FAIL naver: RuntimeError('네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)')
 Traceback (most recent call last):
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 553, in main
     rows, hist, closes, src = fn(D)
@@ -366,5 +366,5 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/stock-desk/stock-desk/pipeline/kr.py", line 214, in fill_hist_naver
     raise RuntimeError(f"네이버 이력 마지막 날짜 {h0[-1][0] if h0 else None} ≠ {D} (당일 미반영)")
-RuntimeError: 네이버 이력 마지막 날짜 20261124 ≠ 20261125 (당일 미반영)
-04:30:27 wrote data/status_kr.json 216 bytes
+RuntimeError: 네이버 이력 마지막 날짜 20261125 ≠ 20261126 (당일 미반영)
+03:37:04 wrote data/status_kr.json 216 bytes
