@@ -1,33 +1,31 @@
-13:31:49 universe 2319
-
-1 Failed download:
-['AGLT']: OperationalError('database is locked')
-13:32:02 yf 200 / 2319 hist 199
-13:32:15 yf 400 / 2319 hist 399
-13:32:30 yf 600 / 2319 hist 599
-13:32:44 yf 800 / 2319 hist 799
-13:32:58 yf 1000 / 2319 hist 999
-13:33:11 yf 1200 / 2319 hist 1199
-13:33:25 yf 1400 / 2319 hist 1399
-13:33:39 yf 1600 / 2319 hist 1599
-13:33:53 yf 1800 / 2319 hist 1799
-13:34:07 yf 2000 / 2319 hist 1999
-13:34:21 yf 2200 / 2319 hist 2199
-13:34:29 yf 2319 / 2319 hist 2318
-13:34:31 yf 2 / 2 hist 2
-13:34:33 analyst KOD ['dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-13:34:34 analyst XERS ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
-13:35:07 analyst 52 / 52 종목 · 오류 0
-13:35:07 wrote data/us/analyst.json 33942 bytes
-13:35:07 wrote data/us/2026-11-24.json 215990 bytes
-13:35:07 wrote data/us/latest.json 215990 bytes
-13:35:07 wrote data/us/universe.json 545674 bytes
-13:35:07 wrote data/us/signals.json 889107 bytes
-13:35:07 wrote data/us/breadth.json 7237 bytes
-13:35:07 wrote data/us/sector_rs.json 947631 bytes
-13:35:07 sector_rs 115 업종
-13:35:07 wrote data/us/cycles.json 91559 bytes
-13:35:07 cycles 126 업종
-13:35:43 wrote data/us/earnings.json 6576 bytes
-13:35:43 signals 2312
-13:35:43 wrote data/status_us.json 166 bytes
+12:44:31 universe 2324
+12:44:42 yf 200 / 2324 hist 200
+12:44:54 yf 400 / 2324 hist 400
+12:45:06 yf 600 / 2324 hist 600
+12:45:18 yf 800 / 2324 hist 800
+12:45:30 yf 1000 / 2324 hist 1000
+12:45:42 yf 1200 / 2324 hist 1200
+12:45:54 yf 1400 / 2324 hist 1400
+12:46:05 yf 1600 / 2324 hist 1600
+12:46:17 yf 1800 / 2324 hist 1800
+12:46:29 yf 2000 / 2324 hist 2000
+12:46:41 yf 2200 / 2324 hist 2200
+12:46:49 yf 2324 / 2324 hist 2324
+12:46:51 yf 2 / 2 hist 2
+12:46:53 analyst NTSK ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+12:46:53 analyst VRDN ['acts', 'dn30', 'dn7', 'eps', 'n30', 'tgt', 'up30', 'up7']
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CRVL"}}}
+12:47:22 analyst 48 / 49 종목 · 오류 0
+12:47:22 wrote data/us/analyst.json 34341 bytes
+12:47:22 wrote data/us/2026-11-25.json 207096 bytes
+12:47:22 wrote data/us/latest.json 207096 bytes
+12:47:22 wrote data/us/universe.json 546271 bytes
+12:47:22 wrote data/us/signals.json 887096 bytes
+12:47:22 wrote data/us/breadth.json 7425 bytes
+12:47:22 wrote data/us/sector_rs.json 972559 bytes
+12:47:22 sector_rs 115 업종
+12:47:22 wrote data/us/cycles.json 90961 bytes
+12:47:22 cycles 125 업종
+12:47:59 wrote data/us/earnings.json 6080 bytes
+12:47:59 signals 2317
+12:47:59 wrote data/status_us.json 166 bytes
